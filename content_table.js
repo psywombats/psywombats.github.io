@@ -9,79 +9,150 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var ContentCell = function (_React$Component) {
-  _inherits(ContentCell, _React$Component);
+	_inherits(ContentCell, _React$Component);
 
-  function ContentCell() {
-    _classCallCheck(this, ContentCell);
+	function ContentCell() {
+		_classCallCheck(this, ContentCell);
 
-    return _possibleConstructorReturn(this, (ContentCell.__proto__ || Object.getPrototypeOf(ContentCell)).apply(this, arguments));
-  }
+		return _possibleConstructorReturn(this, (ContentCell.__proto__ || Object.getPrototypeOf(ContentCell)).apply(this, arguments));
+	}
 
-  _createClass(ContentCell, [{
-    key: "render",
-    value: function render() {
-      return React.createElement(
-        "div",
-        null,
-        React.createElement(
-          "div",
-          { style: styles.headerStyle },
-          this.props.content.title
-        ),
-        React.createElement(
-          "div",
-          { style: styles.itemStyle },
-          this.props.content.date
-        ),
-        React.createElement(
-          "div",
-          { style: styles.bodyStyle },
-          this.props.content.description
-        )
-      );
-    }
-  }]);
+	_createClass(ContentCell, [{
+		key: "render",
+		value: function render() {
+			var partnerBlock = "";
+			var roleBlock = "";
+			if (this.props.content.partners) {
+				partnerBlock = React.createElement(
+					"div",
+					{ "class": "partner" },
+					React.createElement(
+						"dt",
+						null,
+						"In collaboration with:"
+					),
+					React.createElement(
+						"dd",
+						null,
+						this.props.content.partners.map(function (partner) {
+							return React.createElement(
+								"a",
+								{ "class": "partner", href: partner.link },
+								partner.name
+							);
+						})
+					)
+				);
+			}
+			if (this.props.content.role) {
+				roleBlock = React.createElement(
+					"div",
+					{ "class": "role" },
+					React.createElement(
+						"dt",
+						null,
+						"Role:"
+					),
+					React.createElement(
+						"dd",
+						null,
+						this.props.content.role
+					)
+				);
+			}
+			return React.createElement(
+				"div",
+				{ "class": "gameCell" },
+				React.createElement(
+					"div",
+					{ "class": "imageDiv" },
+					React.createElement("img", { src: 'img/' + this.props.content.img })
+				),
+				React.createElement(
+					"div",
+					{ "class": "title" },
+					React.createElement(
+						"a",
+						{ href: this.props.content.link },
+						this.props.content.title
+					)
+				),
+				React.createElement(
+					"dl",
+					{ "class": "gameDetail" },
+					React.createElement(
+						"dt",
+						null,
+						"Date:"
+					),
+					React.createElement(
+						"dd",
+						null,
+						this.props.content.date
+					),
+					React.createElement(
+						"dt",
+						null,
+						"Tech:"
+					),
+					React.createElement(
+						"dd",
+						null,
+						this.props.content.tech
+					),
+					React.createElement(
+						"dt",
+						null,
+						"Date:"
+					),
+					React.createElement(
+						"dd",
+						null,
+						this.props.content.date
+					),
+					partnerBlock,
+					roleBlock
+				),
+				React.createElement(
+					"div",
+					{ style: styles.bodyStyle },
+					this.props.content.description
+				)
+			);
+		}
+	}]);
 
-  return ContentCell;
+	return ContentCell;
 }(React.Component);
 
 var ContentTable = function (_React$Component2) {
-  _inherits(ContentTable, _React$Component2);
+	_inherits(ContentTable, _React$Component2);
 
-  function ContentTable() {
-    _classCallCheck(this, ContentTable);
+	function ContentTable() {
+		_classCallCheck(this, ContentTable);
 
-    return _possibleConstructorReturn(this, (ContentTable.__proto__ || Object.getPrototypeOf(ContentTable)).apply(this, arguments));
-  }
+		return _possibleConstructorReturn(this, (ContentTable.__proto__ || Object.getPrototypeOf(ContentTable)).apply(this, arguments));
+	}
 
-  _createClass(ContentTable, [{
-    key: "render",
-    value: function render() {
-      var selected = [content["pri"], content["prod"]];
-      return React.createElement(
-        "div",
-        null,
-        selected.map(function (item) {
-          return React.createElement(ContentCell, { content: item });
-        })
-      );
-    }
-  }]);
+	_createClass(ContentTable, [{
+		key: "render",
+		value: function render() {
+			var selectedKeys = ["pri", "pri"];
+			var selected = selectedKeys.map(function (key) {
+				return content[key];
+			});
+			return React.createElement(
+				"div",
+				null,
+				selected.map(function (item) {
+					return React.createElement(ContentCell, { content: item });
+				})
+			);
+		}
+	}]);
 
-  return ContentTable;
+	return ContentTable;
 }(React.Component);
-
-var styles = {
-  headerStyle: {
-    fontSize: '18px'
-  },
-  itemStyle: {
-    fontSize: '12px'
-  },
-  bodyStyle: {
-    fontSize: '8px'
-  }
-};
 
 var domContainer = document.querySelector('#content_table_container');
 ReactDOM.render(React.createElement(ContentTable, null), domContainer);
