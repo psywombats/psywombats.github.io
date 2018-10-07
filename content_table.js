@@ -8,32 +8,64 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-import ContentCell from 'content_cell.js';
+var ContentCell = function (_React$Component) {
+	_inherits(ContentCell, _React$Component);
 
-var ContentTable = function (_React$Component) {
-    _inherits(ContentTable, _React$Component);
+	function ContentCell(props) {
+		_classCallCheck(this, ContentCell);
 
-    function ContentTable() {
-        _classCallCheck(this, ContentTable);
+		var _this = _possibleConstructorReturn(this, (ContentCell.__proto__ || Object.getPrototypeOf(ContentCell)).call(this, props));
 
-        return _possibleConstructorReturn(this, (ContentTable.__proto__ || Object.getPrototypeOf(ContentTable)).apply(this, arguments));
-    }
+		_this.state = { liked: false };
+		return _this;
+	}
 
-    _createClass(ContentTable, [{
-        key: 'render',
-        value: function render() {
-            return React.createElement(
-                'div',
-                null,
-                React.createElement(ContentCell, null),
-                React.createElement(ContentCell, null),
-                React.createElement(ContentCell, null)
-            );
-        }
-    }]);
+	_createClass(ContentCell, [{
+		key: 'render',
+		value: function render() {
+			var _this2 = this;
 
-    return ContentTable;
+			if (this.state.liked) {
+				return 'You liked this.';
+			}
+
+			return React.createElement(
+				'button',
+				{ onClick: function onClick() {
+						return _this2.setState({ liked: true });
+					} },
+				'Like'
+			);
+		}
+	}]);
+
+	return ContentCell;
+}(React.Component);
+
+var ContentTable = function (_React$Component2) {
+	_inherits(ContentTable, _React$Component2);
+
+	function ContentTable() {
+		_classCallCheck(this, ContentTable);
+
+		return _possibleConstructorReturn(this, (ContentTable.__proto__ || Object.getPrototypeOf(ContentTable)).apply(this, arguments));
+	}
+
+	_createClass(ContentTable, [{
+		key: 'render',
+		value: function render() {
+			return React.createElement(
+				'div',
+				null,
+				React.createElement(ContentCell, null),
+				React.createElement(ContentCell, null),
+				React.createElement(ContentCell, null)
+			);
+		}
+	}]);
+
+	return ContentTable;
 }(React.Component);
 
 var domContainer = document.querySelector('#content_table_container');
-ReactDOM.render(React.createElement(LikeButton, null), domContainer);
+ReactDOM.render(React.createElement(ContentTable, null), domContainer);

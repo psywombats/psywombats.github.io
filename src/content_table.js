@@ -1,6 +1,23 @@
 'use strict';
 
-import ContentCell from 'content_cell.js';
+class ContentCell extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = { liked: false };
+	}
+
+	render() {
+		if (this.state.liked) {
+			return 'You liked this.';
+		}
+
+		return (
+			<button onClick={() => this.setState({ liked: true }) }>
+				Like
+			</button>
+		);
+	}
+}
 
 class ContentTable extends React.Component {
     render() {
@@ -15,4 +32,4 @@ class ContentTable extends React.Component {
 }
 
 let domContainer = document.querySelector('#content_table_container');
-ReactDOM.render(<LikeButton />, domContainer);
+ReactDOM.render(<ContentTable />, domContainer);
