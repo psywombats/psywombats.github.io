@@ -21,23 +21,23 @@ var ContentCell = function (_React$Component) {
   }
 
   _createClass(ContentCell, [{
-    key: 'render',
+    key: "render",
     value: function render() {
       return React.createElement(
-        'div',
+        "div",
         null,
         React.createElement(
-          'div',
+          "div",
           { style: styles.headerStyle },
           this.props.content.title
         ),
         React.createElement(
-          'div',
+          "div",
           { style: styles.itemStyle },
           this.props.content.date
         ),
         React.createElement(
-          'div',
+          "div",
           { style: styles.bodyStyle },
           this.props.content.description
         )
@@ -58,12 +58,13 @@ var ContentTable = function (_React$Component2) {
   }
 
   _createClass(ContentTable, [{
-    key: 'render',
+    key: "render",
     value: function render() {
+      selectedContent = [content["pri"], content["prod"]];
       return React.createElement(
-        'div',
+        "div",
         null,
-        content.map(function (item) {
+        selectedContent.map(function (item) {
           return React.createElement(ContentCell, { content: item });
         })
       );
