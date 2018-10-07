@@ -1,6 +1,6 @@
 'use strict';
 
-import { ContentCell } from 'content_cell'
+import ContentCell from 'content_cell.js';
 
 class ContentTable extends React.Component {
     render() {
