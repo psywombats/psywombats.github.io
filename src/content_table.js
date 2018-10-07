@@ -1,11 +1,6 @@
 'use strict';
 
 class ContentCell extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = { liked: false };
-	}
-
 	render() {
 		return (
 			<div>
@@ -21,7 +16,7 @@ class ContentCell extends React.Component {
 
 class ContentTable extends React.Component {
     render() {
-    	selectedContent = [ content["pri"], content["prod"] ];
+    	var selectedContent = [ content["pri"], content["prod"] ];
         return (
         	<div>
             	{selectedContent.map(item => <ContentCell content={item} />)}

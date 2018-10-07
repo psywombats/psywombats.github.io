@@ -11,13 +11,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var ContentCell = function (_React$Component) {
   _inherits(ContentCell, _React$Component);
 
-  function ContentCell(props) {
+  function ContentCell() {
     _classCallCheck(this, ContentCell);
 
-    var _this = _possibleConstructorReturn(this, (ContentCell.__proto__ || Object.getPrototypeOf(ContentCell)).call(this, props));
-
-    _this.state = { liked: false };
-    return _this;
+    return _possibleConstructorReturn(this, (ContentCell.__proto__ || Object.getPrototypeOf(ContentCell)).apply(this, arguments));
   }
 
   _createClass(ContentCell, [{
@@ -60,7 +57,7 @@ var ContentTable = function (_React$Component2) {
   _createClass(ContentTable, [{
     key: "render",
     value: function render() {
-      selectedContent = [content["pri"], content["prod"]];
+      var selectedContent = [content["pri"], content["prod"]];
       return React.createElement(
         "div",
         null,
