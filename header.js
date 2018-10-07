@@ -20,7 +20,11 @@ var Header = function (_React$Component) {
 	_createClass(Header, [{
 		key: 'render',
 		value: function render() {
-			return "<b>lol it's the header</b>";
+			return React.createElement(
+				'b',
+				null,
+				'lol it\'s the header'
+			);
 		}
 	}]);
 
@@ -28,4 +32,4 @@ var Header = function (_React$Component) {
 }(React.Component);
 
 var domContainer = document.querySelector('#header_container');
-ReactDOM.render(React.createElement(LikeButton, null), domContainer);
+ReactDOM.render(React.createElement(Header, null), domContainer);

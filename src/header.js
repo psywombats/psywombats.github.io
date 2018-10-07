@@ -3,10 +3,10 @@
 class Header extends React.Component {
 	render() {
 		return (
-			"<b>lol it's the header</b>"
+			<b>lol it's the header</b>
 		);
 	}
 }
 
 let domContainer = document.querySelector('#header_container');
-ReactDOM.render(<LikeButton />, domContainer);
+ReactDOM.render(<Header />, domContainer);
