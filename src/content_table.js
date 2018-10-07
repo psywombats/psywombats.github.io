@@ -7,14 +7,14 @@ class ContentCell extends React.Component {
 	}
 
 	render() {
-		if (this.state.liked) {
-			return 'You liked this.';
-		}
-
 		return (
-			<button onClick={() => this.setState({ liked: true }) }>
-				Like
-			</button>
+			<div>
+				<div style={styles.headerStyle}>
+					{this.props.content.title}
+				</div>
+				<div style={styles.itemStyle}>{this.props.content.date}</div>
+				<div style={styles.bodyStyle}>{this.props.content.description}</div>
+			</div>
 		);
 	}
 }
@@ -23,13 +23,23 @@ class ContentTable extends React.Component {
     render() {
         return (
         	<div>
-            	<ContentCell />
-            	<ContentCell />
-            	<ContentCell />
+            	{content.map(item => <ContentCell content={item} />)}
             </div>
          );
     }
 }
+
+const styles = {
+    headerStyle: {
+    	fontSize: '18px'
+    },
+    itemStyle: {
+    	fontSize: '12px'
+    },
+    bodyStyle: {
+    	fontSize: '8px'
+    }
+};
 
 let domContainer = document.querySelector('#content_table_container');
 ReactDOM.render(<ContentTable />, domContainer);
