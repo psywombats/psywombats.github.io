@@ -57,11 +57,11 @@ var ContentTable = function (_React$Component2) {
   _createClass(ContentTable, [{
     key: "render",
     value: function render() {
-      var selectedContent = [content["pri"], content["prod"]];
+      var selected = [content["pri"], content["prod"]];
       return React.createElement(
         "div",
         null,
-        selectedContent.map(function (item) {
+        selected.map(function (item) {
           return React.createElement(ContentCell, { content: item });
         })
       );

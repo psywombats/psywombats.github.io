@@ -16,10 +16,10 @@ class ContentCell extends React.Component {
 
 class ContentTable extends React.Component {
     render() {
-    	var selectedContent = [ content["pri"], content["prod"] ];
+    	const selected = [ content["pri"], content["prod"] ];
         return (
         	<div>
-            	{selectedContent.map(item => <ContentCell content={item} />)}
+            	{selected.map(item => <ContentCell content={item} />)}
             </div>
          );
     }
