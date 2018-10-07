@@ -42,7 +42,7 @@ class ContentCell extends React.Component {
 					{partnerBlock}
 					{roleBlock}
 				</dl>
-				<div style={styles.bodyStyle}>
+				<div class='description'>
 					{this.props.content.description}
 				</div>
 			</div>
@@ -55,7 +55,7 @@ class ContentTable extends React.Component {
     	const selectedKeys = ["pri", "pri"];
     	const selected = selectedKeys.map(key => (content[key]));
         return (
-        	<div>
+        	<div class='contentTable'>
             	{selected.map(item => <ContentCell content={item} />)}
             </div>
          );

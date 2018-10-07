@@ -115,7 +115,7 @@ var ContentCell = function (_React$Component) {
 				),
 				React.createElement(
 					"div",
-					{ style: styles.bodyStyle },
+					{ "class": "description" },
 					this.props.content.description
 				)
 			);
@@ -143,7 +143,7 @@ var ContentTable = function (_React$Component2) {
 			});
 			return React.createElement(
 				"div",
-				null,
+				{ "class": "contentTable" },
 				selected.map(function (item) {
 					return React.createElement(ContentCell, { content: item });
 				})
