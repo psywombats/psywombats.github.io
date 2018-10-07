@@ -8,19 +8,19 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var LikeButton = function (_React$Component) {
-	_inherits(LikeButton, _React$Component);
+var ContentCell = function (_React$Component) {
+	_inherits(ContentCell, _React$Component);
 
-	function LikeButton(props) {
-		_classCallCheck(this, LikeButton);
+	function ContentCell(props) {
+		_classCallCheck(this, ContentCell);
 
-		var _this = _possibleConstructorReturn(this, (LikeButton.__proto__ || Object.getPrototypeOf(LikeButton)).call(this, props));
+		var _this = _possibleConstructorReturn(this, (ContentCell.__proto__ || Object.getPrototypeOf(ContentCell)).call(this, props));
 
 		_this.state = { liked: false };
 		return _this;
 	}
 
-	_createClass(LikeButton, [{
+	_createClass(ContentCell, [{
 		key: 'render',
 		value: function render() {
 			var _this2 = this;
@@ -39,8 +39,7 @@ var LikeButton = function (_React$Component) {
 		}
 	}]);
 
-	return LikeButton;
+	return ContentCell;
 }(React.Component);
 
-var domContainer = document.querySelector('#like_button_container');
-ReactDOM.render(React.createElement(LikeButton, null), domContainer);
+export default ContentCell;

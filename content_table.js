@@ -8,6 +8,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+import { ContentCell } from 'content_cell';
+
 var ContentTable = function (_React$Component) {
     _inherits(ContentTable, _React$Component);
 
@@ -20,7 +22,13 @@ var ContentTable = function (_React$Component) {
     _createClass(ContentTable, [{
         key: 'render',
         value: function render() {
-            return React.createElement('div', null);
+            return React.createElement(
+                'div',
+                null,
+                React.createElement(ContentCell, null),
+                React.createElement(ContentCell, null),
+                React.createElement(ContentCell, null)
+            );
         }
     }]);
 

@@ -1,9 +1,14 @@
 'use strict';
 
+import { ContentCell } from 'content_cell'
+
 class ContentTable extends React.Component {
     render() {
         return (
-            <div>
+        	<div>
+            	<ContentCell />
+            	<ContentCell />
+            	<ContentCell />
             </div>
          );
     }
