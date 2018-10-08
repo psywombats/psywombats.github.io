@@ -159,7 +159,7 @@ var ContentTable = function (_React$Component2) {
   _createClass(ContentTable, [{
     key: "render",
     value: function render() {
-      var selected = this.state.selectedTab.games.map(function (key) {
+      var selected = this.props.selectedTab.games.map(function (key) {
         return content[key];
       });
       return React.createElement(
@@ -265,7 +265,7 @@ var Portfolio = function (_React$Component4) {
       return React.createElement(
         "div",
         { className: "body" },
-        React.createElement(Header, { pageContent: this.state.pageContent, reloader: this.changeTab }),
+        React.createElement(Header, { selectedTab: this.state.selectedTab, reloader: this.changeTab }),
         React.createElement(ContentTable, { pageContent: this.state.pageContent })
       );
     }

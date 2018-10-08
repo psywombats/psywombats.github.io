@@ -78,7 +78,7 @@ class ContentCell extends React.Component {
 
 class ContentTable extends React.Component {
     render() {
-    	const selected = this.state.selectedTab.games.map(key => (content[key]));
+    	const selected = this.props.selectedTab.games.map(key => (content[key]));
         return (
         	<div className='contentTable'>
             	{selected.map((item, key) => <ContentCell content={item} key={key}/>)}
@@ -137,7 +137,7 @@ class Portfolio extends React.Component {
 
     render() {
         return (<div className='body'>
-            <Header pageContent={this.state.pageContent} reloader={this.changeTab} />
+            <Header selectedTab={this.state.selectedTab} reloader={this.changeTab} />
             <ContentTable pageContent={this.state.pageContent} />
         </div>);
     }
