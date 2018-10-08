@@ -271,7 +271,7 @@ var Portfolio = function (_React$Component4) {
         }),
         React.createElement(ContentTable, {
           selectedTab: this.state.selectedTab,
-          headerImage: this.state.pageContent.header.image
+          headerImage: this.state.pageContent.image
         })
       );
     }
