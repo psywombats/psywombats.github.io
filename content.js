@@ -9,7 +9,7 @@ content.header.pro.links = [{
         title: "PROFESSIONAL WORK",
         games: ["rainfall"]
     }, {
-        title: "HOBBY (tech)"
+        title: "HOBBY (tech)",
         games: ["saga4", "erebus", "mgne", "divergence", "drh2", "zs2", "hallowombat", "skirmisher", "gar"]
     }, {
         title: "HOBBY (creative)",
