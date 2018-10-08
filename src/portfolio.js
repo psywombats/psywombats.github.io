@@ -140,10 +140,10 @@ class Portfolio extends React.Component {
             <Header
             	selectedTab={this.state.selectedTab}
             	reloader={this.changeTab}
+            	header={this.state.pageContent}
             />
             <ContentTable 
             	selectedTab={this.state.selectedTab}
-            	header={this.state.pageContent}
             />
         </div>);
     }

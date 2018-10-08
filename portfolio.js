@@ -267,11 +267,11 @@ var Portfolio = function (_React$Component4) {
         { className: "body" },
         React.createElement(Header, {
           selectedTab: this.state.selectedTab,
-          reloader: this.changeTab
+          reloader: this.changeTab,
+          header: this.state.pageContent
         }),
         React.createElement(ContentTable, {
-          selectedTab: this.state.selectedTab,
-          header: this.state.pageContent
+          selectedTab: this.state.selectedTab
         })
       );
     }
