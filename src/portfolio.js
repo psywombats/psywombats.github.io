@@ -137,10 +137,10 @@ class Portfolio extends React.Component {
     }
 
     render() {
-        <div className='body'>
+        return (<div className='body'>
             {this.header}
             {this.contentTable}
-        </div>
+        </div>);
     }
 }
 

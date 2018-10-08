@@ -259,7 +259,7 @@ var Portfolio = function (_React$Component4) {
     _createClass(Portfolio, [{
         key: "render",
         value: function render() {
-            React.createElement(
+            return React.createElement(
                 "div",
                 { className: "body" },
                 this.header,
