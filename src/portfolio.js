@@ -132,7 +132,7 @@ class Header extends React.Component {
     
     reloadGames(games) {
         return (clickEvent) => {
-            this.props.contentTable.setGameState(games);
+            this.props.contentTable.setGameSet(games);
         }
     }
 }

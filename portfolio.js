@@ -246,7 +246,7 @@ var Header = function (_React$Component3) {
             var _this5 = this;
 
             return function (clickEvent) {
-                _this5.props.contentTable.setGameState(games);
+                _this5.props.contentTable.setGameSet(games);
             };
         }
     }]);
