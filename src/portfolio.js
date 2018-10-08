@@ -80,6 +80,9 @@ class ContentTable extends React.Component {
     constructor(props) {
         super(props);
         this.state = { gameSet: pageContent.links[0].games };
+        this.setGameSet = function(gameSet) {
+    		this.setState({ gameSet: gameSet });
+    	}
     }
 
     render() {
@@ -90,13 +93,7 @@ class ContentTable extends React.Component {
             </div>
          );
     }
-    
-    setGameSet(gameSet) {
-    	this.setState({ gameSet: gameSet });
-    }
 }
-
-'use strict';
 
 class Header extends React.Component {
     constructor(props) {

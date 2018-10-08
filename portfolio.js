@@ -156,6 +156,9 @@ var ContentTable = function (_React$Component2) {
         var _this2 = _possibleConstructorReturn(this, (ContentTable.__proto__ || Object.getPrototypeOf(ContentTable)).call(this, props));
 
         _this2.state = { gameSet: pageContent.links[0].games };
+        _this2.setGameSet = function (gameSet) {
+            this.setState({ gameSet: gameSet });
+        };
         return _this2;
     }
 
@@ -173,17 +176,10 @@ var ContentTable = function (_React$Component2) {
                 })
             );
         }
-    }, {
-        key: "setGameSet",
-        value: function setGameSet(gameSet) {
-            this.setState({ gameSet: gameSet });
-        }
     }]);
 
     return ContentTable;
 }(React.Component);
-
-'use strict';
 
 var Header = function (_React$Component3) {
     _inherits(Header, _React$Component3);
