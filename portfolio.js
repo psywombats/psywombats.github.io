@@ -208,18 +208,18 @@ var Header = function (_React$Component3) {
                     React.createElement(
                         "h1",
                         null,
-                        this.state.pageContent.header.title
+                        this.state.pageContent.title
                     )
                 ),
                 React.createElement(
                     "div",
                     { className: "subtitle" },
-                    this.state.pageContent.header.subtitle
+                    this.state.pageContent.subtitle
                 ),
                 React.createElement(
                     "ul",
                     { className: "navbar" },
-                    this.state.pageContent.header.links.map(function (link, key) {
+                    this.state.pageContent.links.map(function (link, key) {
                         return React.createElement(
                             "li",
                             null,

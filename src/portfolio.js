@@ -108,13 +108,13 @@ class Header extends React.Component {
 		return (
 			<div className='header'>
                 <div className='title' style={divStyle}>
-                    <h1>{this.state.pageContent.header.title}</h1>
+                    <h1>{this.state.pageContent.title}</h1>
                 </div>
                 <div className='subtitle'>
-                    {this.state.pageContent.header.subtitle}
+                    {this.state.pageContent.subtitle}
                 </div>
                 <ul className='navbar'>
-                    {this.state.pageContent.header.links.map((link, key) => (
+                    {this.state.pageContent.links.map((link, key) => (
                         <li>
                             <a onClick={reloadGames(link.games)}>{link.title}</a>
                         </li>
