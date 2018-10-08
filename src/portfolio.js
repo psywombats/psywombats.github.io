@@ -103,7 +103,7 @@ class Header extends React.Component {
 
 	render() {
         const divStyle = {
-            backgroundImage: 'url(' + this.state.pageContent.header.image + ')',
+            backgroundImage: 'url(' + this.state.pageContent.image + ')',
         };
 		return (
 			<div className='header'>

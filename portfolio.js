@@ -197,7 +197,7 @@ var Header = function (_React$Component3) {
         key: "render",
         value: function render() {
             var divStyle = {
-                backgroundImage: 'url(' + this.state.pageContent.header.image + ')'
+                backgroundImage: 'url(' + this.state.pageContent.image + ')'
             };
             return React.createElement(
                 "div",
