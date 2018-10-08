@@ -95,15 +95,15 @@ class Header extends React.Component {
 
 	render() {
         const divStyle = {
-            backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.headerImage + ')',
+            backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.header.image + ')',
         };
 		return (
 			<div className='header'>
                 <div className='title' style={divStyle}>
-                    <h1>{this.props.pageContent.title}</h1>
+                    <h1>{this.props.header.title}</h1>
                 </div>
                 <div className='subtitle'>
-                    {this.props.pageContent.subtitle}
+                    {this.props.header.subtitle}
                 </div>
                 <ul className='navbar'>
                     {this.props.pageContent.links.map((link, key) => (
@@ -143,7 +143,7 @@ class Portfolio extends React.Component {
             />
             <ContentTable 
             	selectedTab={this.state.selectedTab}
-            	headerImage={this.state.pageContent.image}
+            	header={this.state.pageContent}
             />
         </div>);
     }

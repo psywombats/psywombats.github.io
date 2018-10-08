@@ -193,7 +193,7 @@ var Header = function (_React$Component3) {
       var _this4 = this;
 
       var divStyle = {
-        backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.headerImage + ')'
+        backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.header.image + ')'
       };
       return React.createElement(
         "div",
@@ -204,13 +204,13 @@ var Header = function (_React$Component3) {
           React.createElement(
             "h1",
             null,
-            this.props.pageContent.title
+            this.props.header.title
           )
         ),
         React.createElement(
           "div",
           { className: "subtitle" },
-          this.props.pageContent.subtitle
+          this.props.header.subtitle
         ),
         React.createElement(
           "ul",
@@ -271,7 +271,7 @@ var Portfolio = function (_React$Component4) {
         }),
         React.createElement(ContentTable, {
           selectedTab: this.state.selectedTab,
-          headerImage: this.state.pageContent.image
+          header: this.state.pageContent
         })
       );
     }
