@@ -314,7 +314,7 @@ content.rainfall = {
     date: "2012-2013",
     link: "https://github.com/psywombats/rainfall",
     tech: "Java (libGDX)",
-    img: "cbrogue.png",
+    img: "rainfall.png",
     role: "Programmer",
     partners: [{
         name: "ghost (project lead)",

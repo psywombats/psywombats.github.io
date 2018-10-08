@@ -31,9 +31,13 @@ h1 {
     text-indent: -9999px;
 }
 
+ul {
+    padding-inline-start: 0px
+}
+
 .header li {
     float: left;
-    padding-right: 50px;
+    padding-right: 80px;
     list-style: none;
 }
 
