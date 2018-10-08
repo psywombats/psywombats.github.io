@@ -77,13 +77,8 @@ class ContentCell extends React.Component {
 }
 
 class ContentTable extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = { gameSet: pageContent.links[0].games };
-    }
-
     render() {
-    	const selected = this.state.gameSet.map(key => (content[key]));
+    	const selected = this.state.selectedTab.games.map(key => (content[key]));
         return (
         	<div className='contentTable'>
             	{selected.map((item, key) => <ContentCell content={item} key={key}/>)}
@@ -93,28 +88,27 @@ class ContentTable extends React.Component {
 }
 
 class Header extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = { pageContent: pageContent};
-        this.reloadGames = this.reloadGames.bind(this);
-    }
+	constructor(props) {
+		super(props);
+		this.switchTab = this.switchTab.bind(this);
+	}
 
 	render() {
         const divStyle = {
-            backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.state.pageContent.image + ')',
+            backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.pageContent.image + ')',
         };
 		return (
 			<div className='header'>
                 <div className='title' style={divStyle}>
-                    <h1>{this.state.pageContent.title}</h1>
+                    <h1>{this.props.pageContent.title}</h1>
                 </div>
                 <div className='subtitle'>
-                    {this.state.pageContent.subtitle}
+                    {this.props.pageContent.subtitle}
                 </div>
                 <ul className='navbar'>
-                    {this.state.pageContent.links.map((link, key) => (
+                    {this.props.pageContent.links.map((link, key) => (
                         <li key={key}>
-                            <a onClick={this.reloadGames(link.games)} href='#'>
+                            <a onClick={this.switchTab(link)} href='#'>
                             	{">"+link.title}
                             </a>
                         </li>
@@ -123,26 +117,36 @@ class Header extends React.Component {
             </div>
 		);
 	}
-    
-    reloadGames(games) {
-        return (clickEvent) => {
-            this.props.contentTable.setState({gameSet: games});
-        }
-    }
+	
+	switchTab(tab) {
+		return () => {
+			this.props.reloader(tab);
+		}
+	}
 }
 
 class Portfolio extends React.Component {
-    constructor(props) {
-        super(props);
-        this.contentTable = new ContentTable({});
-        this.header = (<Header contentTable={this.contentTable}/>);
-    }
+	constructor(props) {
+		super(props);
+		this.changeTab = this.changeTab.bind(this);
+		this.state = {
+			pageContent: pageContent,
+			selectedTab: pageContent.links[0]
+		};
+	}
 
     render() {
         return (<div className='body'>
-            {this.header}
-            {this.contentTable}
+            <Header pageContent={this.state.pageContent} reloader={this.changeTab} />
+            <ContentTable pageContent={this.state.pageContent} />
         </div>);
+    }
+    
+	changeTab(tab) {
+        this.setState({
+        	pageContent: this.state.pageContent,
+        	selectedTab: tab
+        });
     }
 }
 
