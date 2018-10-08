@@ -215,7 +215,7 @@ var Header = function (_React$Component3) {
         React.createElement(
           "ul",
           { className: "navbar" },
-          this.props.pageContent.links.map(function (link, key) {
+          this.props.header.links.map(function (link, key) {
             return React.createElement(
               "li",
               { key: key },

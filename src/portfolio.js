@@ -106,7 +106,7 @@ class Header extends React.Component {
                     {this.props.header.subtitle}
                 </div>
                 <ul className='navbar'>
-                    {this.props.pageContent.links.map((link, key) => (
+                    {this.props.header.links.map((link, key) => (
                         <li key={key}>
                             <a onClick={this.switchTab(link)} href='#'>
                             	{">"+link.title}
