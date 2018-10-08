@@ -11,7 +11,7 @@ class ContentCell extends React.Component {
 					<dt>In collaboration with:</dt>
 					<dd>
 						{this.props.content.partners.map((partner, key) => (
-							<span className='partner' key={key}>
+							<span className='partnerEntry' key={key}>
 								<a href={partner.link}>{partner.name}</a>
 							</span>
 						))}
@@ -95,7 +95,7 @@ class Header extends React.Component {
 
 	render() {
         const divStyle = {
-            backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.header.image + ')',
+            backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.header.image +  + ') no-repeat left top',
         };
 		return (
 			<div className='header'>

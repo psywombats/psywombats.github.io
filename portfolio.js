@@ -38,7 +38,7 @@ var ContentCell = function (_React$Component) {
             this.props.content.partners.map(function (partner, key) {
               return React.createElement(
                 "span",
-                { className: "partner", key: key },
+                { className: "partnerEntry", key: key },
                 React.createElement(
                   "a",
                   { href: partner.link },
@@ -193,7 +193,7 @@ var Header = function (_React$Component3) {
       var _this4 = this;
 
       var divStyle = {
-        backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.header.image + ')'
+        background: 'url(http://www.wombatrpgs.net/img/' + this.props.header.image + ') no-repeat left top'
       };
       return React.createElement(
         "div",

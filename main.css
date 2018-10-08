@@ -26,6 +26,24 @@ dd {
     text-align: right;
 }
 
+h1 {
+    color: #000000
+}
+
+.header li {
+    float: left;
+    padding-left: 30px;
+    list-style: none;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
 .contentTable {
     display: block;
     width: 850px;
@@ -39,7 +57,7 @@ dd {
     padding-bottom: 32px;
     margin-bottom: 32px;
     border-bottom-style: solid;
-    border-color: #222222;
+    border-color: #8c8c8c;
     border-width: 1px;
     overflow: auto;
 }
@@ -70,6 +88,13 @@ dd {
     width: 100%;
 }
 
-.partner {
+.partnerEntry {
 	margin-left: 10px;
+}
+
+.header {
+    display: block;
+    width: 850px;
+    margin: 0 auto;
+    padding: 0 0 60px 0;
 }
