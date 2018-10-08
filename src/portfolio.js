@@ -80,9 +80,6 @@ class ContentTable extends React.Component {
     constructor(props) {
         super(props);
         this.state = { gameSet: pageContent.links[0].games };
-        this.setGameSet = function(gameSet) {
-    		this.setState({ gameSet: gameSet });
-    	}
     }
 
     render() {
@@ -129,7 +126,7 @@ class Header extends React.Component {
     
     reloadGames(games) {
         return (clickEvent) => {
-            this.props.contentTable.setGameSet(games);
+            this.props.contentTable.setState({gameSet: games});
         }
     }
 }
@@ -137,7 +134,7 @@ class Header extends React.Component {
 class Portfolio extends React.Component {
     constructor(props) {
         super(props);
-        this.contentTable = (<ContentTable />);
+        this.contentTable = new ContentTable({});
         this.header = (<Header contentTable={this.contentTable}/>);
     }
 

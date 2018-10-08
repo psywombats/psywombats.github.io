@@ -156,9 +156,6 @@ var ContentTable = function (_React$Component2) {
         var _this2 = _possibleConstructorReturn(this, (ContentTable.__proto__ || Object.getPrototypeOf(ContentTable)).call(this, props));
 
         _this2.state = { gameSet: pageContent.links[0].games };
-        _this2.setGameSet = function (gameSet) {
-            this.setState({ gameSet: gameSet });
-        };
         return _this2;
     }
 
@@ -242,7 +239,7 @@ var Header = function (_React$Component3) {
             var _this5 = this;
 
             return function (clickEvent) {
-                _this5.props.contentTable.setGameSet(games);
+                _this5.props.contentTable.setState({ gameSet: games });
             };
         }
     }]);
@@ -258,7 +255,7 @@ var Portfolio = function (_React$Component4) {
 
         var _this6 = _possibleConstructorReturn(this, (Portfolio.__proto__ || Object.getPrototypeOf(Portfolio)).call(this, props));
 
-        _this6.contentTable = React.createElement(ContentTable, null);
+        _this6.contentTable = new ContentTable({});
         _this6.header = React.createElement(Header, { contentTable: _this6.contentTable });
         return _this6;
     }
