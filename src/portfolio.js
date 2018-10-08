@@ -75,9 +75,13 @@ class ContentCell extends React.Component {
 }
 
 class ContentTable extends React.Component {
+    construct(props) {
+        super(props);
+        this.state.gameSet = pageContent.links[0].games;
+    }
+
     render() {
-    	const selectedKeys = ["drh", "blockbound", "drh2", "saga4"];
-    	const selected = selectedKeys.map(key => (content[key]));
+    	const selected = this.state.gameSet.map(key => (content[key]));
         return (
         	<div className='contentTable'>
             	{selected.map((item, key) => <ContentCell content={item} key={key}/>)}
@@ -86,5 +90,59 @@ class ContentTable extends React.Component {
     }
 }
 
-let domContainer = document.querySelector('#content_table_container');
-ReactDOM.render(<ContentTable />, domContainer);
+'use strict';
+
+class Header extends React.Component {
+    construct(props) {
+        super(props);
+        this.state.pageContent = pageContent;
+        this.reloadGames = this.reloadGames.bind(this);
+    }
+
+	render() {
+        const divStyle = {
+            backgroundImage: 'url(' + this.state.pageContent.header.image + ')',
+        };
+		return (
+			<div className='header'>
+                <div className='title' style={divStyle}>
+                    <h1>{this.state.pageContent.header.title}</h1>
+                </div>
+                <div className='subtitle'>
+                    {this.state.pageContent.header.subtitle}
+                </div>
+                <ul className='navbar'>
+                    {this.state.pageContent.header.links.map((link, key) => (
+                        <li>
+                            <a onClick={reloadGames(link.games)}>{link.title}</a>
+                        </li>
+                    )}
+                </ul>
+            </div>
+		);
+	}
+    
+    reloadGames(games) {
+        return (clickEvent) => {
+            this.props.contentTable.state.gameSet = games;
+        }
+    }
+}
+
+class Portfolio extends React.Component {
+    construct(props) {
+        super(props);
+        this.contentTable = (<ContentTable />);
+        this.header = (<ContentTable contentTable={this.contentTable}/>);
+    }
+
+    render() {
+        <div className='body'>
+            {this.header}
+            {this.contentTable}
+        </div>
+    }
+}
+
+let domContainer = document.querySelector('#portfolio_container');
+ReactDOM.render(<Portfolio />, domContainer);
