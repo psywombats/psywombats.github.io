@@ -28,6 +28,7 @@ dd {
 
 h1 {
     color: #000000
+    text-indent: -9999px;
 }
 
 .header li {
