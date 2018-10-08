@@ -18,7 +18,7 @@ content["blockbound"] = {
     link: "https://rpgmaker.net/games/2401/",
     tech: "Java (LibGDX), Tiled",
     img: "blockbound.png",
-    role: "Project lead (team of 6)"
+    role: "Project lead (6 members), programmer",
     partners: [{
         name: "WombatRPGs crew",
         link: "http://www.wombatrpgs.net/"
@@ -91,6 +91,7 @@ content["loap"] = {
     link: "https://rpgmaker.net/games/531/",
     tech: "RPGmaker 2000",
     img: "loap.png",
+    role: "Project lead (5 members), programmer",
     partners: [{
         name: "WombatRPGs crew",
         link: "http://www.wombatrpgs.net"
@@ -114,7 +115,7 @@ content["hallowombat"] = {
     date: "October 2010",
     link: "https://rpgmaker.net/games/2556/",
     tech: "RPGmaker 2000",
-    youtube: "T-pvdi4p1j8"
+    youtube: "T-pvdi4p1j8",
     role: "Project lead (5 members)",
     partners: [{
         name: "WombatRPGs crew",
@@ -127,7 +128,7 @@ content["saga4"] = {
     date: "2015-2017",
     link: "https://rpgmaker.net/games/7236/",
     tech: "Java (LibGDX), Tiled, GLSL, Lua",
-    youtube: "97GfJyOpZlE"
+    youtube: "97GfJyOpZlE",
     partners: [{
         name: "bob_esc (tiles)",
         link: "https://twitter.com/qlu_zak"
@@ -177,7 +178,7 @@ content["terra_nova"] = {
     link: "https://rpgmaker.net/games/876/",
     tech: "RPGmaker 2000",
     img: "terra_nova.png",
-    role: "Project lead",
+    role: "Project lead (4 members)",
     partners: [{
         name: "WombatRPGs crew",
         link: "http://www.wombatrpgs.net/"
@@ -211,7 +212,7 @@ content["zs"] = {
     link: "https://rpgmaker.net/games/3339/",
     tech: "RPGmaker 2003",
     img: "zs.png",
-    role: "Project lead",
+    role: "Project lead (4 members)",
     partners: [{
         name: "WombatRPGs crew",
         link: "http://www.wombatrpgs.net/"
