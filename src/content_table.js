@@ -4,6 +4,7 @@ class ContentCell extends React.Component {
 	render() {
 		let partnerBlock = "";
 		let roleBlock = "";
+        let imgBlock = "";
 		if (this.props.content.partners) {
 			partnerBlock = (
 				<div class='partner'>
@@ -24,6 +25,27 @@ class ContentCell extends React.Component {
 				</div>
 			);
 		}
+        if (!this.props.content.youtube) {
+            imgBlock = (
+                <a href={this.props.content.link}>
+                    <img src={'img/' + this.props.content.img} />
+                </a>
+            );
+        } else {
+            const src = "https://www.youtube.com/embed/"
+                    + this.props.content.youtube 
+                    + "&origin=http://www.wombatrpgs.net";
+            imgBlock = (
+                <iframe 
+                    class="ytplayer"
+                    type="text/html"
+                    width="480"
+                    height="270"
+                    src={src}
+                    frameborder="0">
+                </iframe>
+            );
+        }
 		return (
 			<div class='gameCell'>
                 <div class='infoColumn'>
@@ -35,8 +57,6 @@ class ContentCell extends React.Component {
                         <dd>{this.props.content.date}</dd>
                         <dt>Tech:</dt>
                         <dd>{this.props.content.tech}</dd>
-                        <dt>Date:</dt>
-                        <dd>{this.props.content.date}</dd>
                         {partnerBlock}
                         {roleBlock}
                     </dl>
@@ -45,7 +65,7 @@ class ContentCell extends React.Component {
                     </div>
                 </div>
 				<div class='imageColumn'>
-					<img src={'img/' + this.props.content.img} />
+					{imgBlock}
 				</div>
 			</div>
 		);

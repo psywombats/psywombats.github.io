@@ -61,7 +61,7 @@ content["divergence"] = {
     }],
     description: "Divergence is an exploration game pitting you against an abandoned laboratory and whatever secrets it may contain. Discover the nature of a terrible experiment, witness the result, and ultimately uncover the fate of the research team. Game length ranges from half an hour to over an hour to find all the secrets the facility has to offer. Featuring top-notch visuals, a unique world-shifting mechanic, and a compelling story.<br><br>The main gimmick of divergence is its shifting worlds mechanics, implemented with a unique shader that blends two maps based on the position of objects in Tiled maps."
 };
-content["gaed"] = {
+content["gar"] = {
     title: "Golden Age: Endless Dungeon",
     date: "2011",
     link: "http://www.roguebasin.com/index.php?title=Golden_Age:_Endless_Dungeon",
@@ -251,7 +251,7 @@ content["wal"] = {
 content["mgne"] = {
     title: "MakeGamesNot engine",
     date: "2013-2017",
-    link: "https://github.com/psywombats/mgne",
+    link: "https://rpgmaker.net/games/7236/blog/16120/",
     tech: "LibGDX, Tiled",
     img: "mgne.png",
     description: "The MakeGamesNot engine (MGNE) is the underlying tech for a bunch of WombatRPGs games 2013-2017. It features Tiled map integration, a Lua processor for event scripting, a rudimentary database editor for data-driven games, and convenience code for saving/controls/ui/shaders and other common game needs."
