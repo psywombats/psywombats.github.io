@@ -37,9 +37,13 @@ var ContentCell = function (_React$Component) {
                         null,
                         this.props.content.partners.map(function (partner, key) {
                             return React.createElement(
-                                "a",
-                                { className: "partner", key: key, href: partner.link },
-                                partner.name
+                                "span",
+                                { className: "partner", key: key },
+                                React.createElement(
+                                    "a",
+                                    { href: partner.link },
+                                    partner.name
+                                )
                             );
                         })
                     )

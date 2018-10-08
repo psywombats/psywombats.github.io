@@ -11,7 +11,9 @@ class ContentCell extends React.Component {
 					<dt>In collaboration with:</dt>
 					<dd>
 						{this.props.content.partners.map((partner, key) => (
-							<a className='partner' key={key} href={partner.link}>{partner.name}</a>
+							<span className='partner' key={key}>
+								<a href={partner.link}>{partner.name}</a>
+							</span>
 						))}
 					</dd>
 				</div>
