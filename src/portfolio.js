@@ -90,6 +90,10 @@ class ContentTable extends React.Component {
             </div>
          );
     }
+    
+    setGameSet(gameSet) {
+    	this.setState({ gameSet: gameSet });
+    }
 }
 
 'use strict';
@@ -116,7 +120,9 @@ class Header extends React.Component {
                 <ul className='navbar'>
                     {this.state.pageContent.links.map((link, key) => (
                         <li key={key}>
-                            <a onClick={this.reloadGames(link.games)} href='#'>{link.title}</a>
+                            <a onClick={this.reloadGames(link.games)} href='#'>
+                            	{">"+link.title}
+                            </a>
                         </li>
                     ))}
                 </ul>

@@ -173,6 +173,11 @@ var ContentTable = function (_React$Component2) {
                 })
             );
         }
+    }, {
+        key: "setGameSet",
+        value: function setGameSet(gameSet) {
+            this.setState({ gameSet: gameSet });
+        }
     }]);
 
     return ContentTable;
@@ -228,7 +233,7 @@ var Header = function (_React$Component3) {
                             React.createElement(
                                 "a",
                                 { onClick: _this4.reloadGames(link.games), href: "#" },
-                                link.title
+                                ">" + link.title
                             )
                         );
                     })
