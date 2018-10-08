@@ -7,11 +7,11 @@ class ContentCell extends React.Component {
         let imgBlock = "";
 		if (this.props.content.partners) {
 			partnerBlock = (
-				<div class='partner'>
+				<div className='partner'>
 					<dt>In collaboration with:</dt>
 					<dd>
-						{this.props.content.partners.map(partner => (
-							<a class='partner' href={partner.link}>{partner.name}</a>
+						{this.props.content.partners.map((partner, key) => (
+							<a className='partner' key={key} href={partner.link}>{partner.name}</a>
 						))}
 					</dd>
 				</div>
@@ -19,7 +19,7 @@ class ContentCell extends React.Component {
 		}
 		if (this.props.content.role) {
 			roleBlock = (
-				<div class='role'>
+				<div className='role'>
 					<dt>Role:</dt>
 					<dd>{this.props.content.role}</dd>
 				</div>
@@ -37,7 +37,7 @@ class ContentCell extends React.Component {
                     + "&origin=http://www.wombatrpgs.net";
             imgBlock = (
                 <iframe 
-                    class="ytplayer"
+                    className="ytplayer"
                     type="text/html"
                     width="480"
                     height="270"
@@ -47,12 +47,12 @@ class ContentCell extends React.Component {
             );
         }
 		return (
-			<div class='gameCell'>
-                <div class='infoColumn'>
-					<div class='title'>
+			<div className='gameCell'>
+                <div className='infoColumn'>
+					<div className='title'>
 						<a href={this.props.content.link}>{this.props.content.title}</a>
 					</div>
-                    <dl class='gameDetail'>
+                    <dl className='gameDetail'>
                         <dt>Date:</dt>
                         <dd>{this.props.content.date}</dd>
                         <dt>Tech:</dt>
@@ -60,11 +60,13 @@ class ContentCell extends React.Component {
                         {partnerBlock}
                         {roleBlock}
                     </dl>
-                    <div class='description'>
-                        {this.props.content.description}
+                    <div className='description'>
+                        {this.props.content.description.split('\n').map((item, key) => {
+							return <span key={key}>{item}<br/></span>
+						})}
                     </div>
                 </div>
-				<div class='imageColumn'>
+				<div className='imageColumn'>
 					{imgBlock}
 				</div>
 			</div>
@@ -74,11 +76,11 @@ class ContentCell extends React.Component {
 
 class ContentTable extends React.Component {
     render() {
-    	const selectedKeys = ["drh", "blockbound", "drh2"];
+    	const selectedKeys = ["drh", "blockbound", "drh2", "saga"];
     	const selected = selectedKeys.map(key => (content[key]));
         return (
-        	<div class='contentTable'>
-            	{selected.map(item => <ContentCell content={item} />)}
+        	<div className='contentTable'>
+            	{selected.map((item, key) => <ContentCell content={item} key={key}/>)}
             </div>
          );
     }

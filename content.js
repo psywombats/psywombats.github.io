@@ -10,7 +10,9 @@ content["pri"] = {
         name: "Liberty",
         link: "https://rpgmaker.net/users/Liberty/"
     }],
-    description: "The Kidnapping of Princess Pri is a short exploration/adventure/escape game. Foil (and maybe carry out) a kidnapping by searching items, talking to characters, finding keys, and solving clues.<br><br>This game was made a for a split-in-the-middle event. Emphasis is on visual design."
+    description: "The Kidnapping of Princess Pri is a short exploration/adventure/escape game. Foil (and maybe carry out) a kidnapping by searching items, talking to characters, finding keys, and solving clues.
+
+This game was made a for a split-in-the-middle event. Emphasis is on visual design."
 };
 content["blockbound"] = {
     title: "Blockbound",
@@ -23,7 +25,9 @@ content["blockbound"] = {
         name: "WombatRPGs crew",
         link: "http://www.wombatrpgs.net/"
     }],
-    description: "Blockbound is an adventure/puzzle game featuring Nico Willis, a stonemason's apprentice who can summon his petrified friend Waldsworth. The block can be used to squish enemies, block fire, fill in holes in the floor, etc.<br><br>This is the first game using the homebrew MGNE engine, a collision + map system. The physics is a pseudo-3D system that allowed the top of the block to function as floor."
+    description: "Blockbound is an adventure/puzzle game featuring Nico Willis, a stonemason's apprentice who can summon his petrified friend Waldsworth. The block can be used to squish enemies, block fire, fill in holes in the floor, etc.
+
+This is the first game using the homebrew MGNE engine, a collision + map system. The physics is a pseudo-3D system that allowed the top of the block to function as floor."
 };
 content["drh"] = {
     title: "Deep Realm Heroes",
@@ -59,7 +63,9 @@ content["divergence"] = {
         name: "alterego",
         link: "https://rpgmaker.net/users/alterego"
     }],
-    description: "Divergence is an exploration game pitting you against an abandoned laboratory and whatever secrets it may contain. Discover the nature of a terrible experiment, witness the result, and ultimately uncover the fate of the research team. Game length ranges from half an hour to over an hour to find all the secrets the facility has to offer. Featuring top-notch visuals, a unique world-shifting mechanic, and a compelling story.<br><br>The main gimmick of divergence is its shifting worlds mechanics, implemented with a unique shader that blends two maps based on the position of objects in Tiled maps."
+    description: "Divergence is an exploration game pitting you against an abandoned laboratory and whatever secrets it may contain. Discover the nature of a terrible experiment, witness the result, and ultimately uncover the fate of the research team. Game length ranges from half an hour to over an hour to find all the secrets the facility has to offer. Featuring top-notch visuals, a unique world-shifting mechanic, and a compelling story.
+
+The main gimmick of divergence is its shifting worlds mechanics, implemented with a unique shader that blends two maps based on the position of objects in Tiled maps."
 };
 content["gar"] = {
     title: "Golden Age: Endless Dungeon",
@@ -83,7 +89,9 @@ content["guild"] = {
         name: "bob_esc (sprites)",
         link: "https://twitter.com/qlu_zak"
     }],
-    description: "Join Malu, Gordon, and others on a mission to find the 77 magi hidden in the Magischolar's Guild. Sixteen adventurers have been commissioned to bring the magi, relics of the ancient sages, back to the great sage Aven. Malu's party must evade traps, monsters, and rival characters to make their way through the labyrinth.<br><br>Game features decent battles and maps, but most of the emphasis is on character interaction and writing."
+    description: "Join Malu, Gordon, and others on a mission to find the 77 magi hidden in the Magischolar's Guild. Sixteen adventurers have been commissioned to bring the magi, relics of the ancient sages, back to the great sage Aven. Malu's party must evade traps, monsters, and rival characters to make their way through the labyrinth.
+
+Game features decent battles and maps, but most of the emphasis is on character interaction and writing."
 };
 content["loap"] = {
     title: "Lament of a Pactkeeper",
@@ -108,7 +116,9 @@ content["mbf"] = {
         name: "bob_esc",
         link: "https://twitter.com/qlu_zak"
     }],
-    description: "Man's Best Friend an exploration-based game following Miles as he tracks down his pet dog Doc. There are no battles, and all gameplay is through NPC interaction and solving puzzles in the areas around Waldsberg.<br><br>The main attractions for this game are its maps, cast of chatty characters, and variety of Myst-like puzzles."
+    description: "Man's Best Friend an exploration-based game following Miles as he tracks down his pet dog Doc. There are no battles, and all gameplay is through NPC interaction and solving puzzles in the areas around Waldsberg.
+
+The main attractions for this game are its maps, cast of chatty characters, and variety of Myst-like puzzles."
 };
 content["hallowombat"] = {
     title: "Trick, Treat or Die",
@@ -133,7 +143,9 @@ content["saga4"] = {
         name: "bob_esc (tiles)",
         link: "https://twitter.com/qlu_zak"
     }],
-    description: "SaGa4 is an unofficial spiritual successor to the gameboy SaGa RPGs, aka Final Fantasy Legend. It features old-school combat mechanics and visuals faithful to the gaming heyday of 1989.<br><br>While SaGa4 has a lot of interesting tech features (Gameboy audio emulator, battle animation shaders, menu system, json database editor), it's probably most notable for its Lua interpreter that allows scripting from Tiled maps to be developed separately from the engine."
+    description: "SaGa4 is an unofficial spiritual successor to the gameboy SaGa RPGs, aka Final Fantasy Legend. It features old-school combat mechanics and visuals faithful to the gaming heyday of 1989.
+
+While SaGa4 has a lot of interesting tech features (Gameboy audio emulator, battle animation shaders, menu system, json database editor), it's probably most notable for its Lua interpreter that allows scripting from Tiled maps to be developed separately from the engine."
 };
 content["sk"] = {
     title: "Steel Knights",
@@ -191,7 +203,9 @@ content["lcpanes"] = {
     link: "https://rpgmaker.net/games/2277/",
     tech: "Javascript/HTML5",
     img: "lcpanes.png",
-    description: "Interactive fiction centering around an escape-the-room scenario. Four occupants must escape by sharing information via their four linked computers -- but beware a traitor...<br><br>A bit of a cult classic writing piece. Got a fair bit of notice on its release and still holds up decently today."
+    description: "Interactive fiction centering around an escape-the-room scenario. Four occupants must escape by sharing information via their four linked computers -- but beware a traitor...
+
+A bit of a cult classic writing piece. Got a fair bit of notice on its release and still holds up decently today."
 };
 content["swallow"] = {
     title: "The Swallow's Descent",
@@ -204,7 +218,9 @@ content["swallow"] = {
         name: "mjshi (sprites)",
         link: "http://mjshi.weebly.com/"
     }],
-    description: "A murder mystery adventure game. Set somewhere between Final Fantasy and Scandinavia, the plot follows secret-agent-in-disguise William as he tries to solve the ambassador's murder before it sparks an international conflict.<br><br>Text and character heavy, it's a classic whodunnit, alternating between find-the-clue exploration and accuse-the-perp excoriation. Currently the only VN with a 5-star rating on RPGmaker Network."
+    description: "A murder mystery adventure game. Set somewhere between Final Fantasy and Scandinavia, the plot follows secret-agent-in-disguise William as he tries to solve the ambassador's murder before it sparks an international conflict.
+
+Text and character heavy, it's a classic whodunnit, alternating between find-the-clue exploration and accuse-the-perp excoriation. Currently the only VN with a 5-star rating on RPGmaker Network."
 };
 content["zs"] = {
     title: "Zephyr Skies",

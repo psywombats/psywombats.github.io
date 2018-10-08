@@ -26,7 +26,7 @@ var ContentCell = function (_React$Component) {
       if (this.props.content.partners) {
         partnerBlock = React.createElement(
           "div",
-          { "class": "partner" },
+          { className: "partner" },
           React.createElement(
             "dt",
             null,
@@ -35,10 +35,10 @@ var ContentCell = function (_React$Component) {
           React.createElement(
             "dd",
             null,
-            this.props.content.partners.map(function (partner) {
+            this.props.content.partners.map(function (partner, key) {
               return React.createElement(
                 "a",
-                { "class": "partner", href: partner.link },
+                { className: "partner", key: key, href: partner.link },
                 partner.name
               );
             })
@@ -48,7 +48,7 @@ var ContentCell = function (_React$Component) {
       if (this.props.content.role) {
         roleBlock = React.createElement(
           "div",
-          { "class": "role" },
+          { className: "role" },
           React.createElement(
             "dt",
             null,
@@ -70,7 +70,7 @@ var ContentCell = function (_React$Component) {
       } else {
         var src = "https://www.youtube.com/embed/" + this.props.content.youtube + "&origin=http://www.wombatrpgs.net";
         imgBlock = React.createElement("iframe", {
-          "class": "ytplayer",
+          className: "ytplayer",
           type: "text/html",
           width: "480",
           height: "270",
@@ -79,13 +79,13 @@ var ContentCell = function (_React$Component) {
       }
       return React.createElement(
         "div",
-        { "class": "gameCell" },
+        { className: "gameCell" },
         React.createElement(
           "div",
-          { "class": "infoColumn" },
+          { className: "infoColumn" },
           React.createElement(
             "div",
-            { "class": "title" },
+            { className: "title" },
             React.createElement(
               "a",
               { href: this.props.content.link },
@@ -94,7 +94,7 @@ var ContentCell = function (_React$Component) {
           ),
           React.createElement(
             "dl",
-            { "class": "gameDetail" },
+            { className: "gameDetail" },
             React.createElement(
               "dt",
               null,
@@ -120,13 +120,20 @@ var ContentCell = function (_React$Component) {
           ),
           React.createElement(
             "div",
-            { "class": "description" },
-            this.props.content.description
+            { className: "description" },
+            this.props.content.description.split('\n').map(function (item, key) {
+              return React.createElement(
+                "span",
+                { key: key },
+                item,
+                React.createElement("br", null)
+              );
+            })
           )
         ),
         React.createElement(
           "div",
-          { "class": "imageColumn" },
+          { className: "imageColumn" },
           imgBlock
         )
       );
@@ -148,15 +155,15 @@ var ContentTable = function (_React$Component2) {
   _createClass(ContentTable, [{
     key: "render",
     value: function render() {
-      var selectedKeys = ["drh", "blockbound", "drh2"];
+      var selectedKeys = ["drh", "blockbound", "drh2", "saga"];
       var selected = selectedKeys.map(function (key) {
         return content[key];
       });
       return React.createElement(
         "div",
-        { "class": "contentTable" },
-        selected.map(function (item) {
-          return React.createElement(ContentCell, { content: item });
+        { className: "contentTable" },
+        selected.map(function (item, key) {
+          return React.createElement(ContentCell, { content: item, key: key });
         })
       );
     }
