@@ -25,29 +25,29 @@ dd {
 
 .contentTable {
     display: block;
-    width: 980px;
+    width: 820px;
     margin: 0 auto;
     padding: 0 0 60px 0;
 }
 
 .gameCell {
     display: block;
-    width: 100%
-    margin-bottom: 40px;
+    width: 100%;
+    padding-bottom: 40px;
 }
 
 .title {
     position: relative;
-    height: 80px;
+    padding-bottom: 12px;
     font-size: 14px;
 }
 
-.imageDiv {
+.infoColumn {
     float: left;
-    width: 480px;
+    width: 320px;
 }
 
-.gameDetail {
+.imageColumn {
     float: right;
     width: 480px;
 }

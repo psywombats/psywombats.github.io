@@ -65,21 +65,16 @@ var ContentCell = function (_React$Component) {
 				{ "class": "gameCell" },
 				React.createElement(
 					"div",
-					{ "class": "title" },
+					{ "class": "infoColumn" },
 					React.createElement(
-						"a",
-						{ href: this.props.content.link },
-						this.props.content.title
-					)
-				),
-				React.createElement(
-					"div",
-					{ "class": "imageDiv" },
-					React.createElement("img", { src: 'img/' + this.props.content.img })
-				),
-				React.createElement(
-					"div",
-					{ "class": "rightColumn" },
+						"div",
+						{ "class": "title" },
+						React.createElement(
+							"a",
+							{ href: this.props.content.link },
+							this.props.content.title
+						)
+					),
 					React.createElement(
 						"dl",
 						{ "class": "gameDetail" },
@@ -121,6 +116,11 @@ var ContentCell = function (_React$Component) {
 						{ "class": "description" },
 						this.props.content.description
 					)
+				),
+				React.createElement(
+					"div",
+					{ "class": "imageColumn" },
+					React.createElement("img", { src: 'img/' + this.props.content.img })
 				)
 			);
 		}

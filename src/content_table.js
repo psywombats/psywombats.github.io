@@ -26,13 +26,10 @@ class ContentCell extends React.Component {
 		}
 		return (
 			<div class='gameCell'>
-                <div class='title'>
-					<a href={this.props.content.link}>{this.props.content.title}</a>
-				</div>
-				<div class='imageDiv'>
-					<img src={'img/' + this.props.content.img} />
-				</div>
-                <div class='rightColumn'>
+                <div class='infoColumn'>
+					<div class='title'>
+						<a href={this.props.content.link}>{this.props.content.title}</a>
+					</div>
                     <dl class='gameDetail'>
                         <dt>Date:</dt>
                         <dd>{this.props.content.date}</dd>
@@ -47,6 +44,9 @@ class ContentCell extends React.Component {
                         {this.props.content.description}
                     </div>
                 </div>
+				<div class='imageColumn'>
+					<img src={'img/' + this.props.content.img} />
+				</div>
 			</div>
 		);
 	}
