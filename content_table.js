@@ -155,7 +155,7 @@ var ContentTable = function (_React$Component2) {
   _createClass(ContentTable, [{
     key: "render",
     value: function render() {
-      var selectedKeys = ["drh", "blockbound", "drh2", "saga"];
+      var selectedKeys = ["drh", "blockbound", "drh2", "saga4"];
       var selected = selectedKeys.map(function (key) {
         return content[key];
       });

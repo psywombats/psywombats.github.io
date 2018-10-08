@@ -76,7 +76,7 @@ class ContentCell extends React.Component {
 
 class ContentTable extends React.Component {
     render() {
-    	const selectedKeys = ["drh", "blockbound", "drh2", "saga"];
+    	const selectedKeys = ["drh", "blockbound", "drh2", "saga4"];
     	const selected = selectedKeys.map(key => (content[key]));
         return (
         	<div className='contentTable'>
