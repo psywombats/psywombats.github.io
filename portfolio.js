@@ -151,7 +151,7 @@ var ContentTable = function (_React$Component2) {
 
         var _this2 = _possibleConstructorReturn(this, (ContentTable.__proto__ || Object.getPrototypeOf(ContentTable)).call(this, props));
 
-        _this2.state.gameSet = pageContent.links[0].games;
+        _this2.state = { gameSet: pageContent.links[0].games };
         return _this2;
     }
 
@@ -184,7 +184,7 @@ var Header = function (_React$Component3) {
 
         var _this3 = _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).call(this, props));
 
-        _this3.state.pageContent = pageContent;
+        _this3.state = { pageContent: pageContent };
         _this3.reloadGames = _this3.reloadGames.bind(_this3);
         return _this3;
     }

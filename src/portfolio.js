@@ -77,7 +77,7 @@ class ContentCell extends React.Component {
 class ContentTable extends React.Component {
     constructor(props) {
         super(props);
-        this.state.gameSet = pageContent.links[0].games;
+        this.state = { gameSet: pageContent.links[0].games };
     }
 
     render() {
@@ -95,7 +95,7 @@ class ContentTable extends React.Component {
 class Header extends React.Component {
     constructor(props) {
         super(props);
-        this.state.pageContent = pageContent;
+        this.state = { pageContent: pageContent};
         this.reloadGames = this.reloadGames.bind(this);
     }
 
