@@ -196,6 +196,8 @@ var Header = function (_React$Component3) {
     _createClass(Header, [{
         key: "render",
         value: function render() {
+            var _this4 = this;
+
             var divStyle = {
                 backgroundImage: 'url(' + this.state.pageContent.image + ')'
             };
@@ -225,7 +227,7 @@ var Header = function (_React$Component3) {
                             null,
                             React.createElement(
                                 "a",
-                                { onClick: reloadGames(link.games) },
+                                { onClick: _this4.reloadGames(link.games) },
                                 link.title
                             )
                         );
@@ -236,10 +238,10 @@ var Header = function (_React$Component3) {
     }, {
         key: "reloadGames",
         value: function reloadGames(games) {
-            var _this4 = this;
+            var _this5 = this;
 
             return function (clickEvent) {
-                _this4.props.contentTable.state.gameSet = games;
+                _this5.props.contentTable.state.gameSet = games;
             };
         }
     }]);
@@ -253,11 +255,11 @@ var Portfolio = function (_React$Component4) {
     function Portfolio(props) {
         _classCallCheck(this, Portfolio);
 
-        var _this5 = _possibleConstructorReturn(this, (Portfolio.__proto__ || Object.getPrototypeOf(Portfolio)).call(this, props));
+        var _this6 = _possibleConstructorReturn(this, (Portfolio.__proto__ || Object.getPrototypeOf(Portfolio)).call(this, props));
 
-        _this5.contentTable = React.createElement(ContentTable, null);
-        _this5.header = React.createElement(Header, { contentTable: _this5.contentTable });
-        return _this5;
+        _this6.contentTable = React.createElement(ContentTable, null);
+        _this6.header = React.createElement(Header, { contentTable: _this6.contentTable });
+        return _this6;
     }
 
     _createClass(Portfolio, [{

@@ -116,7 +116,7 @@ class Header extends React.Component {
                 <ul className='navbar'>
                     {this.state.pageContent.links.map((link, key) => (
                         <li>
-                            <a onClick={reloadGames(link.games)}>{link.title}</a>
+                            <a onClick={this.reloadGames(link.games)}>{link.title}</a>
                         </li>
                     ))}
                 </ul>
