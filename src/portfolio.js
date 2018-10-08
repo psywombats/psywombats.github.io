@@ -143,7 +143,7 @@ class Portfolio extends React.Component {
             />
             <ContentTable 
             	selectedTab={this.state.selectedTab}
-            	headerImage={this.pageContent.header.image}
+            	headerImage={this.state.pageContent.header.image}
             />
         </div>);
     }
