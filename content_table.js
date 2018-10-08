@@ -68,14 +68,14 @@ var ContentCell = function (_React$Component) {
           React.createElement("img", { src: 'img/' + this.props.content.img })
         );
       } else {
-        var src = "https://www.youtube.com/embed/" + this.props.content.youtube + "&origin=http://www.wombatrpgs.net";
+        var src = "https://www.youtube.com/embed/" + this.props.content.youtube + "?" + +"origin=http://www.wombatrpgs.net";
         imgBlock = React.createElement("iframe", {
-          className: "ytplayer",
+          id: "ytplayer",
           type: "text/html",
           width: "480",
           height: "270",
           src: src,
-          frameborder: "0" });
+          frameBorder: "0" });
       }
       return React.createElement(
         "div",

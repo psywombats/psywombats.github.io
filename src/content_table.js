@@ -33,16 +33,16 @@ class ContentCell extends React.Component {
             );
         } else {
             const src = "https://www.youtube.com/embed/"
-                    + this.props.content.youtube 
-                    + "&origin=http://www.wombatrpgs.net";
+                    + this.props.content.youtube + "?" +
+                    + "origin=http://www.wombatrpgs.net";
             imgBlock = (
                 <iframe 
-                    className="ytplayer"
+                    id="ytplayer"
                     type="text/html"
                     width="480"
                     height="270"
                     src={src}
-                    frameborder="0">
+                    frameBorder="0">
                 </iframe>
             );
         }
