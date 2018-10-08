@@ -26,25 +26,27 @@ class ContentCell extends React.Component {
 		}
 		return (
 			<div class='gameCell'>
+                <div class='title'>
+					<a href={this.props.content.link}>{this.props.content.title}</a>
+				</div>
 				<div class='imageDiv'>
 					<img src={'img/' + this.props.content.img} />
 				</div>
-				<div class='title'>
-					<a href={this.props.content.link}>{this.props.content.title}</a>
-				</div>
-				<dl class='gameDetail'>
-					<dt>Date:</dt>
-					<dd>{this.props.content.date}</dd>
-					<dt>Tech:</dt>
-					<dd>{this.props.content.tech}</dd>
-					<dt>Date:</dt>
-					<dd>{this.props.content.date}</dd>
-					{partnerBlock}
-					{roleBlock}
-				</dl>
-				<div class='description'>
-					{this.props.content.description}
-				</div>
+                <div class='rightColumn'>
+                    <dl class='gameDetail'>
+                        <dt>Date:</dt>
+                        <dd>{this.props.content.date}</dd>
+                        <dt>Tech:</dt>
+                        <dd>{this.props.content.tech}</dd>
+                        <dt>Date:</dt>
+                        <dd>{this.props.content.date}</dd>
+                        {partnerBlock}
+                        {roleBlock}
+                    </dl>
+                    <div class='description'>
+                        {this.props.content.description}
+                    </div>
+                </div>
 			</div>
 		);
 	}
@@ -52,7 +54,7 @@ class ContentCell extends React.Component {
 
 class ContentTable extends React.Component {
     render() {
-    	const selectedKeys = ["pri", "pri"];
+    	const selectedKeys = ["drh", "blockbound", "drh2"];
     	const selected = selectedKeys.map(key => (content[key]));
         return (
         	<div class='contentTable'>

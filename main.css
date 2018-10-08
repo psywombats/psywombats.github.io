@@ -1,0 +1,58 @@
+body {
+    color: #ffffff;
+    font-size: 11px;
+    font-family: Arial, "Helvetica", sans-serif;
+    line-height: 20px;
+    background-color: #000000;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+dl {
+    width: 100%;
+}
+
+dt {
+    float: left;
+}
+
+dd {
+    text-align: right;
+}
+
+.contentTable {
+    display: block;
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 0 60px 0;
+}
+
+.gameCell {
+    display: block;
+    width: 100%
+    margin-bottom: 40px;
+}
+
+.title {
+    position: relative;
+    height: 80px;
+    font-size: 14px;
+}
+
+.imageDiv {
+    float: left;
+    width: 480px;
+}
+
+.gameDetail {
+    float: right;
+    width: 480px;
+}
+
+.description {
+    clear: both;
+    width: 100%;
+}
