@@ -75,7 +75,7 @@ class ContentCell extends React.Component {
 }
 
 class ContentTable extends React.Component {
-    construct(props) {
+    constructor(props) {
         super(props);
         this.state.gameSet = pageContent.links[0].games;
     }
@@ -93,7 +93,7 @@ class ContentTable extends React.Component {
 'use strict';
 
 class Header extends React.Component {
-    construct(props) {
+    constructor(props) {
         super(props);
         this.state.pageContent = pageContent;
         this.reloadGames = this.reloadGames.bind(this);
@@ -116,7 +116,7 @@ class Header extends React.Component {
                         <li>
                             <a onClick={reloadGames(link.games)}>{link.title}</a>
                         </li>
-                    )}
+                    ))}
                 </ul>
             </div>
 		);
@@ -130,7 +130,7 @@ class Header extends React.Component {
 }
 
 class Portfolio extends React.Component {
-    construct(props) {
+    constructor(props) {
         super(props);
         this.contentTable = (<ContentTable />);
         this.header = (<ContentTable contentTable={this.contentTable}/>);
