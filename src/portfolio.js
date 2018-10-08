@@ -103,7 +103,7 @@ class Header extends React.Component {
 
 	render() {
         const divStyle = {
-            backgroundImage: 'url(' + this.state.pageContent.image + ')',
+            backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.state.pageContent.image + ')',
         };
 		return (
 			<div className='header'>
@@ -115,8 +115,8 @@ class Header extends React.Component {
                 </div>
                 <ul className='navbar'>
                     {this.state.pageContent.links.map((link, key) => (
-                        <li>
-                            <a onClick={this.reloadGames(link.games)}>{link.title}</a>
+                        <li key={key}>
+                            <a onClick={this.reloadGames(link.games)} href='#'>{link.title}</a>
                         </li>
                     ))}
                 </ul>
@@ -126,7 +126,7 @@ class Header extends React.Component {
     
     reloadGames(games) {
         return (clickEvent) => {
-            this.props.contentTable.state.gameSet = games;
+            this.props.contentTable.setState({ gameSet: games });
         }
     }
 }

@@ -199,7 +199,7 @@ var Header = function (_React$Component3) {
             var _this4 = this;
 
             var divStyle = {
-                backgroundImage: 'url(' + this.state.pageContent.image + ')'
+                backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.state.pageContent.image + ')'
             };
             return React.createElement(
                 "div",
@@ -224,10 +224,10 @@ var Header = function (_React$Component3) {
                     this.state.pageContent.links.map(function (link, key) {
                         return React.createElement(
                             "li",
-                            null,
+                            { key: key },
                             React.createElement(
                                 "a",
-                                { onClick: _this4.reloadGames(link.games) },
+                                { onClick: _this4.reloadGames(link.games), href: "#" },
                                 link.title
                             )
                         );
@@ -241,7 +241,7 @@ var Header = function (_React$Component3) {
             var _this5 = this;
 
             return function (clickEvent) {
-                _this5.props.contentTable.state.gameSet = games;
+                _this5.props.contentTable.setState({ gameSet: games });
             };
         }
     }]);
