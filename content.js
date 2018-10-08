@@ -26,7 +26,7 @@ content.header.indie.links = [{
         games: ["saga4", "divergence", "erebus", "lcpanes", "zs2", "gar", "sk"],
     }, {
         title: "TECHNICAL",
-        games: ["mgne", "terra_nova", "blockbound", "drh", "drh2", "hallowombat", "rainfall", "skirmisher", "loap"]
+        games: ["mgne", "drh", "drh2", "terra_nova", "blockbound", "hallowombat", "rainfall", "skirmisher", "loap"]
     }, {
         title: "CREATIVE",
         games: ["swallow", "doomsday", "guild", "mbf", "pri", "zs", "wal", "cbrogue"]

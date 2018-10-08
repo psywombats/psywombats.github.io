@@ -27,13 +27,13 @@ dd {
 }
 
 h1 {
-    color: #000000
+    color: #000000;
     text-indent: -9999px;
 }
 
 .header li {
     float: left;
-    padding-left: 30px;
+    padding-right: 50px;
     list-style: none;
 }
 
