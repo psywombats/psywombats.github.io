@@ -63,10 +63,13 @@ dd {
 .imageColumn img {
     width: 480px;
     object-fit: cover;
-    height: 100%;
 }
 
 .description {
     clear: both;
     width: 100%;
+}
+
+.partner {
+	margin-left: 10px;
 }

@@ -99,7 +99,7 @@ content.gar = {
     date: "2011",
     link: "http://www.roguebasin.com/index.php?title=Golden_Age:_Endless_Dungeon",
     tech: "Java applet, Facebook",
-    img: "gaed.png",
+    img: "gar.png",
     partners: [{
         name: "Enker (art)",
         link: "http://www.cascadestudios.co.uk/"

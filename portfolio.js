@@ -252,7 +252,7 @@ var Portfolio = function (_React$Component4) {
         var _this5 = _possibleConstructorReturn(this, (Portfolio.__proto__ || Object.getPrototypeOf(Portfolio)).call(this, props));
 
         _this5.contentTable = React.createElement(ContentTable, null);
-        _this5.header = React.createElement(ContentTable, { contentTable: _this5.contentTable });
+        _this5.header = React.createElement(Header, { contentTable: _this5.contentTable });
         return _this5;
     }
 

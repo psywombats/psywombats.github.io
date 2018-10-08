@@ -133,7 +133,7 @@ class Portfolio extends React.Component {
     constructor(props) {
         super(props);
         this.contentTable = (<ContentTable />);
-        this.header = (<ContentTable contentTable={this.contentTable}/>);
+        this.header = (<Header contentTable={this.contentTable}/>);
     }
 
     render() {
