@@ -193,7 +193,7 @@ var Header = function (_React$Component3) {
       var _this4 = this;
 
       var divStyle = {
-        backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.pageContent.image + ')'
+        backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.headerImage + ')'
       };
       return React.createElement(
         "div",
@@ -265,8 +265,14 @@ var Portfolio = function (_React$Component4) {
       return React.createElement(
         "div",
         { className: "body" },
-        React.createElement(Header, { selectedTab: this.state.selectedTab, reloader: this.changeTab }),
-        React.createElement(ContentTable, { pageContent: this.state.pageContent })
+        React.createElement(Header, {
+          selectedTab: this.state.selectedTab,
+          reloader: this.changeTab
+        }),
+        React.createElement(ContentTable, {
+          selectedTab: this.state.selectedTab,
+          headerImage: this.pageContent.header.image
+        })
       );
     }
   }, {

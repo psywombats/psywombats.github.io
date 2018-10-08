@@ -95,7 +95,7 @@ class Header extends React.Component {
 
 	render() {
         const divStyle = {
-            backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.pageContent.image + ')',
+            backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.headerImage + ')',
         };
 		return (
 			<div className='header'>
@@ -137,8 +137,14 @@ class Portfolio extends React.Component {
 
     render() {
         return (<div className='body'>
-            <Header selectedTab={this.state.selectedTab} reloader={this.changeTab} />
-            <ContentTable pageContent={this.state.pageContent} />
+            <Header
+            	selectedTab={this.state.selectedTab}
+            	reloader={this.changeTab}
+            />
+            <ContentTable 
+            	selectedTab={this.state.selectedTab}
+            	headerImage={this.pageContent.header.image}
+            />
         </div>);
     }
     
