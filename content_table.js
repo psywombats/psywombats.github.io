@@ -65,11 +65,6 @@ var ContentCell = function (_React$Component) {
 				{ "class": "gameCell" },
 				React.createElement(
 					"div",
-					{ "class": "imageDiv" },
-					React.createElement("img", { src: 'img/' + this.props.content.img })
-				),
-				React.createElement(
-					"div",
 					{ "class": "title" },
 					React.createElement(
 						"a",
@@ -78,45 +73,54 @@ var ContentCell = function (_React$Component) {
 					)
 				),
 				React.createElement(
-					"dl",
-					{ "class": "gameDetail" },
-					React.createElement(
-						"dt",
-						null,
-						"Date:"
-					),
-					React.createElement(
-						"dd",
-						null,
-						this.props.content.date
-					),
-					React.createElement(
-						"dt",
-						null,
-						"Tech:"
-					),
-					React.createElement(
-						"dd",
-						null,
-						this.props.content.tech
-					),
-					React.createElement(
-						"dt",
-						null,
-						"Date:"
-					),
-					React.createElement(
-						"dd",
-						null,
-						this.props.content.date
-					),
-					partnerBlock,
-					roleBlock
+					"div",
+					{ "class": "imageDiv" },
+					React.createElement("img", { src: 'img/' + this.props.content.img })
 				),
 				React.createElement(
 					"div",
-					{ "class": "description" },
-					this.props.content.description
+					{ "class": "rightColumn" },
+					React.createElement(
+						"dl",
+						{ "class": "gameDetail" },
+						React.createElement(
+							"dt",
+							null,
+							"Date:"
+						),
+						React.createElement(
+							"dd",
+							null,
+							this.props.content.date
+						),
+						React.createElement(
+							"dt",
+							null,
+							"Tech:"
+						),
+						React.createElement(
+							"dd",
+							null,
+							this.props.content.tech
+						),
+						React.createElement(
+							"dt",
+							null,
+							"Date:"
+						),
+						React.createElement(
+							"dd",
+							null,
+							this.props.content.date
+						),
+						partnerBlock,
+						roleBlock
+					),
+					React.createElement(
+						"div",
+						{ "class": "description" },
+						this.props.content.description
+					)
 				)
 			);
 		}
@@ -137,7 +141,7 @@ var ContentTable = function (_React$Component2) {
 	_createClass(ContentTable, [{
 		key: "render",
 		value: function render() {
-			var selectedKeys = ["pri", "pri"];
+			var selectedKeys = ["drh", "blockbound", "drh2"];
 			var selected = selectedKeys.map(function (key) {
 				return content[key];
 			});
