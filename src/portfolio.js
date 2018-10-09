@@ -91,14 +91,25 @@ class Navbar extends React.Component {
     constructor(props) {
 		super(props);
 		this.switchTab = this.switchTab.bind(this);
-        this.elementForKey = this.elementForKey.bind(this);
 	}
 
     render() {
         return (<ul className='navbar'>
-            {this.props.header.links.map((link, key) => (
-                this.elementForLink(link, key);
-            ))}
+            {this.props.header.links.map((link, key) => {
+        		if (link.link) {
+                    return (<li key={key}>
+                        <a href={link.link}>
+                            {">"+link.title}
+                        </a>
+                    </li>);
+                } else {
+                    return (<li key={key}>
+                        <a onClick={this.switchTab(link)} href='#'>
+                            {">"+link.title}
+                        </a>
+                    </li>);
+                }
+            })}
         </ul>);
     }
     
@@ -107,22 +118,6 @@ class Navbar extends React.Component {
 			this.props.reloader(tab);
 		}
 	}
-    
-    elementForLink(link, key) {
-        if (link.link) {
-            return (<li key={key}>
-                <a href={link.link}>
-                    {">"+link.title}
-                </a>
-            </li>);
-        } else {
-            return (<li key={key}>
-                <a onClick={this.switchTab(link)} href='#'>
-                    {">"+link.title}
-                </a>
-            </li>);
-        }
-    }
 }
 
 class Header extends React.Component {
