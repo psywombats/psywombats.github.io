@@ -252,7 +252,7 @@ var Header = function (_React$Component4) {
         value: function render() {
             var divStyle = {
                 backgroundImage: "url(http://www.wombatrpgs.net/img/" + this.props.header.image + ")",
-                backgroundReapt: "no-repeat"
+                backgroundRepeat: "no-repeat"
             };
             return React.createElement(
                 "div",

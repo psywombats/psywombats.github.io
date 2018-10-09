@@ -128,7 +128,7 @@ class Header extends React.Component {
 	render() {
         const divStyle = {
             backgroundImage: "url(http://www.wombatrpgs.net/img/" + this.props.header.image + ")",
-            backgroundReapt: "no-repeat"
+            backgroundRepeat: "no-repeat"
         };
 		return (
 			<div className='header'>
