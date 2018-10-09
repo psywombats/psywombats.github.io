@@ -170,7 +170,7 @@ var ContentTable = function (_React$Component2) {
                 }),
                 React.createElement(Navbar, {
                     reloader: this.changeTab,
-                    header: this.props.pageContent
+                    header: this.props.header
                 })
             );
         }
