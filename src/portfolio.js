@@ -82,6 +82,10 @@ class ContentTable extends React.Component {
         return (
         	<div className='contentTable'>
             	{selected.map((item, key) => <ContentCell content={item} key={key}/>)}
+            	<Navbar
+                    reloader={this.changeTab}
+                    header={this.state.pageContent}
+                />
             </div>
          );
     }
@@ -123,7 +127,9 @@ class Navbar extends React.Component {
 class Header extends React.Component {
 	render() {
         const divStyle = {
-            backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.header.image +  + ') no-repeat left top',
+            backgroundImage: 'url(http://www.wombatrpgs.net/img/'
+            		+ this.props.header.image
+            		+ ') no-repeat left top',
         };
 		return (
 			<div className='header'>
@@ -159,11 +165,9 @@ class Portfolio extends React.Component {
             	header={this.state.pageContent}
             />
             <ContentTable 
-            	selectedTab={this.state.selectedTab}
-            />
-            <Navbar
-            	reloader={this.changeTab}
-            	header={this.state.pageContent}
+                selectedTab={this.state.selectedTab}
+                reloader={this.changeTab}
+                header={this.state.pageContent}
             />
         </div>);
     }

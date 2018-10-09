@@ -167,6 +167,10 @@ var ContentTable = function (_React$Component2) {
                 { className: "contentTable" },
                 selected.map(function (item, key) {
                     return React.createElement(ContentCell, { content: item, key: key });
+                }),
+                React.createElement(Navbar, {
+                    reloader: this.changeTab,
+                    header: this.state.pageContent
                 })
             );
         }
@@ -247,7 +251,7 @@ var Header = function (_React$Component4) {
         key: "render",
         value: function render() {
             var divStyle = {
-                backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.header.image + +') no-repeat left top'
+                backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.header.image + ') no-repeat left top'
             };
             return React.createElement(
                 "div",
@@ -304,9 +308,7 @@ var Portfolio = function (_React$Component5) {
                     header: this.state.pageContent
                 }),
                 React.createElement(ContentTable, {
-                    selectedTab: this.state.selectedTab
-                }),
-                React.createElement(Navbar, {
+                    selectedTab: this.state.selectedTab,
                     reloader: this.changeTab,
                     header: this.state.pageContent
                 })
