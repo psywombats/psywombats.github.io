@@ -84,7 +84,7 @@ class ContentTable extends React.Component {
             	{selected.map((item, key) => <ContentCell content={item} key={key}/>)}
             	<Navbar
                     reloader={this.changeTab}
-                    header={this.state.pageContent}
+                    header={this.props.pageContent}
                 />
             </div>
          );
