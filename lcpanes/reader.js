@@ -13,7 +13,7 @@ function setBookmarkAtScene(number) {
 	var tempScenes = rawScenes[number].split('\n');
     sceneLines = [];
     for (line in tempScenes) {
-        if (sceneLine && sceneLine.length > 0) {
+        if (line && line.length > 0) {
             sceneLines.push(line);
         }
     }
