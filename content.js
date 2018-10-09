@@ -16,10 +16,10 @@ content.header.pro.links = [{
         games: ["doomsday", "lcpanes", "swallow", "pri"]
     }, {
         title: "TWITTER",
-        link: "http://www.twitter.com/psywombats"
+        external: "http://www.twitter.com/psywombats"
     }, {
         title: "LINKEDIN",
-        link: "https://www.linkedin.com/in/aking0/"
+        external: "https://www.linkedin.com/in/aking0/"
     }
 ]
 
@@ -30,12 +30,12 @@ content.header.indie.subtitle = "coder / writer";
 content.header.indie.links = [{
         title: "FULL PROJECTS",
         games: ["saga4", "divergence", "erebus", "lcpanes", "zs2", "gar", "sk"],
+    },{
+        title: "CREATIVE",
+        games: ["swallow", "doomsday", "guild", "mbf", "pri", "zs", "wal", "cbrogue"]
     }, {
         title: "TECHNICAL",
         games: ["mgne", "drh", "drh2", "terra_nova", "blockbound", "hallowombat", "rainfall", "skirmisher", "loap"]
-    }, {
-        title: "CREATIVE",
-        games: ["swallow", "doomsday", "guild", "mbf", "pri", "zs", "wal", "cbrogue"]
     }, {
         title: "TWITTER",
         link: "http://www.twitter.com/psywombats"
@@ -125,7 +125,7 @@ content.guild = {
     tech: "RPGmaker 2000",
     img: "guild.png",
     partners: [{
-        name: "bob_esc (sprites)",
+        name: "bob_esc",
         link: "https://twitter.com/qlu_zak"
     }],
     description: "Join Malu, Gordon, and others on a mission to find the 77 magi hidden in the Magischolar's Guild. Sixteen adventurers have been commissioned to bring the magi, relics of the ancient sages, back to the great sage Aven. Malu's party must evade traps, monsters, and rival characters to make their way through the labyrinth.\n\nGame features decent battles and maps, but most of the emphasis is on character interaction and writing."
@@ -210,7 +210,7 @@ content.doomsday = {
         link: "https://twitter.com/@shinyjiggly"
     }, {
         name: "pianotm",
-        link: "https://twitter.com/https://twitter.com/pianotm26"
+        link: "https://twitter.com/pianotm26"
     }, {
         name: "Sooz",
         link: "https://twitter.com/itsasooz"

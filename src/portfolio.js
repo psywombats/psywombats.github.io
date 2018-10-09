@@ -96,9 +96,9 @@ class Navbar extends React.Component {
     render() {
         return (<ul className='navbar'>
             {this.props.header.links.map((link, key) => {
-        		if (link.link) {
+        		if (link.external) {
                     return (<li key={key}>
-                        <a href={link.link}>
+                        <a href={link.external}>
                             {">"+link.title}
                         </a>
                     </li>);
@@ -155,7 +155,6 @@ class Portfolio extends React.Component {
     render() {
         return (<div className='body'>
             <Header
-            	selectedTab={this.state.selectedTab}
             	reloader={this.changeTab}
             	header={this.state.pageContent}
             />
@@ -163,8 +162,8 @@ class Portfolio extends React.Component {
             	selectedTab={this.state.selectedTab}
             />
             <Navbar
-                selectedTab={this.state.selectedTab}
             	reloader={this.changeTab}
+            	header={this.state.pageContent}
             />
         </div>);
     }

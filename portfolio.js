@@ -196,13 +196,13 @@ var Navbar = function (_React$Component3) {
                 "ul",
                 { className: "navbar" },
                 this.props.header.links.map(function (link, key) {
-                    if (link.link) {
+                    if (link.external) {
                         return React.createElement(
                             "li",
                             { key: key },
                             React.createElement(
                                 "a",
-                                { href: link.link },
+                                { href: link.external },
                                 ">" + link.title
                             )
                         );
@@ -300,7 +300,6 @@ var Portfolio = function (_React$Component5) {
                 "div",
                 { className: "body" },
                 React.createElement(Header, {
-                    selectedTab: this.state.selectedTab,
                     reloader: this.changeTab,
                     header: this.state.pageContent
                 }),
@@ -308,8 +307,8 @@ var Portfolio = function (_React$Component5) {
                     selectedTab: this.state.selectedTab
                 }),
                 React.createElement(Navbar, {
-                    selectedTab: this.state.selectedTab,
-                    reloader: this.changeTab
+                    reloader: this.changeTab,
+                    header: this.state.pageContent
                 })
             );
         }
