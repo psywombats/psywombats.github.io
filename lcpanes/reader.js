@@ -41,7 +41,7 @@ function nextAction() {
 		//if (next.indexOf("\r", next.length - 2) !== -1) {
 		//	next = next.concat("\r");
 		//}
-		if (next == "" || next.trim() == "") {
+		if (!next || next == "" || next.trim() == "") {
 			// this should clear the screen of characters etc
 			continue;
 		}
