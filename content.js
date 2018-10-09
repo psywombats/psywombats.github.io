@@ -7,13 +7,19 @@ content.header.pro.image = "header_pro.png"
 content.header.pro.subtitle = "software + game dev";
 content.header.pro.links = [{
         title: "PROFESSIONAL WORK",
-        games: ["words3", "wot", "cascade", "cw", "rainfall"]
+        games: ["words3", "wot", "cascade", "rainfall", "cw"]
     }, {
         title: "HOBBY (tech)",
         games: ["saga4", "erebus", "mgne", "divergence", "drh2", "zs2", "hallowombat", "skirmisher", "gar"]
     }, {
         title: "HOBBY (creative)",
         games: ["doomsday", "lcpanes", "swallow", "pri"]
+    }, {
+        title: "TWITTER",
+        link: "http://www.twitter.com/psywombats"
+    }, {
+        title: "LINKEDIN",
+        link: "https://www.linkedin.com/in/aking0/"
     }
 ]
 
@@ -30,6 +36,12 @@ content.header.indie.links = [{
     }, {
         title: "CREATIVE",
         games: ["swallow", "doomsday", "guild", "mbf", "pri", "zs", "wal", "cbrogue"]
+    }, {
+        title: "TWITTER",
+        link: "http://www.twitter.com/psywombats"
+    }, {
+        title: "BLOG",
+        link: "http://wombatlogic.tumblr.com/"
     }
 ]
 
@@ -320,7 +332,7 @@ content.rainfall = {
         name: "ghost (project lead)",
         link: "http://vibrantsea.tumblr.com/"
     }],
-    description: "Action RPG kickstart project. The basic battle systems, map loading, and animation systems were in place before the project was canceled in 2013."
+    description: "Action RPG kickstart project written in LibGDX. The basic battle systems, map loading, and animation systems were in place before the project was canceled by the project lead in 2013.\n\nTech-wise, featured a frame-by-frame animation hitbox creation tool, json-based data-driven editor, and Tiled maps."
 };
 content.skirmisher = {
     title: "ToME skirmisher",
@@ -333,7 +345,7 @@ content.skirmisher = {
         name: "sstrickl (co-programmer)",
         link: "https://github.com/sstrickl"
     }],
-    description: "Skirmisher class for the roguelike Tales of Maj'Eyal. Now part of the main codebase.<br><br>Written collaboratively in lua using the t-engine as a base."
+    description: "Skirmisher class for the roguelike Tales of Maj'Eyal. Now part of the main codebase.\n\nWritten collaboratively in lua using the t-engine as a base."
 };
 content.words3 = {
     title: "Words with Friends 2",
@@ -346,7 +358,7 @@ content.words3 = {
         name: "Zynga",
         link: "http://www.zynga.com/"
     }],
-    description: "Engineer working on frontend and underlying tech for the Words launch. Oversaw the development and rollout of the withfriends engine comprising a CoreData/SQL database, network stack, A/B testing support, and other utilities.<br><br>Post-launch, worked with design and prodcut to develop user-facing features like powerups and custom tiles, as well as providing live ops support addressing reports from CS and crashes from Crashlytics/bugsnag."
+    description: "Engineer working on frontend and underlying tech for the Words launch. Oversaw the development and rollout of the withfriends engine comprising a CoreData/SQL database, network stack, A/B testing support, and other utilities.\n\nPost-launch, worked with design and prodcut to develop user-facing features like powerups and custom tiles, as well as providing live ops support addressing reports from CS and crashes from Crashlytics/bugsnag."
 }
 content.wot = {
     title: "Words on Tour",
@@ -359,7 +371,7 @@ content.wot = {
         name: "Zynga",
         link: "http://www.zynga.com/"
     }],
-    description: "Frontend (iOS) engineer working to launch the word/puzzle game Words on Tour. Worked with game designers and artists on gameplay features like powerups and Facebook integration. Words on Tour used a Unity-based tool to position dialogs, enter game data, and design levels. Data was then exported to the cocos-based game engine.<br><br>Post-launch, rewrote the game's auth system to better support Facebook and multi-device logins. Also wrote the Facebook and Twitter integrations."
+    description: "Frontend (iOS) engineer working to launch the word/puzzle game Words on Tour. Worked with game designers and artists on gameplay features like powerups and Facebook integration. Words on Tour used a Unity-based tool to position dialogs, enter game data, and design levels. Data was then exported to the cocos-based game engine.\n\nPost-launch, rewrote the game's auth system to better support Facebook and multi-device logins. Also wrote the Facebook and Twitter integrations."
 }
 content.cascade = {
     title: "Cascade",
@@ -375,7 +387,7 @@ content.cascade = {
         name: "Big Fish Games",
         link: "http://www.bigfishgames.com/"
     }],
-    description: "iOS intern supporting the Cascade launch. Worked on both the C++ and ObjectiveC layers to integrate 3rd party libraries into the game, as well as solving miscellaneous bugs and implementing gameboard scrolling.<br><br>Worked closely with the small (6 member) dev team, the publisher (Big Fish), and vendors for 3rd party libraries."
+    description: "iOS intern supporting the Cascade launch. Worked on both the C++ and ObjectiveC layers to integrate 3rd party libraries into the game, as well as solving miscellaneous bugs and implementing gameboard scrolling.\n\nWorked closely with the small (6 member) dev team, the publisher (Big Fish), and vendors for 3rd party libraries."
 }
 content.cw = {
     title: "Chefville",
