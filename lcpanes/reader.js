@@ -14,6 +14,7 @@ function setBookmarkAtScene(number) {
     sceneLines = [];
     for (var i = 0; i < tempScenes.size; i += 1) {
         line = tempScenes[i];
+        line.replace('\r','');
         if (line && line.length > 0) {
             sceneLines.push(line);
         }
