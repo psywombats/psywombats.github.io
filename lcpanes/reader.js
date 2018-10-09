@@ -10,7 +10,13 @@ function readerInit(data) {
 }
 
 function setBookmarkAtScene(number) {
-	sceneLines = rawScenes[number].split('\n');
+	var tempScenes = rawScenes[number].split('\n');
+    sceneLines = [];
+    for (line in tempScenes) {
+        if (sceneLine && sceneLine.length > 0) {
+            sceneLines.push(line);
+        }
+    }
 	bookmark = 0;
 }
 
