@@ -1,0 +1,6 @@
+[s0020]
+[title Branch]
+
+[branch READ_FIRST_MESSAGES = 1]
+[true :: s0030]
+[false :: s0032]

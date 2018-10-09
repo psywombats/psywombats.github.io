@@ -1,0 +1,12 @@
+[s0004]
+[title The Bookshelf]
+
+All the covers are cracked and worn, and most are dusty. There's a bit of a selection... You could check the [A]rborist's Guide to North American Trees, a [K]ing James bible, the [U]nabridged Short Stories of Chekhov, the [W]orld Encyclopedia 1954 Edition, or the [S]tock Futures and Analysis Record 1960-1970. Or just head [b]ack.
+
+[choice]
+[a :: s0005]
+[k :: s0006]
+[u :: s0007]
+[w :: s0008]
+[s :: s0011]
+[b :: s0002]

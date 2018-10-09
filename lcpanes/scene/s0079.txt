@@ -1,0 +1,9 @@
+[s0079]
+[title Message Routing]
+
+[type LCPANES 0] LICOZY
+[type LCPANES 0] uh, just wanted to see if everything's back to normal
+[type LCPANES 0] wait, is this Cecilia or LICOZY I'm talking to?
+[type LCPANES 0] can someone let me know what's up here?
+
+[goto s0078]

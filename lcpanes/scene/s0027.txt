@@ -1,0 +1,6 @@
+[s0027]
+[title Drain Away]
+
+In the middle of this room is a brass drain over an output for water. It looks like it's meant to be used with the shower. Even if you did manage to take the grate off, there's no way you'd be able to fit anything larger than your hand down there. Oh well.
+
+[goto s0018]

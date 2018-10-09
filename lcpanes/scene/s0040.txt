@@ -1,0 +1,16 @@
+[s0040]
+[title LICOZY]
+
+"You may be curious why I've referred to this group as Seth, Cecilia, LICOZY, and I. The reason is that none of us know LICOZY's name. He or she remains relatively uncooperative, and according to Seth, rarely speaks, and when he does, he does so in a very obtuse manner. None of us know what to make of this. From some of the codebooks in Seth's room, we have reason not to trust him 100%."
+
+"Seth is the most paranoid about LICOZY, either because he has the most direct communication or Seth is predisposed to paranoia. There is no way of knowing Cecilia's opinion as all of her information to us must be passed through LICOZY first. In fact, Cecilia herself could be a fabrication of LICOZY, and I would be disposed to think this if it weren't for Seth's codebook."
+
+"As for myself, I'm undecided. I believe there is too little information to be sure about anything. That applies to almost anything down here. Working with LICOZY is our only way out, so avoid needless suspicion if you can."
+
+"Nevertheless, it's in my nature to take precautions. Seth and I have developed a way of passing unreadable messages around the loop, so that they can't be tampered with by LICOZY on their way around the loop. Basically any message I send that begins with 'Seth:' indicates that only every other word should be read. For instance, 'Seth: Don't send out LICOZY's information. The uncracked codebook goes through first. The magic cabinets work.' would mean 'Seth: Send LICOZY the codebook through the cabinet.' It's a very rudimentary code, but it's hard to pass straight coded messages through LICOZY without arousing his suspicion. Seth also occasionally sends me messages the same way, beginning 'Elyse:,' just in case someone in the middle is watching."
+
+"LICOZY also seems to have been familiar with Myron, the former - "
+
+It's the end of the page, but the words trail off. You flip the pages back and forth. It looks like you must've missed a page at this part, but no, no other papers remain on the desk. Did someone intentionally remove just one page? Would that serve any purpose? You leave that section alone and go back to the index.
+
+[goto s0035]

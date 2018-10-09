@@ -1,0 +1,6 @@
+[s0072]
+[title Branch]
+
+[branch CHOICE_ONE_LICOZY = 1]
+[true :: s0073]
+[false :: s0080]

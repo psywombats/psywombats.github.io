@@ -1,0 +1,14 @@
+[s0003]
+[Legal Journals]
+
+These notebooks are of the legal pad variety, with lined yellow pages and binding at the top. There are four of them here, all arranged in a neat pile. You flip through them, finding nothing in the first two. The third, however, contains a message in red pen.
+
+"You are encouraged to record your thoughts in these pages. The necessary materials are provided. Please enjoy your stay."
+
+Is this supposed to be some sort of journal for you, then? Might as well try it. You grab a black pen and write under the message:
+
+"This is stupid."
+
+You finally come to the final notebook. Unsurprisingly, it is covered in that purple script that also is all over the notebook paper scattered around the rest of the desk. It's completely undecipherable.
+
+[goto s0003]

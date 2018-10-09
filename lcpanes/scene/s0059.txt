@@ -1,0 +1,63 @@
+[s0059]
+[title Two Way Communication]
+[increment CHOICE_ONE_KUHOOK]
+
+[type LCPANES 0] KUHOOK
+[type LCPANES 0] is anything different?
+[type LCPANES 0] guess not
+[type LCPANES 0] Cecilia, could you pass on to Seth that his code didn't work?
+[type KUHOOK 0] no, there is something very different.
+[type LCPANES 0] what? you can reach me now?
+[type KUHOOK 0] it appears that way.
+[type KUHOOK 0] you've opened two way communication with this terminal.
+[type KUHOOK 0] haha.
+[type KUHOOK 0] now you can hear what I have to say.
+[type LCPANES 0] there's something in particular?
+[type KUHOOK 0] no, not really.
+[type LCPANES 0] it's good to actually be able to hear someone else other than Seth...
+[type KUHOOK 0] I know...
+[type KUHOOK 0] he can cause some bother at times.
+[type KUHOOK 0] it's a shame what happened to Elyse though.
+[type LCPANES 0] I suppose
+[type KUHOOK 0] I'm so used to her being on that terminal.
+[type KUHOOK 0] it'll be hard to adjust to a newcomer, heh.
+[type KUHOOK 0] though there isn't all that much time for Seth.
+[type LCPANES 0] how long does he have precisely? 24 hours? 48?
+[type KUHOOK 0] that remains... a mystery. we'll have to find out.
+[type KUHOOK 0] but he's certainly in danger.
+[type KUHOOK 0] I wonder if you'll break him out.
+[type LCPANES 0] why me in particular?
+[type KUHOOK 0] hm, nothing.
+[type KUHOOK 0] I've been in contact with Seth though.
+[type KUHOOK 0] it was the first time talking face to face.
+[type KUHOOK 0] it almost makes me feel sorry for Elyse, having to deal with him.
+[type LCPANES 0] he seems fine to me
+[type KUHOOK 0] you know what they say, trust no one.
+[type LCPANES 0] speaking of that, what's your opinion of LICOZY?
+[type KUHOOK 0] I can't say for sure.
+[type KUHOOK 0] he certainly remains the most secretive, doesn't he?
+[type KUHOOK 0] people like that certainly are entertaining...
+[type LCPANES 0] what exactly is it that you're working on?
+[type KUHOOK 0] oh, me?
+[type KUHOOK 0] way back when, I deciphered my books and I'm the source of most of your friends' information.
+[type KUHOOK 0] now there isn't much left for me to do but, well, you know.
+[type KUHOOK 0] we'll say i'm very busy.
+[type LCPANES 0] I don't get what you're implying
+[type KUHOOK 0] well, I'm not implying anything.
+[type KUHOOK 0] it's much more interesting for me hear about what you've been up to so far, really.
+[type KUHOOK 0] my work is very boring, so that's how I get my kicks.
+[type LCPANES 0] how long have you been down here?
+[type KUHOOK 0] hm.
+[type KUHOOK 0] not as long as Seth.
+[type KUHOOK 0] that's all that matters, right?
+[type LCPANES 0] I guess
+[type KUHOOK 0] but it's almost nightfall, isn't it~
+[type LCPANES 0] you'd know better than me
+[type KUHOOK 0] I certainly would.
+[type KUHOOK 0] better get everything wrapped up for the evening.
+[type KUHOOK 0] goodbye then. until tomorrow.
+[type LCPANES 0] bye.
+
+And just like that, the computer is off. The room is black. It's night time, already.
+
+[goto s0060]

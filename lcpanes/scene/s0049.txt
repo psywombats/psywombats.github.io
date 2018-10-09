@@ -1,0 +1,6 @@
+[s0049]
+[title Repeat]
+
+The magic cabinets are empty... You can't seem to locate whatever device was responsible for placing the food there, but there is a tiny scrap of paper you seem to have missed in the corner. There's nothing legible on it, but it's the same kind used in Elyse's notes...
+
+[goto s0043]

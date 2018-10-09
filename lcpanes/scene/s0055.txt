@@ -1,0 +1,39 @@
+[s0055]
+[title Check Back In]
+
+[type LCPANES 0] sorry Cecilia, no luck
+[type LCPANES 0] seems I can't get anywhere on any of this
+[type LCPANES 0] wish Elyse left clearer instructions on what exactly I'm supposed to do
+
+Is there anything more to say? But before you can decide, something else shows up on the screen.
+
+[type AVBRANDY 0] yo, hey, major breakthrough
+[type AVBRANDY 0] i finally cracked it
+[type AVBRANDY 0] a whole other codebook is down
+[type AVBRANDY 0] i know it must be getting close to night, so i just need to give this to someone fast
+[type AVBRANDY 0] pass these codes on to licozy, he'll know what to do
+[type AVBRANDY 0] ZJJXKK ZCVJL ZJV
+[type AVBRANDY 0] actually never mind, i'll give them to cecilia, she's further along in the chain
+[type AVBRANDY 0] and i've also got some stuff for you too
+[type AVBRANDY 0] just type it in on the screen where you normally send messages to me
+[type AVBRANDY 0] i've already used mine so i'm in direct touch with cecilia
+[type AVBRANDY 0] use yours however you want
+[type AVBRANDY 0] ready?
+[type AVBRANDY 0] ACLIBR
+[type AVBRANDY 0] i know it's short, but just do it
+[type AVBRANDY 0] it opens coms with one other terminal
+[type AVBRANDY 0] hang on, cecilia wants something
+[type AVBRANDY 0] go use that code
+
+Well, what else can you do? ...What should this do again?
+
+[type LCPANES 0] ACLIBR
+
+Then something strange happens...
+
+[type 00000000 0] NICE WORK.
+[type 00000000 0] I SEE YOU'VE DISCOVERED THE VALUE OF COOPERATION.
+[type 00000000 0] SO LET ME LET YOU COOPERATE JUST A LITTLE BIT MORE.
+[type 00000000 0] PICK A TERMINAL.
+
+[goto s0058]

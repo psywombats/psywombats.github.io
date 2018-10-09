@@ -1,0 +1,10 @@
+[s0060]
+[title The Second Night]
+
+Without light, there isn't much to be done but ponder what to do tomorrow. Exploring the new communications link is probably a good idea, but how much time does Seth have left? How much time before another person vanishes down here?
+
+Without the hum of the monitor, you notice another sound. Is that a hissing or a beeping? Something is moving in and out of audibility, and it isn't the hum of the antique light bulb next door. It sounds like it's coming from the wall opposite the steel doors. Whatever it is, it's not a comforting sound. But you find sleep nonetheless.
+
+[branch CHOICE_ONE_KUHOOK = 1]
+[true :: s0061]
+[false :: s0072]

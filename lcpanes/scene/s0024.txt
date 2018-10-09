@@ -1,0 +1,6 @@
+[s0024]
+[title Repeat]
+
+[branch MEDICINE_GLASS_BROKEN = 1]
+[true :: s0022]
+[false :: s0025]

@@ -1,0 +1,6 @@
+[s0010]
+[title World Encyclopaedia, again]
+
+The encyclopedia is hollow and empty, just the way you left it.
+
+[goto s0004]

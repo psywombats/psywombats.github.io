@@ -1,0 +1,6 @@
+[s0019]
+[title Facing the Mirror]
+
+The mirror is dusty but otherwise intact with no cracks or seams. It looks to be a single pane mounted to the wall with some kind of adhesive, as you can't seem to remove it. Actually, its positioning is kind of funny... Who would put a single mirror like this in a corner? Don't mirrors usually have frames or something? Actually, considering the situation, this isn't really all that extraordinary.
+
+[goto s0018]

@@ -1,0 +1,14 @@
+[s0041]
+[title My Gambit]
+
+"You may be wondering why I'm no longer here, and if you checked the calendar, I've left two days before my due date. Hopefully this will explain everything."
+
+"Seth and LICOZY are each working on deciphering two documents found in their rooms. They're both using a brute force method that takes hours and hours by hand. It's not enjoyable and it will probably take two days for either of them to get anywhere. With any luck, what they break will have the key to escaping this place."
+
+"However, Seth's date of termination is four days away. From our previous records, it can take up to a day to replace a member of the dungeon. That means that on the pivotal day of escape, three and a half days from the time of this writing, there will be no one at the LCPANES terminal. That means that no one can escape. Escape requires four people. I would lose, and Seth would lose also. With two team members down in such quick succession, who knows if Cecilia and LICOZY would even be able to escape. That would be an irrecoverable error."
+
+"Instead, I proposed this plan to Seth, through our code. I take a lethal dose of chemicals from the medicine chest. I die. Hopefully I am replaced two days early. You, the new LCPANES, are then around to help Seth and the other escape when Seth and LICOZY break their codes. If I'm doomed anyway, I might as well help the others out. Who wouldn't do the same?"
+
+"So there you have it, new LCPANES. I leave the rest to you.  ~ Elyse."
+
+[goto s0035]

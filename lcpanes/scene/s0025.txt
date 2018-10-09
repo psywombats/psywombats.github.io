@@ -1,0 +1,8 @@
+[s0025]
+[title Break the Glass?]
+
+You could try to [s]hatter the glass or go [b]ack to the middle of the washroom.
+
+[choice]
+[s :: s0021]
+[b :: s0018]

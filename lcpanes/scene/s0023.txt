@@ -1,0 +1,6 @@
+[s0023]
+[title Unexpected Reserve]
+
+There's such a variety here... You take a glass jar at random. These pills look too large for a human to swallow. And the next beaker you try gives off such a foul odor that you regret even looking at it. Could it be that this is more of a chemist's collection than a medicine chest? Better leave the contents alone before you poison yourself. You could die, you know.
+
+[goto s0018]

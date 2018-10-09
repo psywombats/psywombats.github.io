@@ -1,0 +1,21 @@
+[s0070]
+[title One Way Communication]
+[increment CHOICE_ONE_LICOZY]
+
+[type LCPANES 0] LICOZY
+[type LCPANES 0] is anything different?
+[type LCPANES 0] guess not
+[type LCPANES 0] Cecilia, could you pass on to Seth that his code didn't work?
+
+That was.... disappointing. Didn't Seth say his code worked? How did it work? What was that even supposed to do? Now what is there to do? You've been completely useless this whole day and now it's time to find a new task.
+
+[type LCPANES 0] hey, Cecilia, I need something else to do
+[type 00000000 0] KUHOOK OR LICOZY?
+[type LCPANES 0] what
+[type 00000000 0] KUHOOK OR LICOZY?
+
+Uh... The computer's certainly acting strange. There's no telling exactly what it wants from you, but it's clearly offering you a choice. Do you want to say [K]UHOOK or [L]ICOZY?
+
+[choice]
+[k :: s0071]
+[l :: s0079]

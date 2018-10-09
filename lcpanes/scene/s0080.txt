@@ -1,0 +1,14 @@
+[s0080]
+[title Final Day?]
+
+In the morning, the hum is only more severe. Trying to ignore the sound, you head for the magic cupboards. Inside, along with your food, there is a surprise. It's a scrap of paper, written in black ink. You hold it up to the bathroom light to read.
+
+"I have reason to believe Seth may try to pull something today. but I don't mean the good kind of something, like Elyse. I mean the kind of something that may get one or both of us killed. as it's his last day, he might try to sell out. you might not know because I've been around longer than you, but he used to get messages from this 00000000 architect account asking him to betray Elyse for his own freedom. normally he'd never do something like that, but watch it. he and Elyse thought they were passing coded messages about it, but they had a stupidly easy trick, and I found out they made plans to fake their own death, something about poison gas. so don't believe it!"
+
+" - your favorite KUHOOK neighbor, Cecilia"
+
+That is not something you want to read. You're now in a very awkward position. Should you trust Cecilia's knowledge, or keep to Seth? He's the only one you've talked to, but as Cecilia says, she's known him much longer. It's too early to make a decision, certainly, but should you tell Seth about the note? It's a [y]es or [n]o choice here.
+
+[choice]
+[y :: s0081]
+[n :: s0082]

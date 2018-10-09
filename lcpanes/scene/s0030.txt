@@ -1,0 +1,10 @@
+[s0030]
+[title Computer Examination]
+
+Your options at the computer are limited. The white messages remain with a blinking white underscore at the end. Is that a prompt? In any case, what's next to do? You could [t]ype a message, [w]ait, [r]e-examine the computer, or head [b]ack to the middle of the room.
+
+[choice]
+[t :: s0031]
+[w :: s0034]
+[r :: s0033]
+[b :: s0002]

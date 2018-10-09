@@ -1,0 +1,72 @@
+[s0066]
+[title Final Route: LICOZY]
+
+[type LCPANES 0] LICOZY
+[type 00000000 0] EXIT WORD FOR LICOZY: HIBISCUS
+
+Time to throw doubt to the wind. If Seth is collapsed on the floor and Cecilia is unresponsive, there really is only one person to turn to. Better cross your fingers. At this point, how will you even tell if it's the right move?
+
+[type LCPANES 0] Cecilia, you've got to come in
+[type LCPANES 0] I finished with the program
+[type LCPANES 0] supposedly this is licozy's keyword:
+[type LCPANES 0] HIBISCUS
+[type LCPANES 0] you've got to let him know, ok?
+
+But... that was the flaw in the plan. If Cecilia doesn't relay the information, then how is LICOZY supposed to get his escape code? This whole thing would've worked if the system just opened the door rather than relying on this archaic passcode system... You can only hope Cecilia gets back from whatever pressing business is keeping her. Hopefully she isn't being gassed as well.
+
+[type KUHOOK 0] impressive.
+[type KUHOOK 0] I would never have guessed that from you.
+[type LCPANES 0] expected what?
+[type KUHOOK 0] expected that you would trust LICOZY over someone like myself.
+[type KUHOOK 0] it's touching really.
+[type KUHOOK 0] but you've made a big mistake.
+[type LCPANES 0] mistake?
+[type KUHOOK 0] i am the architect.
+[type LCPANES 0] ...
+[type 00000000 0] i am the architect.
+[type KUHOOK 0] i am the architect.
+[type KUHOOK 0] there is no Cecilia.
+[type KUHOOK 0] only the architect.
+[type LCPANES 0] you...
+[type LCPANES 0] that clarifies a bunch of small things, actually
+[type LCPANES 0] but that's...
+[type LCPANES 0] that throws a whole lot more into the water
+[type LCPANES 0] let licozy out
+[type LCPANES 0] let Seth out
+[type LCPANES 0] and for the love of god, let ME out
+[type KUHOOK 0] hm, I'll have to consider it.
+[type KUHOOK 0] you've put up a good show.
+[type KUHOOK 0] you're new, but you'd throw your faith into someone whose existence you can't even confirm...
+[type KUHOOK 0] I will grant your first wish.
+[type KUHOOK 0] LICOZY walks free.
+[type KUHOOK 0] "KUHOOK: LICOZY, your escape word is HIBISCUS."
+[type LCPANES 0] first wish?
+[type KUHOOK 0] you can't seriously expect me to abandon this project, not after this long.
+[type KUHOOK 0] this little experiment goes on...
+[type KUHOOK 0] have fun.
+[type LCPANES 0] Cecilia?
+[type LCPANES 0] wait, I mean, architect, kuhook, whatever you are
+[type LCPANES 0] you can't just run away like that
+[type LCPANES 0] answers... where are the answers?
+[type LCPANES 0] I'm doomed right?
+[type LCPANES 0] so please, just explain, just explain why
+[type LCPANES 0] then I can die happy
+
+But it seems useless. No one responds. You can only stare at the terminal in wonder. KUHOOK is the architect. Either that or Cecilia's finally snapped. Judging by that one message from 00000000, it's the real deal. Is there any way to respond to that? You seem to have done no good. This is failure. You will die here. At least LICOZY might escape. Maybe. Oh LICOZY, who are you...?
+
+[type LICOZY 0] LCPANES.
+[type LCPANES 0] what...
+[type LICOZY 0] how did you do that
+[type LICOZY 0] LCPANES, I may not be able to read your replies, but at least I can convey information.
+[type LICOZY 0] I am the LICOZY terminal.
+[type LICOZY 0] I saved my use of ACLIBR.
+[type LICOZY 0] I've finally spent it here, now, in my last minute.
+[type LICOZY 0] Cecilia sent me the escape code, and I can now flee this place.
+[type LICOZY 0] I used FFALERT to free Seth, so let's hope he's escaped.
+[type LICOZY 0] Please free KUHOOK, the last to escape.
+[type LICOZY 0] Your escape code is BURDENED.
+[type LICOZY 0] Good luck.
+
+The words stop appearing, but that's enough. That's it. Is... Is this the end? Freedom is in sight. You rush to the steel doors and spin the dial. B-U-R-D-E-N-E-D. Click. The door is open. There isn't time to think about anything else now. Time to flee.
+
+[goto s0067]

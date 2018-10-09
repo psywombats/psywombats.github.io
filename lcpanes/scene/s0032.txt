@@ -1,0 +1,31 @@
+[s0032]
+[title The LCPANES Terminal]
+[increment READ_FIRST_MESSAGES]
+
+You move over to the computer. It's an older model, and the screen is a clunky CRT. The keyboard also is large and tan and the keys make a distinctive clacking sound as you run your fingers over them. 
+
+There's nothing on the screen, though. That's unfortunate. You jam the space bar a few times. As you step back, a crackle sounds, and all the pixels on the screen warm up. The screen turns from a dull brown to black, and white letters appear, covering the entire screen.
+
+[type AVBRANDY 20] elyse, you there?
+[type AVBRANDY 19] i really didn't expect you to be...
+[type AVBRANDY 18] when you get an idea in your head you're the type to go through with it
+[type AVBRANDY 18] i thought maybe this time you'd actually get some sense, seeing as this is the biggest decision that you could possibly make
+[type AVBRANDY 18] you might have listened to me for once
+[type AVBRANDY 18] but as you're not responding, i guess it's too late
+[type AVBRANDY 15] sorry, i just can't take it
+[type AVBRANDY 15] i have to keep pretending you're there
+[type AVBRANDY 15] would you pop in at the last minute and say 'ha ha seth, i really tricked you this time?'
+[type AVBRANDY 14] you really got me elyse, ha ha
+[type AVBRANDY 10] i know i'm delusional
+[type AVBRANDY 10] elyse: I'll send goodbyes. in case code needed, if so, you don't need me to
+[type AVBRANDY 10] i'll try to accept that you're gone, okay?
+[type AVBRANDY 9] you know what, i'm going to act as if you're not there
+[type AVBRANDY 9] hey, you, i know you're reading this, the guy in charge of us
+[type AVBRANDY 9] i want out.
+[type AVBRANDY 9] i'm sick of your games, and i'm sick of this place
+[type AVBRANDY 9] if i was like elyse and not a coward and not worthless, then i'd off myself as well
+[type AVBRANDY 9] just to spite you
+
+That's... unsettling. Unsettling to say the least. Who's Elyse? That name sounds familiar. Nonetheless, you don't have any idea what these messages are referring to. The messages seem to have stopped ten minutes ago, and there's not much point to looking at them much longer.
+
+[goto s0030]

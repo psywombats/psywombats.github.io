@@ -1,0 +1,75 @@
+[s0084]
+[title Final Route: LICOZY]
+
+[type LCPANES 0] LICOZY
+[type 00000000 0] EXIT WORD FOR LICOZY: HIBISCUS
+
+Time to throw doubt to the wind. You seem to be the only one to trust LICOZY in the slightest. If Seth is unable or unwilling to pass the message on to LICOZY, he'll never be free. You're the only one who can help him.
+
+[type LCPANES 0] KUHOOK
+[type LCPANES 0] okay, Cecilia, this is meant for you if the message is going somewhere wrong
+[type LCPANES 0] Seth should've sent you your escape code, but if you haven't heard, it's FFALERT04KU
+[type LCPANES 0] I ran mine and got LICOZY's escape password, HIBISCUS
+[type LCPANES 0] pass that on to him okay, please?
+[type LCPANES 0] thanks
+[type LCPANES 0] he's not as evil as you all make him out to be
+With that done, all that remains is to wait for someone to run  their exit program and select you as the one to walk free. LICOZY would do that, right? But would Seth be able to pass the information? Would he even be willing to pass the information? You don't have long to hold your breath. Before too long, you receive word from Seth.
+
+[type AVBRANDY 0] not dead yet, man
+[type AVBRANDY 0] i just got my escape password from LICOZY
+[type AVBRANDY 0] i just need to choose who to set free...
+[type LCPANES 0] well, as I freed LICOZY and he freed you...
+[type LCPANES 0] I guess that's all out of order, isn't it?
+[type AVBRANDY 0] i seriously can't tell at this point
+[type AVBRANDY 0] everything's really really hazy
+[type LCPANES 0] okay, it's just Cecilia and me left
+[type LCPANES 0] wait, Cecilia can't set herself free, so you have to let her go and then she does me
+[type AVBRANDY 0] okay, yeah, thinking about it, that's the only way it works right?
+[type AVBRANDY 0] yeah, i think so
+[type AVBRANDY 0] here i go
+[type AVBRANDY 0] okay, i sent her release word
+[type AVBRANDY 0] i guess you'll hear your password through LICOZY when cecilia gets around to running that program
+[type AVBRANDY 0] now i'm going to leg it out of here
+[type AVBRANDY 0] so long, and good luck
+[type LCPANES 0] wait, hang on a second
+[type LCPANES 0] can you tell me what Cecilia's up to?
+[type LCPANES 0] what's taking her so long?
+[type LCPANES 0] and how do I change the computer so it messages her instead...
+[type LCPANES 0] KUHOOK
+[type LCPANES 0] okay, Cecilia, trying to get in touch with you again
+[type LCPANES 0] you've got to listen to me here
+[type LCPANES 0] send something to LICOZY 
+[type LCPANES 0] I need to know my escape password, and you're the only one left I can get it from
+[type LCPANES 0] just let me know what you're up to okay?
+[type LCPANES 0] I'm getting really nervous here
+
+There's no way you can keep still any longer. You walk back and forth, from mattress to desk, waiting for anything to arrive. Now that Seth is (hopefully) home free, it's only LICOZY that you can hope to hear from. Luckily enough, you don't have to wait too long before he begins to write.
+
+[type LICOZY 0] Hello again, LCPANES.
+[type LICOZY 0] I see I didn't go wrong in trusting you.
+[type LICOZY 0] According to Cecilia, she sent your escape password to Seth and him to you.
+[type LICOZY 0] In that case, you probably aren't there, but I wanted to express my gratitude and wish you the best in the future.
+[type LICOZY 0] I'm about to leave my cell now, and I hope the same is true of you.
+[type LICOZY 0] Farewell.
+
+This is not good news. You rush to the keyboard and hammer out lines to Cecilia.
+
+[type LCPANES 0] Cecilia are you there?
+[type LCPANES 0] there's been some mistake
+[type LCPANES 0] Seth said he left, that he was gone and free
+[type LCPANES 0] he didn't give me my escape password
+[type LCPANES 0] I'm trapped in here
+[type LCPANES 0] LICOZY just left, so you're the only other one in here, right?
+[type LCPANES 0] what am I supposed to do?
+[type LCPANES 0] I guess I can't stay in denial forever...
+[type LCPANES 0] I know you're gone
+[type LCPANES 0] maybe, maybe someday someone will come back
+[type LCPANES 0] so to you, whoever's reading this
+[type LCPANES 0] I'm trapped at the LCPANES terminal
+[type LCPANES 0] someone set me free
+
+A new KUHOOK? A new LICOZY? Maybe one day someone will replace them and free you, but until then, you can only sit and think. Was that AVBRANDY actually Seth, or... or was that the mastermind the whole time? More and more, it seems you'll never know.
+
+(ending #7)
+
+[goto s0001]

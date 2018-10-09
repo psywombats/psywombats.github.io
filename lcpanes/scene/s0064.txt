@@ -1,0 +1,103 @@
+[s0064]
+[title Endgame Program]
+
+The screen turns dark with a snap of the monitor. Within a few seconds, it fades to white, then blue, then to black. Nothing of Cecilia's messages is left. Instead, something else appears.
+
+[type 00000000 0] CONGRATULATIONS.
+[type 00000000 0] IT SEEMS YOU ARE VERY CLOSE TO ESCAPING.
+[type 00000000 0] THIS PROGRAM IS NOT A PROGRAM AT ALL.
+[type 00000000 0] BUT RATHER A SUBVERSION OF THE CHAT SYSTEM.
+[type 00000000 0] I CAN HEAR YOU NOW.
+[type 00000000 0] I'M SURE YOU HAVE LOTS OF QUESTIONS.
+[type 00000000 0] ASK AWAY.
+[type LCPANES 0] who are you?
+[type 00000000 0] I AM THE ARCHITECT.
+[type LCPANES 0] didn't think I'd get an answer...
+[type LCPANES 0] fine, so why are we here?
+[type 00000000 0] THAT IS FOR YOU TO DECIDE.
+[type LCPANES 0] what does that even mean?
+[type LCPANES 0] fine, why did you put us here?
+[type 00000000 0] HAHAHA.
+[type 00000000 0] WE ALL ASK OURSELVES WHY AT SOME POINT.
+[type 00000000 0] WHY ME.
+[type 00000000 0] WHY ME.
+[type 00000000 0] AND WE ALL WANT SOME SORT OF ANSWER, DON'T WE.
+[type 00000000 0] WOULDN'T IT BE NICE IF SOMEONE ANSWERED FOR ONCE.
+[type LCPANES 0] right
+[type LCPANES 0] why are we here? why did you do whatever it is that you're doing?
+[type 00000000 0] I WILL GIVE YOU A DEFINITE ANSWER.
+[type 00000000 0] NO REASON.
+[type 00000000 0] ABSOLUTELY NO REASON.
+[type LCPANES 0] that's not helpful
+[type 00000000 0] IT'S TRUE.
+[type 00000000 0] ISN'T THAT PERFECT.
+[type 00000000 0] YOU WILL NEVER STOP WONDERING WHY YOU WERE HERE, EVEN IN THE UNLIKELY CASE THAT YOU ESCAPE.
+[type 00000000 0] YOU WILL NEVER STOP WONDERING IF ANY OF THIS WAS REAL.
+[type 00000000 0] YOU WILL NEVER STOP WONDERING WHY WHY WHY.
+[type LCPANES 0] very funny
+[type LCPANES 0] we're very close to escaping, you know.
+[type LCPANES 0] don't you watch us?
+[type 00000000 0] YOU MUST BE CONCERNED ABOUT WHAT I'M GOING TO DO TO STOP YOUR ESCAPE, RIGHT.
+[type LCPANES 0] so you do watch us?
+[type 00000000 0] NOTHING.
+[type LCPANES 0] are you even paying attention to me?
+[type 00000000 0] I HAVE FULL CONFIDENCE THAT THE SYSTEMS I HAVE PUT IN PLACE WILL STOP THAT.
+[type LCPANES 0] if you wanted to keep us here, why would you even make escape possible?
+[type 00000000 0] INSTEAD YOU WILL FOIL YOUR OWN ESCAPE.
+[type 00000000 0] FITTING.
+[type LCPANES 0] were you ever actually answering questions?
+[type 00000000 0] GOODBYE.
+[type LCPANES 0] are you a human? or a program?
+[type LCPANES 0] hello?
+
+Damn. That was much more unnerving than helpful. At least it didn't damage any -
+
+[type 00000000 0] ASK AWAY.
+[type 00000000 0] ASK AWAY.
+[type 00000000 0] ASK AWAY.
+[type 00000000 0] ASK AWAY.
+[type 00000000 0] ASK AWAY.
+[type LCPANES 0] go away
+[type 00000000 0] ASK AWAY.
+[type 00000000 0] ASK AWAY.
+[type LCPANES 0] what do you want from me?
+[type 00000000 0] ASK AWAY.
+[type 00000000 0] ASK AWAY.
+[type 00000000 0] ASK AWAY.
+
+And then... The lights vanish. The monitor extinguishes itself with a crack. Is it nighttime already? And then, with a pause and roar of static, the lights return and the computer boots up. A whirr of white text later, the room (and screen) return to normality.
+
+[type KUHOOK 6] so did it work?
+[type LCPANES 0] yes, yes it worked
+[type LCPANES 0] it was disturbing
+[type KUHOOK 0] interesting.
+[type LCPANES 0] it ordered me to ask it questions...
+[type LCPANES 0] and then proceeded to totally ignore my questions, I think
+[type KUHOOK 0] fascinating.
+[type KUHOOK 0] anyway, I have stuff I need to do.
+[type KUHOOK 0] goodbye for now.
+[type LCPANES 0] you don't want the details?
+[type LCPANES 0] Cecilia?
+
+Well that was abrupt... What's going on around here this afternoon? Hopefully Seth is making progress on the exit codes. How much time does he have left, exactly? No more than 24 hours, certainly. This will be cutting it close. Maybe you should tell Cecilia to tell Seth to get in touch.
+
+[type AVBRANDY 0] hey hey you there?
+
+...when more messages arrive.
+
+[type AVBRANDY 0] this is bad
+[type AVBRANDY 0] like, unbelievably bad
+[type AVBRANDY 0] i kept hearing this noise, but i didn't know what it was
+[type AVBRANDY 0] yeah, well it's loud as anything in here today
+[type AVBRANDY 0] i figured out it's an air pump
+[type AVBRANDY 0] to be precise, gas pump
+[type AVBRANDY 0] i'm pretty sure it's not the placebo effect any more
+[type AVBRANDY 0] my concentration is failing
+[type AVBRANDY 0] i'm going through and trying that by-hand decryption technique
+[type AVBRANDY 0] i can't follow it
+[type AVBRANDY 0] memory's starting to go
+[type AVBRANDY 0] i think i'm screwed, man
+[type AVBRANDY 0] listen, if i die in here, you take cecilia and that good for nothing licozy and get the hell out of here, ok?
+[type AVBRANDY 0] wait wait, here's something now...
+
+[goto s0065]

@@ -1,0 +1,6 @@
+[s0005]
+[title Arborist's Guide to North American Trees]
+
+Trees, trees, and more trees... It's some sort of field guide or reference manual or something like that. The disturbing part is how heavily used it seems to be. Actually, wait... Someone's gone through with a red pen and circled certain letters. You start back at the beginning and keep track of the circled letters, but nothing jumps out at you, and you're still a little dizzy. It's best to leave this for another time, or better yet, never look at this thing again.
+
+[goto s0004]

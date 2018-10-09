@@ -1,0 +1,61 @@
+[s0075]
+[title Final Route: KUHOOK]
+
+[type LCPANES 0] KUHOOK
+[type 00000000 0] EXIT WORD FOR KUHOOK: MIRACLES
+
+Time to throw doubt to the wind. Maybe Seth is a plant, maybe Cecilia is the mastermind. But how could you ever live with yourself if you doomed them here? Everyone must be freed.
+
+[type LCPANES 0] hey, Cecilia
+[type 00000000 0] KUHOOK OR LICOZY?
+[type LCPANES 0] KUHOOK
+[type LCPANES 0] hey, Cecilia
+[type LCPANES 0] I have your exit code
+[type LCPANES 0] just enter it on your doorframe
+[type LCPANES 0] MIRACLES
+[type LCPANES 0] got that?
+[type LCPANES 0] okay, you need to set LICOZY out, alright?
+[type LCPANES 0] I'll go ask him for your exit program, one sec
+[type LCPANES 0] LICOZY
+[type LCPANES 0] did that work?
+[type LICOZY 0] Did what work?
+[type LICOZY 0] Shouldn't I be asking you that?
+[type LCPANES 0] yeah, everything's working
+[type LCPANES 0] I gave Cecilia her exit word
+[type LICOZY 0] ...
+[type LICOZY 0] Fine.
+[type LICOZY 0] I'll give Seth his.
+[type LICOZY 0] Expect a message from Seth about your exit password.
+[type LICOZY 0] Also, tell Cecilia to run FFALERT04KU
+[type LICOZY 0] She delivers my word.
+[type LCPANES 0] right
+[type LCPANES 0] KUHOOK
+[type LCPANES 0] Cecilia, LICOZY says to run FFALERT04KU
+[type LCPANES 0] that'll let you get LICOZY's exit word
+[type LCPANES 0] do that as soon as possible, all right?
+
+You lean back, satisfied. Cecilia is free when she returns, and when that happens, LICOZY is free to go also. Now all you have to do is wait for a message from Seth. Wait... Isn't this the flaw in the plan? What if Seth's already been incapacitated by the gas? Not only would he be unable to escape, but he would be unable to give you your passcode. Your heart rate increases as you stare at the monitor, waiting for anything.
+
+[type LICOZY 0] Goodbye.
+[type LCPANES 0] you're free?
+[type LCPANES 0] hello?
+[type LCPANES 0] look, I'm having second thoughts here
+[type LCPANES 0] what if Seth can't make it?
+[type LCPANES 0] hello...?
+
+Damn. And now LICOZY is gone. He's free, probably. Well, even if you end up rotting down here, at least Cecilia and LICOZY escaped. Two people made it out. How would that be different from the other outcome? Except now you're down here...
+
+[type AVBRANDY 0] BURDENED
+[type AVBRANDY 0] now i'm going to run before i die
+
+Miraculous. Seth came through. You wish there was some way to thank him, but now the right thing to do seems to be to get out of here. You rush to the metal door and spin the dial. B-U-R-D-E-N-E-D. Click. The door is open. There isn't time to think about anything else now. Time to flee.
+
+Ahead is a stairwell. The steps are concrete. They look well-worn for such an isolated place. The light from within the room is insufficient to illuminate much more than the first four steps. Past that, sight is difficult. However, something feels foreign. It's the breeze. Ahead is the open night sky. 
+
+You take the final step up from the underground as something slams shut at the bottom of the stairwell. Does any of what's left behind matter now? In any case, you are free. You have escaped. That is all that matters.
+
+Congratulations.
+
+(ending #5)
+
+[goto s0001]

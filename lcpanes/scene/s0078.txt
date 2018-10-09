@@ -1,0 +1,65 @@
+[s0078]
+[title Message Routing]
+
+You sit and stare at the monitor. Within a few moments, Seth's messages come in and start typing themselves to the screen.
+
+[type AVBRANDY 0] hey there
+[type AVBRANDY 0] you said ACLIBR wasn't working for you
+[type AVBRANDY 0] mind elaborating on that to cecilia?
+[type AVBRANDY 0] licozy and cecilia just sent the transcript now
+[type AVBRANDY 0] who did you pick, anyway? me?
+[type AVBRANDY 0] guess not, or you would've noticed by now
+[type AVBRANDY 0] but the point is that it opens a means of communication with another person down here
+[type AVBRANDY 0] in other words, it allows you to have a conversation with that you could never talk to before
+[type AVBRANDY 0] handy, huh?
+[type AVBRANDY 0] i used mine on cecilia so now we talk and everything, so maybe it opens up two way communication, who knows
+[type AVBRANDY 0] honestly, i can't quite figure out how all these program things work
+[type AVBRANDY 0] it's supposedly licozy's job
+[type AVBRANDY 0] i don't know if that kid's been slacking on the code breaking or what
+[type AVBRANDY 0] at least he says he's almost through with this one book
+[type AVBRANDY 0] only a couple hundred possibilities left, supposedly
+[type AVBRANDY 0] hold on, cecilia wants me
+[type AVBRANDY 0] you're supposed to check the magic cabinets
+[type AVBRANDY 0] i guess she sent you something in the middle of the day somehow??
+
+Hm, ACLIBR sounds useful. It's a shame yours doesn't seem to be functioning like Seth's. Maybe you just haven't noticed the changes yet and LICOZY's receiving a copy of your messages. On to the task at hand. You head back to the bathroom to check the cabinets. The yellow aura is the same, but was that drip always there? No matter. You open the front of the cupboard to reveal... a shoebox. It's brown and unworn. As you take it out of the enclosed space, the top falls off. It's four more sheets of Elyse's writing, mirrored in the same style. You place the box back in the cabinet. You'll have to spend a bit of time lining them up properly to read them. Before then, better check with Cecilia and see if she can be clearer about the purpose of this. How did she get them anyway?
+
+[type LCPANES 0] hey, Cecilia
+[type 00000000 0] KUHOOK OR LICOZY?
+[type LCPANES 0] KUHOOK
+[type LCPANES 0] hey, Cecilia
+[type LCPANES 0] just wanted to let you know I got the package you sent me
+[type LCPANES 0] there's a bunch of weird things about this though
+[type LCPANES 0] how did you even get this?
+[type LCPANES 0] any way I can get more details, or is LICOZY filtering your messages or something?
+[type LCPANES 0] whatever, I'll just get to work reading these
+
+You half turn away from the computer before another message appears on the screen...
+
+[type LICOZY 0] Hello.
+
+But the lights turn off immediately after. The monitor flickers and then dies with the rest of this room's lighting. Did you read that correctly? No way to tell for now. And anyway, you have things to work on, like the new pages of Elyse's diary. Time to get started.
+
+With only six sheets of paper present, it's easy to get everything in order. You have plenty of practice from putting the original diary together last night. Now all that remains is to read it.
+
+" - occupant of Seth's room. Apparently - "
+
+Oh right, this is a continuation of something, not a completely new chapter. You find the stack of legal paper and flip through to find the discontinuity in the numbers and insert the pages. It's a perfect fit. This should make more sense now.
+
+"LICOZY also seems to have been familiar with Myron, the former occupant of Seth's room. Apparently something horrible befell Myron at the end of his time, though we can't be sure. LICOZY's been very cagey about it, and as far as we know, the whole account could be a lie. However, one particular anecdote struck me as particularly ominous. Namely, there was an incident with the magic cabinets."
+
+"At some point, the cabinets were able to pass items back and forth almost instantaneously, without having to wait for nightfall to make only the single transfer. (Keep in mind that information, and everything following, is only accurate to the degree that you trust LICOZY). Anyway, Myron used this to shuttle letters back and forth with LICOZY, and they came very close to breaking the escape codes. Myron was apparently able to break all of the codebooks in the AVBRANDY room, and LICOZY sent him off a codebook to look at. Together, they rapidly made progress by passing results back and forth. That was until the cabinets stopped working properly. LICOZY then received, page by page, the codebook he had originally sent. Also included with each page was a very real blood smear. LICOZY reports that Seth moved in two days after."
+
+"I find this story very unsettling for a number of reasons, aside from the obvious. Firstly, it is not a baseless tale and something similar must have happened at some point. LICOZY has sent Seth a page or two of the codebook, and if Seth's analysis is correct, the blood is real. This does not eliminate trickery, but what would be the point? There are much more effective methods of intimidation. Why not sent a severed hand or something even grizzlier? Maybe my take on the situation is completely inaccurate as this has me at a loss."
+
+"Secondly, this brings up the issue of LICOZY's expiration date. This would imply that LICOZY's time runs out before Seth. Is it possible that different rooms receive different occupancy times? This would certainly explain a lot, but if not, then wouldn't this be the same as confessing to being the mastermind? LICOZY has claimed that several days on his calendar are marked in red, and some in other colors as well. We have never heard a solid explanation. One theory that Seth and I devised was that Myron came too close to discovering the exit, was killed by the mastermind, and his leftover time distributed among the occupants. This doesn't make much sense, admittedly, but it led us to the formulation of my gambit, explained later."
+
+"Lastly, why did the cabinets stop working? Does LICOZY know the secret of the cabinet operation? Do the cabinets follow some pattern we are completely unaware of? Would the mastermind be able to affect the cabinets? Could the mastermind then know what we passed through the cabinets? As far as we've been able to tell, the cabinets are an actual physical device, meaning some mechanical skill would be needed to intercept the messages, or some very lucky camera angle managed to capture Myron and LICOZY's writing. Another more suspicious possibility is that the reason the communications were intercepted was that LICOZY himself was the mastermind."
+
+"Then why tell such a story? It could lend credence to both theories, in my opinion. Therefore it tells us nothing about the man behind it. Its only purpose could be to obscure LICOZY's identity. There are very few reasons for this, and the most obvious is what I'm sure you're currently thinking. For that reason, trust in LICOZY in the absolute minimum. If it turns out he must be relied upon to escape, I fear what our fate may be."
+
+It's not a message you want to be reading, but it casts a lot more light on why Seth and Elyse and Cecilia have always been more suspicious. But what about the cabinets? In any case, you could probably run some tests to see if they really are a mechanical device, as Elyse suggested. You cross the bathroom, pull open the cabinet, and...
+
+No shoebox. You could've sworn you replaced it back when you originally removed the notes, but nothing's there. Did you leave it by the computer desk? You return to the main room only to stumble around in the dark. Better to check tomorrow. For now, it's enough to sleep on the disquieting addendum from the hand of Elyse. You head for the mattress.
+
+[goto s0060]

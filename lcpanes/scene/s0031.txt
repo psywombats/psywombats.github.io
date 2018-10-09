@@ -1,0 +1,14 @@
+[s0031]
+[title Typing a Message]
+
+You type out a few keys on the keyboard, and yes, it does print to the screen, right after the underscore.
+
+[type LCPANES 0] hello
+
+You press enter. Nothing happens. Try again?
+
+[type LCPANES 0] asdkjhakjdshf
+
+Nothing. That's unfortunate. It doesn't look like this is a chat program after all.
+
+[goto s0030]

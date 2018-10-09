@@ -1,0 +1,89 @@
+[s0069]
+[title Final Route: KUHOOK]
+
+[type LCPANES 0] KUHOOK
+[type 00000000 0] EXIT WORD FOR KUHOOK: MIRACLES
+
+Time to throw doubt to the wind. Everyone needs to escape, so everyone must pick each others' release codes. It makes sense to follow the circle, right? Will everyone else think along those lines? Better cross your fingers. But at this point, how will you even be able to tell if this was the right move?
+
+[type LCPANES 0] Cecilia, you've got to come in
+[type LCPANES 0] I finished with the program
+[type LCPANES 0] this is your escape word:
+[type LCPANES 0] MIRACLES
+[type LCPANES 0] you've got to get out, ok?
+[type LCPANES 0] make sure you get LICOZY his escape code before you go
+[type LCPANES 0] Cecilia, are you even there?
+
+A flaw in the plan... What if Cecilia doesn't check her computer? What's happening to her? You pace the room for several minutes. If that last program was to believed, this is the end of the line. There's nothing else you can do but wait. When you check the computer again, something else is on the screen.
+
+[type 00000000 1] HELLO.
+[type LCPANES 0] what the hell
+[type 00000000 0] I'M INTERESTED, LCPANES.
+[type 00000000 0] WHY KUHOOK?
+[type LCPANES 0] why KUHOOK what?
+[type LCPANES 0] and what/who are you?
+[type LCPANES 0] some other autopilot program?
+[type 00000000 0] NO I AM NOT A PROGRAM.
+[type 00000000 0] YOU ARE SPEAKING TO THE SYSTEM THAT RUNS THIS PLACE.
+[type 00000000 0] THE ARCHITECT.
+[type 00000000 0] AND I WANT TO KNOW: WHY KUHOOK?
+[type LCPANES 0] why did I free KUHOOK?
+[type LCPANES 0] easy, because we all have to free each other in a circle
+[type LCPANES 0] doesn't that make sense?
+[type 00000000 0] WHY DID YOU CHOOSE KUHOOK TO COMMUNICATE WITH?
+[type LCPANES 0] hard to say
+[type LCPANES 0] I really didn't know what the program did when I ran it
+[type 00000000 0] SO AVBRANDY NEVER DECIPHERED THAT INFORMATION...
+[type 00000000 0] UNFORTUNATE.
+[type 00000000 0] UNFORTUNATE FOR YOU AS WELL.
+[type LCPANES 0] why?
+[type 00000000 0] I AM KUHOOK.
+[type LCPANES 0] what
+[type KUHOOK 0] surprised?
+[type 00000000 0] surprised?
+[type LCPANES 0] wait, Cecilia, you're the architect?
+[type LCPANES 0] you're the reason this is all happening?
+[type LCPANES 0] you put us here?
+[type 00000000 0] HAHA.
+[type 00000000 0] YOU'D NEVER UNDERSTAND.
+[type LCPANES 0] then try to explain
+[type 00000000 0] YOU'RE DEAD, SO I WON'T.
+[type LCPANES 0] dead?
+[type 00000000 0] HAHA.
+[type 00000000 0] ONLY A FEW WEEKS AWAY.
+[type LCPANES 0] what about Seth? and LICOZY?
+[type 00000000 0] MAYBE I SHOULD PULL THE LICOZY TREATMENT ON YOU.
+[type LCPANES 0] the what?
+[type 00000000 0] ARE YOU AWARE OF HOW MUCH I ALTER THE MESSAGES THAT ARE PASSED BETWEEN THE CAPTIVES HERE?
+[type LCPANES 0] I know Seth and Elyse had their own code or something
+[type LCPANES 0] but no, I don't know
+[type 00000000 0] I'LL DO THAT THEN.
+[type 00000000 0] YOU WANT TO LIVE, RIGHT?
+[type LCPANES 0] who wouldn't?
+[type 00000000 0] FINE.
+[type 00000000 0] IN THAT CASE, SETH DIES.
+[type LCPANES 0] no, no, that's not what I meant
+[type LCPANES 0] how can I save him?
+[type 00000000 0] TOO LATE.
+[type 00000000 0] I gassed HIM ALREADY.
+[type LCPANES 0] you're a horrible person
+[type 00000000 0] WHATEVER.
+[type 00000000 0] AREN'T YOU WONDERING WHAT HAPPENS TO YOU?
+[type LCPANES 0] I'm more worried about Seth, but yes
+[type 00000000 0] I WILL REPLACE AVBRANDY AND LICOZY, JUST LIKE I'VE ALREADY REPLACED LCPANES.
+[type 00000000 0] AND I WILL CONFINE YOU HERE.
+[type 00000000 0] AND I WILL HAVE THEM CONVINCED THAT YOU ARE THE ARCHITECT.
+[type LCPANES 0] not possible, no way
+[type 00000000 0] HAHA.
+[type 00000000 0] YET IT WORKED SO WELL ON YOU AND AVBRANDY. IT WAS MY PUNISHMENT TO LICOZY.
+[type LCPANES 0] why?
+[type 00000000 0] I WILL NEVER EXPLAIN MY ACTIONS.
+[type 00000000 0] MAYBE YOU WILL HAVE SOME FUN TRYING TO FIGURE THEM OUT.
+[type 00000000 0] IN THE MEANTIME, I NEED TO GO FIND A NEW AVBRANDY.
+[type 00000000 0] GOODBYE, LCPANES.
+
+Goodbye, LCPANES. Maybe next attempt will hold some better luck... but that's unlikely.
+
+(ending #3)
+
+[goto s0001]

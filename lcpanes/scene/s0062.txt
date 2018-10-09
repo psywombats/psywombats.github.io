@@ -1,0 +1,16 @@
+[s0062]
+[title Accepted the Offer]
+
+[type LCPANES 0] yes, I'll try it out for you
+[type LCPANES 0] what do I need to do?
+[type KUHOOK 0] good.
+[type KUHOOK 0] maybe I don't know you fully, but I thought you'd accept.
+[type KUHOOK 0] TITWTWE
+[type KUHOOK 0] just type it in.
+[type KUHOOK 0] see what happens.
+[type KUHOOK 0] we'll see how it goes.
+[type LCPANES 0] okay, got it
+[type LCPANES 0] I'll let you know
+[type LCPANES 0] TITWTWE
+
+[goto s0064]

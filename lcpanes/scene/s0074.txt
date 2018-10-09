@@ -1,0 +1,40 @@
+[s0074]
+[title Final Route: LICOZY]
+
+[type LCPANES 0] LICOZY
+[type 00000000 0] EXIT WORD FOR LICOZY: HIBISCUS
+
+Time to throw doubt to the wind. Maybe Seth is a plant, but he's probably too incapacitated to move. Maybe Cecilia is a plant, but no one's heard from her all day. There is only one sure way out of this.
+
+[type LCPANES 0] okay, got the exit word
+[type 00000000 0] KUHOOK OR LICOZY
+[type LCPANES 0] oh, forgot about that
+[type 00000000 0] KUHOOK OR LICOZY
+[type LCPANES 0] LICOZY
+[type LCPANES 0] okay, got the exit word
+[type LCPANES 0] HIBISCUS.
+[type LICOZY 0] Thank you.
+[type LICOZY 0] I'll confirm that it works.
+[type LCPANES 0] and?
+[type LICOZY 0] The door is open...
+[type LICOZY 0] I never thought I'd see this day...
+[type LICOZY 0] Thank you, LCPANES.
+[type LICOZY 0] Maybe I should set you free.
+
+And now, the moment of truth. Will you ever be set free from this place, or is LICOZY exactly what Seth and Cecilia thought him to free? Your heartbeat accelerates, matching the hum of the gas pump next door. Finally, more messages.
+
+[type LICOZY 0] BURDENED.
+[type LICOZY 0] Your escape word is BURDENED.
+[type LICOZY 0] Good luck, my friend, and goodbye.
+
+The words stop appearing, but that's enough. That's it. Is... Is this the end? Freedom is in sight. You rush to the steel doors and spin the dial. B-U-R-D-E-N-E-D. Click. The door is open. There isn't time to think about anything else now. Time to flee.
+
+Ahead is a stairwell. The steps are concrete. They look well-worn for such an isolated place. The light from within the room is insufficient to illuminate much more than the first four steps. Past that, sight is difficult. However, something feels foreign. It's the breeze. Ahead is the open night sky. 
+
+You take the final step up from the underground as something slams shut at the bottom of the stairwell. Does any of what's left behind matter now? Seth? Cecilia? But you're free, right? And so is LICOZY. Who knows whether they're dead, alive, or never existed at all... Existentialism is no longer necessary. Ahead of you is your newfound freedom to enjoy.
+
+Congratulations.
+
+(ending #4)
+
+[goto s0001]

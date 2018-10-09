@@ -1,0 +1,8 @@
+[s0033]
+[title The Computer, Again]
+
+The computer is old, that's for sure, but you're not certain where the machine itself is physically located. Only the screen and keyboard are immediately apparent, with the cables trailing from the wall. You give them a few exploratory pulls, but there doesn't seem to be a lot of give. Better be careful not to unplug anything.
+
+The source of the cables is a small hole in the bricks. An aluminum box lines the hole, but there isn't any room to push anything into there. The cables end at the keyboard and monitor, where they could probably be unplugged, but there doesn't seem to be much point to moving things around.
+
+[goto s0030]

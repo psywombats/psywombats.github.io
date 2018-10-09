@@ -1,0 +1,68 @@
+[s0034]
+[title Second Contact]
+
+As you re-read the screen, more messages start to appear on the screen...
+
+[type AVBRANDY 0] okay listen up, i'm facing reality
+[type AVBRANDY 0] got it?
+[type AVBRANDY 0] this message is intended for whoever ends up in this room after elyse
+[type AVBRANDY 0] congratulations!
+[type AVBRANDY 0] you're smart enough to turn on the computer
+[type AVBRANDY 0] but you're also unlucky enough to get trapped down here...
+[type AVBRANDY 0] whatever
+[type AVBRANDY 0] but the point is, we need to get out
+[type AVBRANDY 0] we'll get you what you need to know when we know you're here
+[type AVBRANDY 0] so go check in with cecilia
+[type AVBRANDY 0] just type a message with your name or something, and press enter
+[type AVBRANDY 0] why do i even bother writing this stuff...
+[type AVBRANDY 0] you're probably the mastermind, aren't you?
+[type AVBRANDY 0] i know it
+[type AVBRANDY 0] just kill me know and get it over with, please
+[type AVBRANDY 0] but wait, if you're just some stranger, i don't care what time you get this message, let us know you exist
+[type AVBRANDY 0] some of us still want to get out of here
+[type AVBRANDY 0] ...not sure if i'm one of them, but let's leave that out of it okay?
+
+What is there to do but listen to this person? You start to type a line out on the keyboard, each key making its own distinctive click...
+
+[type LCPANES 0] hi
+[type LCPANES 0] my name's 
+[type LCPANES 0] i woke up in this room
+[type LCPANES 0] i have no idea where i am or what's going on
+[type LCPANES 0] all i know is that i want to get out
+[type LCPANES 0] goodbye
+
+That's a decent introduction... But nothing happens. No messages appear in reply. Did AVBRANDY leave? What's going on? Are your messages even going anywhere? It's no use wondering any of this.
+
+You spend another hour or so trying to make any sense of the computer, the books, the papers, the room, but to no avail. Everything seems hopeless. But when you check the computer again...
+
+[type AVBRANDY 3] okay, wow, just got the message from licozy
+[type AVBRANDY 3] how the hell did you get in here so fast
+[type AVBRANDY 3] i thought it would take at least 24 hours to replace elyse
+[type AVBRANDY 3] okay, never mind, never mind, i'll get to the point
+[type AVBRANDY 2] hi, my name's seth
+[type AVBRANDY 2] i'm trapped in here somewhere, just like you
+[type AVBRANDY 2] sorry that you're stuck here, but now our only hope to get out is to work together, alright?
+[type AVBRANDY 2] by my watch it's about 2 minutes to blackout, so i've got to work fast
+[type AVBRANDY 2] i can't explain much now but elyse left something behind that should do just as well
+[type AVBRANDY 2] she had a notebook that should be covered in coded letters with a purple pen
+[type AVBRANDY 2] on the first page are some normal roman characters, coded with a cipher
+[type AVBRANDY 2] i'm going to send you the key, so copy it down, fast, before the computer dies
+[type AVBRANDY 2] got that? go find paper
+[type AVBRANDY 1] here goes
+[type AVBRANDY 0] a - c
+[type AVBRANDY 3] b - j
+[type AVBRANDY 3] c - u
+
+What follows is a series of associations of letters and other letters. The key to some of those sheets of paper littering the desk? Probably. You grab a pen and write down the set of letters that appear on the screen. No sooner does the last 'z' appear than a click sounds from somewhere behind the wall.
+
+The light in the main room goes out. The light on the monitor goes out. The only light is what escapes from the hole in the wooden door. But it's enough light. You head to the desk to examine the papers scattered over the top and eventually find one with characters you recognize. By the light of the adjacent room, you slowly translate the following note:
+
+"To whoever comes after me - My name is Elyse. You are no doubt wondering what's going on here, and I hope to answer that question. Unfortunately, coding is slow going, and I've left the information you're looking for in form of split pages on this desk. Simply place two sheets with the same header together and view through a bright light. - Elyse"
+
+You shuffle through the remaining papers looking for anything with the "same header." Someone must've been through this pile before, as everything's out of order and torn together. The promise of an explanation keeps you going. You finally pull together two pages with the large word "ONE" printed at the top and place them on top of each other. And... finally. Something coherent is formed. The letters are a little jagged, but when placed up near the bathroom light, you can read the message.
+
+"To whoever comes after me - First of all, my condolences for your arrival here. For me it appears to have been a death sentence, but for the rest of you, we'll try to change that, right? I'm Elyse, and I was the former occupant of this room, the LCPANES room. I wrote this guide in an attempt to store my knowledge for those that came after me. It contains everything I've uncovered in my study of this room, as well as a short description of our position. Good luck, and may you fare better than I have. - Elyse"
+
+You stack more and more pages with their matches. For each page, it seems there is a match. When placed together, the seeming scratches on one page form with the marks on the other to create full images. When all of these pages and pages are placed together, something like a full notebook is formed. You turn to page two. It's the table of contents.
+
+[goto s0035]

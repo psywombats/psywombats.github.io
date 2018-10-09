@@ -1,0 +1,16 @@
+[s0063]
+[title Declined the Offer]
+
+[type LCPANES 0] sorry, it's just not a good idea
+[type LCPANES 0] why risk it all when licozy's so close to breaking the exit codes?
+[type KUHOOK 0] you're stupid.
+[type KUHOOK 0] I would've thought people trapped in a concrete dungeon would've had a better sense of adventure.
+[type KUHOOK 0] guess not.
+[type LCPANES 0] wow, sorry
+[type KUHOOK 0] no worries.
+[type KUHOOK 0] there are ways of doing things that don't require your consent.
+[type KUHOOK 0] sorry pal.
+[type LCPANES 0] what?
+[type KUHOOK 0] heh.
+
+[goto s0064]

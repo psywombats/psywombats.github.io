@@ -1,0 +1,75 @@
+[s0061]
+[title Final Day?]
+
+You wake up to more food in the cabinet and more messages on the screen. These people must've adjusted their sleep cycles to the night/day pattern, but it's still not sinking in for you. Oh well. Time to see what's on the computer.
+
+[type AVBRANDY 30] hey, i just got up
+[type AVBRANDY 30] anyway, thought i'd tell you that licozy's really really close
+[type AVBRANDY 30] he was talking to me last night
+[type AVBRANDY 30] apparently he's got the escape codes almost cracked
+[type AVBRANDY 30] this might be really rushed, and we still don't understand the half of this place
+[type AVBRANDY 30] but i think we're close to finally getting out of here
+[type AVBRANDY 22] also this 2-way talk thing was really valuable
+[type AVBRANDY 22] i've been talking to cecilia, but it's only heightened my suspicion of licozy
+[type AVRBANDY 22] cecilia and i had never really known about each other before, but now i can tell licozy's stuff is really weird
+[type AVBRANDY 22] just... watch out, okay?
+[type AVBRANDY 22] i am not at all comfortable that he's the one messing with the escape codes
+[type AVBRANDY 22] he was so vague about it too...
+[type AVBRANDY 22] i don't know whether i'll be able to trust him enough to actually use mine
+[type AVBRANDY 22] ugh
+[type AVBRANDY 21] let's just cross that bridge when we come to it, i guess
+
+You scroll down a bit.
+
+[type KUHOOK 9] good morning
+[type KUHOOK 9] supposedly Seth has already told you the news?
+[type KUHOOK 9] escape might be closer than you think.
+[type KUHOOK 8] though it may depend on some choices that certain people make...
+[type KUHOOK 8] but anyway, let me know when you're around.
+
+Well, now would seem the time to reply to her.
+
+[type LCPANES 0] hello Cecilia
+[type LCPANES 0] I'm finally here
+[type LCPANES 0] though I'm not sure what I'm supposed to be doing right now...
+[type KUHOOK 0] hello.
+[type KUHOOK 0] hm, I think I have something I need help with though.
+[type KUHOOK 0] you would help me...
+[type KUHOOK 0] we're friends right?
+[type LCPANES 0] sure
+[type LCPANES 0] what do you need?
+[type KUHOOK 0] well, I found this code somehow
+[type KUHOOK 0] long story
+[type KUHOOK 0] it's not a 'safe' code, if you know what I mean.
+[type LCPANES 0] no, I really don't
+[type KUHOOK 0] it could do some... odd things
+[type KUHOOK 0] basically, the person who made this place probably never wanted it used...
+[type KUHOOK 0] that is, unless they were about to escape.
+[type KUHOOK 0] so maybe it prevents escape...
+[type KUHOOK 0] or maybe it explains everything.
+[type KUHOOK 0] who knows?
+[type LCPANES 0] sounds interesting
+[type LCPANES 0] why do you need my help?
+[type KUHOOK 0] this code's just for lcpanes.
+[type KUHOOK 0] maybe Elyse would've been more suited for the job.
+[type LCPANES 0] look, I know I'm new here, but I'll do what I can to help out
+[type LCPANES 0] I want to get out of this place just as much as you do
+[type KUHOOK 0] heh, odd of you to say that.
+[type KUHOOK 0] but I appreciate your enthusiasm.
+[type KUHOOK 0] you agree to try the effects of this program for me?
+[type LCPANES 0] a program?
+[type KUHOOK 0] it's a keyword.
+[type KUHOOK 0] just like the one that unlocked our little chat sessions.
+[type KUHOOK 0] (by the way, thanks for choosing me)
+[type LCPANES 0] no problem
+[type LCPANES 0] so I just type the codeword and the program starts?
+[type KUHOOK 0] yes.
+[type KUHOOK 0] yes that's how it works.
+[type KUHOOK 0] so do you agree?
+[type LCPANES 0] well...
+
+It's up to you. Do you want to try running this "unsafe" program? It's a [y]es or [n]o question.
+
+[choice]
+[y :: s0062]
+[n :: s0063]

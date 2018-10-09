@@ -1,0 +1,12 @@
+[s0039]
+[title What We've Decoded]
+
+"To make a long story short: not much. However, we have made progress in certain key areas. As I've mentioned earlier in this work, I've managed to decode much of the contents in Crime and Punishment. It's proved to be maybe our most useful lead so far. I think it'd be best if I just copied the full message here."
+
+"I CONGRATULATE YOU FOR BREAKING THIS cipher, BUT I HOPE MORE THAT YOU'VE ENJOYED THIS BOOK AS MUCH AS I HAVE. HA HA. HERE IS YOUR REWARD. YOU CAN ESCAPE. ITS POSSIBLE. IF IT WEREN'T I WOULDN'T HAVE PUT YOU HERE. I WANT TO WATCH YOU DO IT. IF YOU FAIL YOU WILL BE REMOVED. BUT YOU CAN SUCCEED. ONE DAY SOMEONE WILL SUCCEED. AND IF YOU'RE READING THIS MAYBE IT WILL BE YOU. HA HA. BUT HERES SOMETHING YOU MIGHT FIND MORE USEFUL:"
+
+"AUU AUI AUO AUP AIU AII AIO AIP AOU AOI AOO AOP APU API APO APP SUU SUI SUO SUP SIU SII SIO SIP SOU SOI SOO SOP SPU SPI SPO SPP DUU DUI DUO DUP DIU DII DIO DIP DOU DOI DOO DOP DPU DPO DPP"
+
+"We're not sure if that last part is nonsense, but so far it's proved useful. Seth reports that the letters ASDUIOP in some combination opened a combination safe in his room, revealing more codebooks. We've also cracked one of those. I can't convey the whole message because I don't have the original, but it basically explained the communication loop. We had already figured it out at that point, but it clarified a few areas and also warned us against blind trust in the system and in our fellow prisoners, as well as cautioning against excessive use of the magic cabinets. We're not sure if it should be taken at face value."
+
+[goto s0035]

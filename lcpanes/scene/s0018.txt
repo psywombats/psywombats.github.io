@@ -1,0 +1,13 @@
+[s0018]
+[title Washroom Choice]
+
+You can examine the [w]all mirror, the [c]abinet, the [m]edicine chest, the [c]abinet, the [d]rain, the [s]ink and shower, the [t]oilet, or head [b]ack tothe main room.
+
+[choice]
+[w :: s0019]
+[m :: s0020]
+[s :: s0026]
+[d :: s0027]
+[t :: s0028]
+[c :: s0047]
+[b :: s0002]

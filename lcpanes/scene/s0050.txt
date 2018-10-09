@@ -1,0 +1,11 @@
+[s0050]
+[title Magic Cabinets]
+[increment GOT_MORNING_CABINET]
+
+And inside the cabinet is... Fruit? Two apples. Delicious. You were getting hungry, anyway. But there's also something else in there. It's a note, it looks like. It's written on white college-ruled paper.
+
+"welcome to the dungeon. this is Cecilia, aka kuhook. good luck in the escape. don't worry, i'm sure it'll be fine, right? or entertaining, anyway. let's keep trying.  ~ Cecilia"
+
+Hm, the cabinets really must've shifted in the night. And here's an item from the person in the other room as well, though the wording seems a little odd. This device could prove invaluable in the future.
+
+[goto s0043]

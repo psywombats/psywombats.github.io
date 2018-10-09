@@ -1,0 +1,12 @@
+[s0082]
+[title Don't Let Him Know]
+
+No, that would throw everything you've tried to build out the window. Even if you don't trust him fully, it would be better not to put Seth on guard. You head over to the computer, but Seth has already started messaging you.
+
+[type AVBRANDY 1] hey
+[type AVBRANDY 1] you there?
+[type LCPANES 0] yeah, just got up
+[type LCPANES 0] what's going on
+[type AVBRANDY 0] one second
+
+[goto s0083]

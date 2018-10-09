@@ -1,0 +1,9 @@
+[s0011]
+[title Stock Futures]
+
+The front of this book promises a comprehensive detail of trends, statistics, and insights into futures market growth, but the pages won't open. Is it glued shut? No, it's one of the book-safe objects. Of course, make the book so boring that no one would take it off the shelf. Along the side of the book is a small rotary lock with four digits. Without the combination, it won't open. You could try a number or go [b]ack.
+
+[choice]
+[b :: s0004]
+[1337 :: UNIMPLEMENTED]
+[413 :: UNIMPLEMENTED]

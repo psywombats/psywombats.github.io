@@ -1,0 +1,157 @@
+[s0068]
+[title Final Route: AVBRANDY]
+
+[type LCPANES 0] AVBRANDY
+[type 00000000 0] EXIT WORD FOR AVBRANDY: REASSERT
+
+Time to throw doubt to the wind. If Seth is dying in there, he needs out. It's your duty to save him. Run, Seth, run. Better cross your fingers. But at this point, how will you even be able to tell if this was the right move?
+
+Wait. That's not... Seth isn't free yet. Those escape doors work via a password, and that's what this program just gave you. You'll have to send the passcode through Cecilia and then through LICOZY to free Seth. And what if LICOZY refuses? Or Seth runs out of time before then? This is a crisis.
+
+[type LCPANES 0] Cecilia, you've got to come in
+[type LCPANES 0] I finished with the program
+[type LCPANES 0] supposedly this is Seth's keyword:
+[type LCPANES 0] REASSERT
+[type LCPANES 0] you've got to let him know, ok?
+[type LCPANES 0] he's dying in there, and if we don't free him soon, this has all been a waste
+[type LCPANES 0] you've got to come in
+
+But... Another flaw in the plan: If Cecilia doesn't relay the information in the first place, then how is Seth even supposed to receive his escape code? This whole thing would've worked if the system just opened the door rather than relying on this archaic passcode system... You can only hope Cecilia gets back from whatever pressing business is keeping her. Hopefully she isn't being gassed as well.
+
+[type KUHOOK 0] you're a sad creature.
+[type LCPANES 0] what?
+[type LCPANES 0] but thank god you're here
+[type LCPANES 0] did you pass on that passcode?
+[type KUHOOK 0] no, stupid.
+[type KUHOOK 0] why would I do that?
+[type LCPANES 0] stop being obtuse
+[type KUHOOK 0] hahaha.
+[type KUHOOK 0] Seth's in no position to open his door.
+[type KUHOOK 0] at this point, he should be twitching and foaming.
+[type LCPANES 0] we can't be sure
+[type LCPANES 0] did you send the message yet?
+[type KUHOOK 0] he's dead.
+[type KUHOOK 0] admit it.
+[type KUHOOK 0] how does that make you feel?
+[type LCPANES 0] you're quite the cynic
+[type KUHOOK 0] it would take a cynic to run this place, now wouldn't it?
+[type LCPANES 0] you what?
+[type LCPANES 0] you run this place?
+[type KUHOOK 0] duh.
+[type LCPANES 0] are you sure you're not hallucinating, Cecilia?
+[type LCPANES 0] are you being gassed?
+[type KUHOOK 0] stop being so stupid.
+[type KUHOOK 0] why would I gas myself?
+[type LCPANES 0] you control the gas?
+[type KUHOOK 0] want proof?
+
+Nothing happens for a moment. Was that an empty threat? But a click and hiss confirm the worst case scenario. You run from the main room to the bathroom and back in a search for the source of the hiss. You finally find the drain. Pressing your ear to the grate results in the sound of an echoing, rhythmic noise, echoing with the one coming through the walls. 
+
+Something has to be done. You try moving the mattress over to cover the grate, but it won't fit through the door. Placing books over the grate only results in the gas hissing under the pages. A mixture of paper and water seems to result in an impermeable covering... but the sound seems no less than before. The gas is rising through the heavily cracked flooring as well. Even if the grate were completely blocked, there is no protection. The gas probably isn't even directly being pumped up the pipe in the first place. Your only chance is to convince Cecilia to turn off the gas.
+
+[type LCPANES 0] listen, Cecilia, this is pointless
+[type KUHOOK 0] my name's not Cecilia, idiot.
+[type LCPANES 0] does it really matter?
+[type LCPANES 0] just stop the gas
+[type KUHOOK 0] since you're going to die, I think I'll answer a few of your questions, maybe.
+[type LCPANES 0] I'd rather you let me live and didn't give me answers
+[type KUHOOK 0] but you don't have a choice, do you?
+[type LCPANES 0] fine, I'll just ask then
+[type LCPANES 0] why the hell are you trying to kill me?
+[type KUHOOK 0] because you're a failure and I want you dead.
+[type LCPANES 0] then why not just straight up kill me? poisoned food or something
+[type KUHOOK 0] because this way I get to talk to you in your last moments.
+[type KUHOOK 0] and you will know it was me.
+[type LCPANES 0] but I don't
+[type LCPANES 0] who are you?
+[type KUHOOK 0] the architect.
+[type KUHOOK 0] I am the architect.
+[type LCPANES 0] you're a lunatic
+[type KUHOOK 0] you're doomed.
+[type LCPANES 0] fine
+[type LCPANES 0] then tell me why I'm here
+[type LCPANES 0] it's the least you can do
+[type KUHOOK 0] one second.
+
+The messages stop. By now, adrenaline is kicking in. Seth didn't feel the effects of the gas for almost ten hours, right? You should be fine. But the frequency of the pulses is rising, along with the amplitude. Is KUHOOK cranking it up? This is not looking good for your survival.
+
+[type KUHOOK 0] "LICOZY: KUHOOK."
+[type KUHOOK 0] "LICOZY: Hello."
+[type KUHOOK 0] "LICOZY: I've just used my ACLIBR program to open up communication."
+[type KUHOOK 0] "LICOZY: You need to get in touch."
+[type KUHOOK 0] "LICOZY: AVBRANDY's sent me a bunch of things that make be believe that he is in mortal danger."
+[type KUHOOK 0] "KUHOOK: no worries."
+[type KUHOOK 0] "KUHOOK: you see, I've used FFALERT to free him."
+[type KUHOOK 0] "LICOZY: Good. And LCPANES?"
+[type KUHOOK 0] "KUHOOK: Seth set him free."
+[type KUHOOK 0] "KUHOOK: No need to worry."
+[type KUHOOK 0] "LICOZY: Right."
+[type KUHOOK 0] "KUHOOK: I'll tell LCPANES to give you yours."
+[type KUHOOK 0] "LICOZY: In that case, your escape word is MIRACLES."
+[type KUHOOK 0] "LICOZY: I'll wait for LCPANES then. Let me know when that is completed."
+[type KUHOOK 0] "KUHOOK: hm, still haven't heard from him...
+[type LCPANES 0] you are one twisted individual
+[type LCPANES 0] so now LICOZY is going to die as well, eventually
+[type LCPANES 0] and he'll think I'm the one responsible
+[type KUHOOK 0] no.
+[type KUHOOK 0] he's not the one being gassed.
+[type LCPANES 0] you'll let him go?
+[type KUHOOK 0] no.
+[type KUHOOK 0] he'll be kept here.
+[type KUHOOK 0] he's my favorite to toy with, actually.
+[type LCPANES 0] you make me sick.
+[type KUHOOK 0] don't worry, you've just risen to #2.
+[type LCPANES 0] some honor.
+[type LCPANES 0] how long have you even been keeping this up?
+[type KUHOOK 0] haha.
+[type KUHOOK 0] enough for four LCPANES operators... so don't feel bad.
+[type KUHOOK 0] only one LICOZY though.
+[type LCPANES 0] no wonder he wouldn't trust any of us...
+[type KUHOOK 0] well, he was the only one smart enough to suspect anything, now wasn't he?
+[type KUHOOK 0] maybe I'll let him go at the end.
+[type LCPANES 0] you'd better
+[type KUHOOK 0] is that your last wish, then?
+[type KUHOOK 0] fine.
+[type KUHOOK 0] it shall be so.
+
+By this time, thought is becoming very hard. Whatever was affecting Seth is now making it very difficult to concentrate. The only way you can keep everything straight is by scrolling up and reading the last parts of previous conversations. Nothing remains in memory for very long. However, you do manage to keep one fact straight.
+
+[type LCPANES 0] you are the architect
+[type LCPANES 0] KUHOOK is the architect
+[type LCPANES 0] KUHOOK is the architect
+[type KUHOOK 0] you're starting to slip there, LCPANES.
+[type KUHOOK 0] what's the matter, poison getting to you?
+[type LCPANES 0] sorry Cecilia, I'm probably not going to last too much longer
+[type LCPANES 0] pass on to Seth, okay?
+[type LCPANES 0] but KUHOOK is the architect
+[type LCPANES 0] tell LICOZY that KUHOOK is the architect
+[type LCPANES 0] tell LICOZY to tell Seth that KUHOOK is the architect
+[type LCPANES 0] tell Seth to tell the next LCPANES that KUHOOK is the architect
+[type KUHOOK 0] as you wish.
+[type KUHOOK 0] I'm nothing if not helpful.
+
+You can hear nothing but the rush of air coming from the bathroom. You shut the door. Would that have made a difference ten minutes ago? Because it certainly isn't affecting anything now. The rushing keeps getting louder, but you're sure that's more of a problem with your hearing. Sight also is becoming difficult, though that might be because your eyelids keep flickering shut, as if you were about to drop off to sleep.
+
+Without thinking, you grab one of legal pads with the journal on it and begin to write as fast as possible. Your black and shaking lines cover page after page. "KUHOOK is the architect. KUHOOK is the architect. KUHOOK is the architect." That's done. Is that all that needs doing? Did you tell Seth you're about to bite it? Did you write a note for the next occupant? Can't remember. Doesn't matter. You stumble back to the computer.
+
+[type KUHOOK 1] "KUHOOK: this doesn't look good, LICOZY."
+[type KUHOOK 1] "KUHOOK: I'm not hearing anything from LCPANES."
+[type KUHOOK 1] "LICOZY: Are you sure?"
+[type KUHOOK 1] "LICOZY: Please check again."
+[type KUHOOK 1] "LICOZY: These noises are making me nervous, and freedom is at stake here."
+[type KUHOOK 1] "KUHOOK: nothing."
+[type KUHOOK 1] "KUHOOK: wait, something's coming in."
+[type KUHOOK 1] "KUHOOK: LCPANES: wait, Cecilia, LICOZY is the plant, we can't let him go"
+[type KUHOOK 1] "KUHOOK: LCPANES: I'm getting Seth's release code instead."
+[type KUHOOK 1] "LICOZY: So he refuses to trust me to the end..."
+[type KUHOOK 1] hahaha.
+[type LCPANES 0] I hate you
+[type KUHOOK 0] you're done for.
+[type LCPANES 0] ...
+[type KUHOOK 0] goodbye.
+
+Goodbye.
+
+(ending #2)
+
+[goto s0001]

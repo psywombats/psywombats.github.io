@@ -1,0 +1,10 @@
+[s0038]
+[title The Communication System]
+
+"One of the most curious aspects of our imprisonment is the communication network that connects us. Each terminal is equipped with means to communicate in two directions; that is, to both send and receive messages. However, the source and destination are different. There are a total of four of us here: myself, Seth, Catherine, and LICOZY."
+
+"You are LCPANES. You receive messages from AVBRANDY (Seth) and send them to KUHOOK (Cecilia). KUHOOK (Cecilia) sends to LICOZY, LICOZY sends to AVBRANDY (Seth) and Seth sends back to LCPANES (you). Get it? It's a cycle. We can never talk directly with each other, only pass our messages on in strange chains."
+
+"There also appears to be a delay on the system. When we've attempted to pass messages in a circle, sometimes they do not arrive for up to 20 minutes. This all makes collaboration extremely difficult, but it appears to be the only way to make it out of here."
+
+[goto s0035]

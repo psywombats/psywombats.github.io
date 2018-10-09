@@ -1,0 +1,21 @@
+[s0035]
+[title Elyse's Journal]
+
+Elyse's Journal - Table of Contents
+
+ - [a] :: The Dungeon                 
+ - [b] :: Within This Room                     
+ - [c] :: The Communication System    
+ - [d] :: What We've Decoded                   
+ - [e] :: LICOZY                      
+ - [f] :: My Gambit                          
+ ...or just [q]uit
+
+[choice]
+[a :: s0036]
+[b :: s0037]
+[c :: s0038]
+[d :: s0039]
+[e :: s0040]
+[f :: s0041]
+[q :: s0042]

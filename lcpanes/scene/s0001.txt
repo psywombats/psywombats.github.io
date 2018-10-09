@@ -1,0 +1,15 @@
+[s0001]
+[title Intro]
+
+Ready?
+
+It's dark, but it isn't nighttime. But if it isn't nighttime, why are you lying down? And why is this thing you're lying on so cold? It's a stone floor.
+
+Sitting up brings nausea, but your surroundings come into focus. The room is very small, barely more than a prison cell. A single light bulb is the only source of illumination. The walls are untouched gray concrete, as is the ceiling.
+
+Furnishing is minimal. At one corner of the room is a writing desk with the usual assortment of encyclopedias, journals, notebooks, pens, and loose-leaf paper. A table at the far side of the room holds a very old computer, and a mattress sits at the opposite corner. Two large, metal doors are positioned on the left and forward walls, while a wooden one with no doorknob is behind you. Apart from that, there is nothing of interest aside from a drain you are sitting on.
+
+You rise. You stretch. But still, you have no idea how you got here, no idea where this is, and no idea how to leave. What will you do?
+
+[goto s0002]
+

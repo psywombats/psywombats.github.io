@@ -1,0 +1,159 @@
+[s0077]
+[title Backwards Communication]
+[increment CHOICE_AVBRANDY_ONE]
+
+[type LCPANES 0] AVBRANDY
+[type LCPANES 0] is anything different?
+[type LCPANES 0] guess not
+[type LCPANES 0] Cecilia, could you pass on to Seth that his code didn't work?
+[type AVBRANDY 0] uh
+[type AVBRANDY 0] no, dude, it's working
+[type LCPANES 0] wait, Seth, you can hear me?
+[type AVBRANDY 0] i can certainly hear you
+[type AVBRANDY 0] didn't you even know what that would do?
+[type LCPANES 0] not really, I guess
+[type AVBRANDY 0] it opened a new communications route
+[type AVBRANDY 0] pretty cool, i guess
+[type AVBRANDY 0] we can finally say hello in person now
+[type LCPANES 0] well, not really in person
+[type AVBRANDY 0] you know what i mean
+[type LCPANES 0] who did use your program on?
+[type LCPANES 0] I mean, who can you talk with now that you couldn't before?
+[type AVBRANDY 0] cecilia
+[type AVBRANDY 0] it didn't go how i expected though
+[type LCPANES 0] oh really
+[type AVBRANDY 0] it doesn't open up a chat thing, just lets you get your messages through to someone else
+[type AVBRANDY 0] so basically, i can to talk to her now but she can't talk back
+[type AVBRANDY 0] but LICOZY said she's going to use her ACLIBR in a minute to open up a new link
+[type LCPANES 0] right
+[type LCPANES 0] who's LICOZY going to use his on, though?
+[type AVBRANDY 0] no idea
+[type LCPANES 0] are you still really suspicious of him?
+[type AVBRANDY 0] extremely
+[type AVBRANDY 0] more and more weird stuff's been going on lately
+[type LCPANES 0] like what?
+[type AVBRANDY 0] i got a shipment in the magic cupboards today
+[type LCPANES 0] it's pills
+[type LCPANES 0] like, medicine?
+[type AVBRANDY 0] absolutely no clue
+[type LCPANES 0] do they match the medicine chest in your room?
+[type AVBRANDY 0] medicine chest?
+[type AVBRANDY 0] what are you talking about?
+[type LCPANES 0] don't you have a big box in your bathroom, filled with weird chemicals and stuff?
+[type AVBRANDY 0] nothing like that, man
+[type AVBRANDY 0] all i've got over my sink is an empty cabinet
+[type LCPANES 0] weird
+[type LCPANES 0] I guess it was silly to assume all rooms are the same, then
+[type AVBRANDY 0] for the most part they are though, so you're not all wrong
+[type LCPANES 0] anyway, I should probably get to work, right?
+[type AVBRANDY 0] like what?
+[type AVBRANDY 0] are you saying elyse left some stuff uncracked?
+[type AVBRANDY 0] she relayed most of the information from the books back to cecilia
+[type AVBRANDY 0] there was like, one book she hadn't gotten through
+[type AVBRANDY 0] 'the brothers karzov' or something russian
+[type AVBRANDY 0] but it's hard to teach someone decoding techniques over a connection
+[type AVBRANDY 0] and it's a time consuming process
+[type LCPANES 0] hang on a second, The Brothers Karamazov?
+[type LCPANES 0] that book's not even in my room
+[type AVBRANDY 0] dammit
+[type AVBRANDY 0] the mastermind must've broken into the LCPANES room sometime before you arrived
+[type LCPANES 0] I'd guess so
+[type AVBRANDY 0] but you did find her notes and everything?
+[type LCPANES 0] yeah, I got that
+[type LCPANES 0] there might've been some missing pages though
+[type AVBRANDY 0] it's a real good thing she put the encryption on it then
+[type AVBRANDY 0] i thought she was nuts, but i guess all her paranoia paid off
+[type AVBRANDY 0] hang on a second, cecilia's coming in
+[type AVBRANDY 0] i'll ask her about what elyse had to say about the brother karamazov
+[type LCPANES 0] got it
+
+You lean back in the chair. This is certainly a fortunate development. Now it's a little more certain there is a real person behind that AVBRANDY tag and not some prerecorded message played out for your befuddlement. While Seth's busy, you check the bookshelf on the deck, but you fail to find the book in question. You return to the computer.
+
+[type AVBRANDY 1] okay, all done
+[type AVBRANDY 1] you there, man?
+[type LCPANES 0] yeah, I was just making sure the book wasn't actually there
+[type AVBRANDY 0] cecilia says she hadn't heard anything distinct about it except that it wasn't fully cracked
+[type AVBRANDY 0] apart from that, all of elyse's codebooks are solved
+[type AVBRANDY 0] she was either much faster than me or her ciphers were easier
+[type AVBRANDY 0] i never doubted her intelligence for a second though, so she was probably just able to do it better than me
+[type AVBRANDY 0] do you know how weird it is to miss a person you've never heard speak?
+[type AVBRANDY 0] all my information about her was passed through the chain
+[type AVBRANDY 0] but ugh, it feels so wrong
+[type LCPANES 0] why?
+[type AVRBANDY 0] do you ever wonder if i'm just a recording?
+[type LCPANES 0] until we started talking, yes
+[type AVBRANDY 0] do you ever wonder if i'm a plant or actually the mastermind in disguise
+[type LCPANES 0] I guess it's possible
+[type LCPANES 0] but you certainly don't sound like it
+[type AVBRANDY 0] that's the thing though
+[type AVBRANDY 0] imagine being trapped in a cell, thinking it was you and three others fighting together for your freedom
+[type AVBRANDY 0] but it turns out it was just you, being toyed with before they decided to kill you
+[type LCPANES 0] never thought of that
+[type LCPANES 0] but I have wondered who 'they' could be...
+[type AVBRANDY 0] some psycho, i guarantee it
+[type AVBRANDY 0] they want to see how much someone can take before they break
+[type AVBRANDY 0] i can tell, cause i'm awful near that limit
+[type LCPANES 0] how long have you been here?
+[type AVBRANDY 0] five weeks and six days
+[type LCPANES 0] so that means tomorrow's your deadline, right?
+[type AVBRANDY 0] looks that way
+[type LCPANES 0] so what's the plan of escape?
+[type AVBRANDY 0] the only way i'm getting out of here alive is if LICOZY hurries up and gets the escape code program things decoded
+[type AVBRANDY 0] i'm not the sort for heroics like elyse
+[type AVBRANDY 0] i'd just... disappear
+[type LCPANES 0] so how far is LICOZY, do you think
+[type AVBRANDY 0] he could be hours, he could be months
+[type AVBRANDY 0] that dude is the shiftiest thing i've ever seen
+[type AVBRANDY 0] you have no idea how hard it is to get a straight answer from the guy
+[type AVBRANDY 0] at first i thought maybe cecilia or elyse wasn't sending the messages through right or something
+[type AVBRANDY 0] or everything that was leaving my terminal was actually making it to the other side
+[type AVBRANDY 0] but after talking with you, that's probably not it
+[type AVBRANDY 0] we have our network set up for real now
+[type LCPANES 0] yeah, everyone's really hooked up
+[type AVBRANDY 0] you have no idea how helpful this would've been in the old days with elyse
+[type AVBRANDY 0] we wasted so much time planning and planning, coding our messages, trying to slip them through
+[type AVBRANDY 0] why couldn't i have figured this out earlier
+[type LCPANES 0] don't be too hard on yourself
+[type AVBRANDY 0] yeah, i know
+[type AVBRANDY 0] hey, cecilia's after me again
+[type AVBRANDY 0] give me a few
+
+You turn away from the computer again, this time to circle the room and think, but nothing much rises to your head. So now the network is a lot more confusing that it was originally. Seth seems to be the new information hub. He can receive messages from every other occupant, and since you're one of the two he can talk to, this must be a pretty decent position. You return to the computer to see more messages, but not from who you were expecting.
+
+[type LICOZY 0] LCPANES.
+[type LICOZY 0] I desperately need to talk to you.
+[type LICOZY 0] If you haven't already, please type ACLIBR LICOZY.
+[type LICOZY 0] Let me know the result.
+
+That's... unexpected. It looks like LICOZY decided to use his ACLIBR use to talk to you.
+
+[type LCPANES 0] hey seth?
+[type LCPANES 0] something weird came up
+[type LCPANES 0] "LICOZY: I desperately need to talk to you."
+[type LCPANES 0] "LICOZY: If you haven't already, please type ACLIBR LICOZY."
+[type AVBRANDY 0] well, isn't that interesting
+[type AVBRANDY 0] looks like our friend wants to get in touch with you
+[type LCPANES 0] any clue about what?
+[type AVBRANDY 0] none
+[type AVBRANDY 0] he hasn't told me anything about it
+[type AVBRANDY 0] i'll pass the question on to cecilia though
+[type AVBRANDY 0] she'll be able to ask him directly
+[type LCPANES 0] right, thanks
+[type LCPANES 0] anyway, what did Cecilia want?
+[type AVBRANDY 0] some weird stuff about which codes were still to go
+[type AVBRANDY 0] it doesn't matter
+[type AVBRANDY 0] hey, do you smell something funny?
+[type LCPANES 0] no, not really
+[type AVBRANDY 0] never mind then
+[type AVBRANDY 0] hey, it looks like it's almost night though
+[type LCPANES 0] can you tell me what I'm supposed to do tomorrow?
+[type AVBRANDY 0] probably not
+[type AVBRANDY 0] but i should be in touch early tomorrow about how LICOZY's doing
+[type AVBRANDY 0] cecilia's telling him he should probably work through the night
+[type LCPANES 0] I wonder what he wants to talk about...
+[type AVBRANDY 0] who cares
+[type AVBRANDY 0] anyway, have a nice night
+
+As if on cue, the screen flickers and dies. The main light follows a second later. Without any specific task for the evening, is there much to do but go to bed? The mattress doesn't look very inviting, but tomorrow promises to be long.
+
+[goto s0060]

@@ -1,0 +1,6 @@
+[s0016]
+[title Home Sweet Home]
+
+The mattress appears to be very ordinary. You try searching for lumps or hidden compartments or any other sneaky business, but there's nothing to find. Maybe it really is just a place to sleep.
+
+[goto s0002]

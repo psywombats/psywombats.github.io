@@ -1,0 +1,7 @@
+[s0021]
+[title Breaking Glass the Right Way]
+[increment MEDICINE_GLASS_BROKEN]
+
+To prevent any injury, you first wrap your arm with cloth. You then break the glass in one hammer-like movement. Shards are everywhere inside the cabinet and tinkling away on the floor. It would be wise not to come in here with bare feet. However, now the contents of the cabinet are available.
+
+[goto s0022]

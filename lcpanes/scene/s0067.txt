@@ -1,0 +1,12 @@
+[s0067]
+[title Final Route: LICOZY]
+
+Ahead is a stairwell. The steps are concrete. They look well-worn for such an isolated place. The light from within the room is insufficient to illuminate much more than the first four steps. Past that, sight is difficult. However, something feels foreign. It's the breeze. Ahead is the open night sky. 
+
+You take the final step up from the underground as something slams shut at the bottom of the stairwell. Does any of what's left behind matter now? In any case, you are free. You have escaped. That is all that matters.
+
+Congratulations.
+
+(ending #1)
+
+[goto s0001]

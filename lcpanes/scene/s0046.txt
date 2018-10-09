@@ -1,0 +1,7 @@
+[s0046]
+[title Shower in the Morning]
+[increment SHOWERED_IN_MORNING]
+
+The showerhead in the corner is working, thankfully. The towels are stiff and little more than rags, but it's better than being morning. How considerate of your captor. There's no telling when this stuff was last used though... This whole setup is unreal.
+
+[goto s0043]

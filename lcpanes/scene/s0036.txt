@@ -1,0 +1,16 @@
+[s0036]
+[title The Dungeon]
+
+"So you've ended up here. You don't know why, you don't know how. I'm sorry I can't answer those questions, at least not right away. I don't know either. I have my theories, but they're too shaky to put on paper at this point. What's more important is the nature of this place."
+
+"Your cell is inescapable. The only method of exit is not 'escape' but rather solving, achieving, or accomplishing whatever we've been placed here to do. Don't waste time looking for a cheap way out; I'm sure our captor has ensured that there are none."
+
+"If you haven't noticed yet, please go to the magic cabinets in the bathroom. Food is delivered each morning. It would be unhelpful to starve to death before you accomplished anything."
+
+"You may have already noticed the time period Seth and I have taken to calling 'night.' For several hours each day, the main lights are extinguished and the terminals die, presumably in simulation of the outside world. I've taken to marking those periods on the provided calendar, and I suggest you do the same. Keeping track of time will help you from going insane."
+
+"Also on that calendar should be a red X. That is your date of termination. If you reach that mark, your time is up and you must exit the cell. Whether you exit the cell by leaving the dungeon or by leaving your mortal body remains to be seen. From what we've gathered, it most likely means death. My time is coming, and therein lies the reason of this writing."
+
+"Apart from that, I know very little. Sorry to disappoint."
+
+[goto s0035]

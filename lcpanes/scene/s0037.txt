@@ -1,0 +1,20 @@
+[s0037]
+[title Within This Room]
+
+"There are a number of items in this cell, many of which are not immediately apparent, and some of which disguised and their purpose hidden. Keep in mind I can only relate what existed in the room at the time of this writing. Whatever has changed since has been at the discretion of the captor. I advise looking for deviations from what I've written here; they may give some insight into whatever twisted mind runs this place."
+
+"Most important is the terminal. That computer connects you to the three others (that we know of) trapped inside this place. It may hold the secrets to our escape. During my time, it was embedded in the wall, with only the keyboard and monitor available for use. I didn't spend any time investigating the cables or the wall cavity as the stone seems too tough to penetrate."
+
+"Second in importance are this desk and its books. Several notebooks are here, some blank and some filled with strings of nonsense characters. I've filled in one of these blank notebooks with the text you are reading, though there should be enough for you to keep notes if need be. There are also a number of books, each of which I shall cover."
+
+"One is the Arborist's Guide, an apparent codebook. I've deciphered very little of it. The next is an unabridged copy of Crime and Punishment by Fyodor Dostoyevsky. It is also a codebook, one that we've managed to break quite thoroughly. It's proved one of our two valuable information assets. Next is a Chekhov anthology. It could be another codebook, though I suspect it's likely a red herring. There was also an encyclopedia with heavy burn damage, but I've converted it isn't around any more, so I hope it didn't contain anything valuable. The last is a fake book on stocks, which seems impossible to open."
+
+"There should be a mattress for you to sleep on during the 'nights,' and a calendar to mark the days and keep track of your termination time."
+
+"One steel door is in the room, but it also won't open without a password. I have no idea what this password is. I've tried thousands of words, but none work. I doubt something that can be easily guessed will work. I have no information on where the door could lead, but all of us have this type of door, and we pray it leads to the outside world."
+
+"The bathroom seems to be just a bathroom at first sight, but there are a few important items to note. The first is the magic cabinet. It's below the medicine chest. It may seem ordinary at first, but every night, something unusual happens. It rotates internally, allowing transfer of objects to some other space. Seth reports being able to send items to LICOZY, and my material goes to Cecilia, who can likewise send items back to me. It also contains food each morning. None of us have observed this phenomenon in action. Seth once spent a night with his hand in the cabinet, but nothing happened that day and he went hungry. None of us have tried anything since."
+
+"The medicine chest itself is very strange. We suspect there may be some sort of chemistry aspect in our escape, related to LICOZY's information. However, we can find no solid information on the chemicals or what we're supposed to do with them. I advise leaving them alone; there are a few dangerous compounds in very easy reach."
+
+[goto s0035]

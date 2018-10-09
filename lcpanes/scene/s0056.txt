@@ -1,0 +1,16 @@
+[s0056]
+[title Odd Collection]
+
+Might as well let Cecilia know what you're up to...
+
+[type LCPANES 0] hi.
+[type LCPANES 0] just letting you know I'm going to go back over the books in the room
+[type LCPANES 0] see if I can find anything useful for you guys
+
+There isn't much to do after that though. You pick up the King James bible, as it appears to be the most code-ish book, but what are you supposed to do with it? Even if you had some sort of cipher key, how would you go about decoding a bunch of circled letters and lines? You try copying them all down to a sheet of paper, but after an hour of this, the only pattern you notice is that now vowels except A and E are ever circled. It isn't much to go on.
+
+Nevertheless, you manage to transcribe a fraction of the circled letters. If it takes you multiple hours to take down such a tiny portion, how long did the annotator spend making this elaborate book? And to do this for each room, in addition to setting up this whole operation... It's mind-boggling why someone would want to do this.
+
+But as the hours drag on, it seems to be the best option to just report failure.
+
+[goto s0055]

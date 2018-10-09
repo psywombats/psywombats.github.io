@@ -1,0 +1,6 @@
+[s0045]
+[title Already Showered]
+
+There doesn't seem to be much point to doing that again.
+
+[goto s0043]

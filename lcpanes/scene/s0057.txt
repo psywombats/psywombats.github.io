@@ -1,0 +1,16 @@
+[s0057]
+[title Checking the Computer]
+
+If Elyse didn't fully inspect the physical computer, you might as well do it. No stone unturned, right? And while you're at it, it would be a good idea to let Cecilia know the plan.
+
+[type LCPANES 0] hi.
+[type LCPANES 0] looks like I'll be trying to figure out the actual hardware on the computer
+[type LCPANES 0] it's something to do... sorry I can't be more useful
+
+And with that, work begins. The first order or business is figuring out exactly what connects to what on this side of the wall. Nothing seems to connect expect to the hole in the wall. Both the keyboard and monitor head straight to the wall.
+
+The aluminum lining the hole looks to be there to prevent you from further eroding the hole in the concrete, but upon further inspection, it is easily removed. By pulling at the exposed metal, you manage to pull it from the wall and down to the wires. It's not a cubic piece of aluminum but rather a flat rectangle folded four times. You flatten it and remove it from the wires. Nothing's written on it, but the piece itself might come in handy some time in the future.
+
+Apart from that, the work on the wall is slow going. Again, pulling any of the cables too hard might unplug them and put the LCPANES machine out of commission, so that's out of the question. Instead, you focus on gouging away at the gap that the wires travel through. The aluminum bites away, leaving a bit of dust, but apart from that, progress is slow. Not much is happening. Time to report back to Cecilia.
+
+[goto s0055]

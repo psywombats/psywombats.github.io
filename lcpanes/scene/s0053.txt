@@ -1,0 +1,10 @@
+[s0053]
+[title New Day]
+
+You wake up on the corner mattress. It's hard to tell how long you were asleep, but it doesn't feel like it could've been very long. Nevertheless, the lights and computer are back on. It's time to get to work.
+
+You could head to the [b]athroom or use the [c]omputer.
+
+[choice]
+[b :: s0043]
+[c :: s0051]

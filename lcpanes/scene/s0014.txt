@@ -1,0 +1,6 @@
+[s0014]
+[Mug and Pens]
+
+All of the writing utensils are stored in a handy mug. The mug in question is ceramic, brown, and engraved with a crest reminding you of a heraldic seal, but there isn't much else to say about it. All of the pens inside are the same variety of black ballpoint. They don't look cheap. You decide to take one to do whatever writing with. Well, if there's anything to be written, black will be your color.
+
+[goto s0003]

@@ -1,0 +1,15 @@
+[s0003]
+[title Writing Desk]
+
+It's an old-fashioned wooden desk, but it doesn't appear to be of especially high value or quality. In fact, there are numerous scratch marks along the parts of its surface you can see. That isn't much though, because this desk is covered.
+
+Along the back, two bookends hold up a dazzling array of large books with exceedingly boring titles. The front is covered with sheets of lined paper, apparently ripped from a spiral notebook. Each page is covered in tiny scribbles that don't seem to be English words. You can't find the source of these pages, however. All of the notebooks here are of the yellow legal pad variety... Strange. A stack of these yellow notebooks is next to the books. Also here is a mug filled with pens.
+
+You can examine the [r]ow of books, the [s]heets of paper, the [n]otebooks, the [p]ens, or head [b]ack.
+
+[choice]
+[r :: s0004]
+[s :: s0012]
+[n :: s0013]
+[p :: s0014]
+[b :: s0002]

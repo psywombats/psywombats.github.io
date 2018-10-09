@@ -1,0 +1,6 @@
+[s0048]
+[title Repeat]
+
+[branch GOT_MORNING_CABINET = 1]
+[true :: s0049]
+[false :: s0050]

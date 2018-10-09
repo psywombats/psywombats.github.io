@@ -1,0 +1,6 @@
+[s0007]
+[title The Unabridged Works of Chekhov]
+
+The book is well-worn, but there doesn't appear to be anything else unusual about it. You start to read a few pages of a story, but it's boring stuff and there are other things to be done. You almost neglect to notice that a few pages appear to be torn from the book. Either that, or the numbering scheme is off. Very unusual.
+
+[goto s0004]

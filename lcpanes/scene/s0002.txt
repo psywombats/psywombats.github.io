@@ -1,0 +1,11 @@
+[s0002]
+[title Choice]
+
+You can examine the [d]esk, the [c]omputer, the [s]teel doors, the [w]ooden door, or the [m]attress. 
+
+[choice]
+[d :: s0003]
+[c :: s0029]
+[s :: s0015]
+[w :: s0017]
+[m :: s0016]

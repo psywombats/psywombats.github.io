@@ -1,0 +1,100 @@
+[s0076]
+[title Final Route: AVBRANDY]
+
+[type LCPANES 0] AVBRANDY
+[type 00000000 0] EXIT WORD FOR AVBRANDY: REASSERT
+
+Time to throw doubt to the wind. Maybe Seth is a plant, maybe Cecilia is the mastermind. But how could you ever live with yourself if you doomed them here? Everyone must be freed.
+
+[type LCPANES 0] okay, I've got Seth's exit code
+[type 00000000 0] KUHOOK OR LICOZY?
+[type LCPANES 0] LICOZY
+[type LCPANES 0] hey, I've got Seth's exit code
+[type LCPANES 0] REASSERT
+[type LCPANES 0] you can get it to him, right?
+[type LICOZY 0] Sure thing.
+[type LICOZY 0] Now just to tell Seth to tell Cecilia my exit password to get it back to me...
+[type LICOZY 0] That could pose a bit of a problem.
+[type LCPANES 0] so the way this works...
+[type LCPANES 0] I free Seth, Seth frees you, you free Cecilia...
+[type LCPANES 0] and she frees me?
+[type LICOZY 0] That's the general idea, I guess.
+[type LICOZY 0] This is your plan, remember?
+[type LICOZY 0] You went against my advice.
+[type LCPANES 0] sorry, I couldn't do it
+[type LICOZY 0] It's okay.
+[type LICOZY 0] I understand.
+[type LCPANES 0] so now what?
+[type LICOZY 0] Cecilia's exit password is MIRACLES.
+[type LICOZY 0] Her exit program keyword is FFALERT04KU.
+[type LICOZY 0] She must free LCPANES and pass that information to AVBRANDY.
+[type LICOZY 0] Pass that on to her, please.
+[type LCPANES 0] can do
+[type LCPANES 0] KUHOOK
+[type LCPANES 0] did that work...?
+[type LCPANES 0] now LICOZY can't hear me?
+[type LCPANES 0] alright
+[type LCPANES 0] so Cecilia, your escape password is MIRACLES, courtesy of LICOZY
+[type LCPANES 0] your job is to use FFALERT04KU to free me, okay?
+[type LCPANES 0] you pass the result through to seth via ACLIBR
+[type LCPANES 0] ...and then he lets me free
+[type LCPANES 0] that exit word is courtesy of LICOZY, by the way
+[type LCPANES 0] he's really not what you thought
+[type LCPANES 0] he was only so suspicious because you guys behaved so suspiciously towards him
+[type LCPANES 0] anyway, get the program done and set yourself free, okay?
+[type LCPANES 0] I want us all to get out of here.
+[type LCPANES 0] LICOZY
+[type LCPANES 0] okay, all done
+[type LICOZY 0] Good.
+[type LICOZY 0] Let me know when Seth sends you my escape password.
+
+No sooner does that message appear than lines from a different source begin appearing.
+
+[type AVBRANDY 0] okay, i just got wind of the whole thing from LICOZY
+[type AVBRANDY 0] he's being clear for once
+[type AVBRANDY 0] his exit word is HIBISCUS
+[type AVBRANDY 0] now i've got to do just one thing before i'm free from here for good
+[type AVBRANDY 0] got to see that cecilia's got her stuff and is on her way out
+
+Great news. That's three words down, one to go. And that's in the hands of Cecilia. It should only be a few moments now.
+
+[type LCPANES 0] LICOZY
+[type LCPANES 0] Seth just got in
+[type LCPANES 0] your word is HIBISCUS
+[type LICOZY 0] Thank you.
+[type LICOZY 0] I'm leaving now.
+[type LCPANES 0] how am I supposed to receive my escape code then?
+[type LICOZY 0] Cecilia can pass it to Seth and then on to you.
+[type LCPANES 0] okay...
+[type LICOZY 0] Good luck; I'm headed for the door.
+[type LCPANES 0] good luck to you to
+
+And now... the wait. It's only a matter of time before Cecilia returns, right? But then you remember Seth's room and the gas slowly filing it. That shouldn't cause issues... Cecilia, where are you?
+
+[type AVBRANDY 0] hey
+[type AVBRANDY 0] bad news
+[type AVBRANDY 0] i haven't gotten anything from cecilia
+[type AVBRANDY 0] and i'm seriously starting to lose it here
+[type AVBRANDY 0] i've checked my door, and it's open
+[type AVBRANDY 0] the word was right and i can get out of here now
+[type AVBRANDY 0] i can walk free, but this gas is killing me
+[type AVBRANDY 0] i'm not sure what's there and what isn't
+[type AVBRANDY 0] short term memory's down the drain
+[type AVBRANDY 0] i'm not sure how much longer i can take this
+[type AVBRANDY 0] but i swear i'll never leave this place while you're still trapped
+[type AVBRANDY 0] however long it takes
+
+This is not good. Is Seth going to suffocate or something before Cecilia gets back to the computer? This is pointless. Is he just going to die when escape is so near? Cecilia needs to get back immediately.
+
+[type LCPANES 0] KUHOOK
+[type LCPANES 0] Cecilia, where are you?
+[type LCPANES 0] Cecilia, come in, hurry up
+[type LCPANES 0] Seth's dying for you in the other room
+[type LCPANES 0] if you don't hurry up, all three of us are going to be trapped in here
+[type LCPANES 0] Cecilia!!
+
+But no matter how many words you push onto her screen, you receive no response. No matter how long you stare at your screen, no more messages arrive. Now more messages from anyone, no LICOZY or AVBRANDY. You had three escape words, three tickets to the outside world. It was so close. Where's the fourth? Where's the fourth?
+
+(ending #6)
+
+[goto s0001]

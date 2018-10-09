@@ -1,0 +1,6 @@
+[s0047]
+[title Cabinet]
+
+It's a fairly average wooden cabinet below the medicine chest. There doesn't appear to be anything inside but dust, but a faint odor remains. Is that something fruity?
+
+[goto s0018]

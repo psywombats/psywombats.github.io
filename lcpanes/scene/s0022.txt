@@ -1,0 +1,10 @@
+[s0022]
+[title Blind Man's Medicine Chest]
+
+No matter how closely you examine the taped-on labels, you can't tell what was written here. If you were looking for aspirin, this is no place to find it. You'd be shooting in the dark, and who knows what the rest of these pills are?
+
+You could [t]ake some at random or go [b]ack to the bathroom.
+
+[choice]
+[t :: s0023]
+[b :: s0018]

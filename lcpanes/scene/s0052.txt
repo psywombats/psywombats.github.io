@@ -1,0 +1,13 @@
+[s0052]
+[title Continue]
+[increment REREAD_ELYSE_NOTES]
+
+You first type out a note to Cecilia, letting her know your choice.
+
+[type LCPANES 0] hi.
+[type LCPANES 0] just thought I'd let you know I'm working on Elyse's notes
+[type LCPANES 0] I looked them over last night but I don't want to miss anything
+
+Now with that taken care of...
+
+[goto s0035]

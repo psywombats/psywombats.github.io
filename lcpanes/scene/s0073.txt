@@ -1,0 +1,169 @@
+[s0073]
+[title Final Day?]
+
+You wake up but the lights are already on. These people must've adjusted their sleep cycles to the night/day pattern, but it's still not sinking in for you. Oh well. Time to see what's on the computer.
+
+[type AVBRANDY 8] hey there
+[type AVBRANDY 8] good morning
+[type AVBRANDY 8] cecilia says your ACLIBR didn't work
+[type AVBRANDY 8] which really sucks
+[type AVBRANDY 8] i guess maybe you're only supposed to use on people you can already talk one way to
+[type AVBRANDY 8] anyway, licozy says he's really close
+[type AVBRANDY 8] he's on the exit codes, and it's a good thing to
+[type AVBRANDY 8] i think i'm starting to get a bit paranoid
+[type AVBRANDY 8] but i'm pretty sure these noises are some kind of pump in my room
+[type AVBRANDY 8] and it just doesn't feel right, i don't know
+[type AVBRANDY 2] yeah, dammit, just tracked down the noise
+[type AVBRANDY 2] it's coming from the bathroom drain
+[type AVBRANDY 2] i put my head over the grate and i passed out for a bit there
+[type AVBRANDY 2] pretty sure i'm being poisoned
+[type AVBRANDY 2] i told cecilia to tell licozy to hurry up, but i don't know
+[type AVBRANDY 2] this doesn't look good
+[type AVBRANDY 2] also, i want to talk to you about licozy but i can't be sure my messages aren't being intercepted
+[type AVBRANDY 2] maybe he's changing ACLIBR to something else or something so yours can't work and you can't talk to him
+[type AVBRANDY 2] so i'm going to use elyse's code, if you can figure it out
+[type AVBRANDY 2] lcpanes: if licozy doesn't sent the codebook here via magic cabinets
+[type AVBRANDY 2] lcpanes: maybe his codebook's info stuff is somewhat legit
+[type AVBRANDY 2] lcpanes: but the mastermind's plant isn't. must not be you, someone or else not
+[type AVBRANDY 2] sorry if that was confusing, but i don't trust anyone but you reading that
+[type AVBRANDY 0] and cecilia says she sent you a present or something
+[type AVBRANDY 0] let her know if you get talking with licozy i guess
+[type AVBRANDY 0] not much we can do but wait for that guy to finish up
+[type AVBRANDY 0] hope we're out of here before the gas kills me
+
+That was unsettling, to say the least. Might as well check the cabinets; Cecilia hasn't been known to lie. You open the knobless door to the bathroom and walk to the cabinets. Inside is another shoebox, brown and unused. Is that the same one from yesterday? There's no way to tell. Instead, you open it to pull out... Crime and Punishment, by Fyodor Dostoevsky? Does that mean anything? Inside the book are tons of underlines passages seemingly selected at random. No doubt there's some code there. You wish someone would tell you how to break these. Why did Cecilia bother sending you this? You return to the computer.
+
+[type LICOZY 1] Hello, LCPANES.
+[type LCPANES 0] what
+[type LCPANES 0] how are you talking to me?
+[type LCPANES 0] did ACLIBR finally work?
+[type LICOZY 0] In a way.
+[type LICOZY 0] ALCIBR was always active, actually, but it only allows communication in one direction.
+[type LICOZY 0] When I saw that you had used yours to talk to me, I decided to use mine to talk to you.
+[type LICOZY 0] Therefore we can have some sort of meaningful dialogue.
+[type LCPANES 0] you sound different than I'd expected
+[type LCPANES 0] Seth always led me to believe you didn't talk much
+[type LICOZY 0] If you're trying to fool me, please stop with the foolishness.
+[type LCPANES 0] ??
+[type LICOZY 0] ...it is possible it was meant to turn out this way.
+[type LICOZY 0] I'm almost certain that either Seth or Cecilia or both are non-persons, whose only goals are to keep me tortured and imprisoned.
+[type LICOZY 0] Cecilia is endlessly taunting, and Seth refuses to communicate through the magic cabinets.
+[type LICOZY 0] I suspected even the LCPANES terminal was a fiction designed to confuse me until I heard from you.
+[type LCPANES 0] you must have it wrong
+[type LCPANES 0] Seth is dying in his room
+[type LCPANES 0] it looks like the mastermind tried to gas him
+[type LICOZY 0] It's possible, but please keep in mind that you must be cautious.
+[type LICOZY 0] I have a large amount of evidence that Seth himself is the mastermind.
+[type LICOZY 0] The items I receive through the cabinets are damning indeed.
+[type LCPANES 0] what do you mean?
+[type LICOZY 0] Maybe you know of Myron, the supposed former occupant of AVBRANDY...
+[type LICOZY 0] In the past day, the cabinet has given me two books and a pen.
+[type LCPANES 0] so?
+[type LICOZY 0] Each of those items contained a spray of blood on the pages, or in the case of the pen, on the tip.
+[type LICOZY 0] It was only a trace amount, and dried, but the implication is a threat.
+[type LICOZY 0] The mastermind may be finally making a move on my life, or else attempting to throw me into some deeper psychosis.
+[type LCPANES 0] it could've just been a coincidence
+[type LICOZY 0] Seth sent no explanation of his actions, despite my numerous requests.
+[type LICOZY 0] Seth very rarely replies to any of my requests.
+[type LCPANES 0] weird...
+[type LCPANES 0] Cecilia's been sending me random items too, and no sort of explanation
+[type LICOZY 0] One or both are plants.
+[type LICOZY 0] I'm beginning to suspect you are a plant yourself, if our circumstances are so similar.
+[type LCPANES 0] by the way, both Seth and Cecilia are sure you're the mastermind
+[type LICOZY 0] Maybe you aren't a plant then.
+[type LICOZY 0] It could be a cunning strategy to trick both of us into believing the other is the plant.
+[type LCPANES 0] assuming you aren't the plant
+[type LICOZY 0] ...assuming you aren't the plant.
+[type LCPANES 0] look, bottom line is we have to work together to get out of here
+[type LCPANES 0] Seth told me you were almost done with the escape codes?
+[type LICOZY 0] I strongly suspect the codes are just a red herring.
+[type LICOZY 0] However, yes, I am close to decrypting another codebook.
+[type LICOZY 0] I'll be done within the next one hour to forty hours, depending on where the cipher key lies.
+[type LCPANES 0] uh I don't think Seth has that kind of time
+[type LICOZY 0] I care very little for "Seth," but I'll try.
+
+You're about to lean back from the computer and take a break when more messages appear.
+
+[type AVBRANDY 0] i'm stating to lose it
+[type AVBRANDY 0] did ACLIBR ever work?
+[type AVBRANDY 0] haven't heard from cecilia since yesterday
+[type AVBRANDY 0] has anyone heard from her?
+[type AVBRANDY 0] oh god, i hope she's not being gassed as well
+[type AVBRANDY 0] i can hardly hold on
+
+Better check in with Cecilia.
+
+[type LCPANES 0] hey
+[type 00000000 0] KUHOOK or LICOZY?
+[type LCPANES 0] KUHOOK
+[type LCPANES 0] hey, Cecilia
+[type LCPANES 0] first: get in touch with Seth
+[type LCPANES 0] he's on his last legs and he thinks you're being gassed
+[type LCPANES 0] second: what's with this book?
+[type LCPANES 0] you've been sending a lot of weird stuff
+[type LCPANES 0] or is this from the mastermind or something?
+[type LCPANES 0] just let someone know you're alive okay?
+
+The situation seems to be steadily degrading. Seth is being slowly poisoned. Cecilia is missing in action. LICOZY seems even more paranoid that Seth and Cecilia made him out to be, and Elyse's note casts even further suspicion on him. Plus you can't even figure out this chat system. How do you get back in touch with LICOZY?
+
+[type LICOZY 0] Are you still there?
+[type LCPANES 0] yeah, I was just trying to figure out how to switch who I was sending messages to
+[type LICOZY 0] I understand.
+[type LICOZY 0] But I've made a breakthrough, much earlier than I'd thought.
+[type LCPANES 0] the exit codes?
+[type LICOZY 0] They're not encoded very deep at all.
+[type LICOZY 0] However, there may be some layer of misdirection.
+[type LICOZY 0] I doubt we'll all get out of here unscathed, but I think you and I could probably escape.
+[type LCPANES 0] what do you mean?
+[type LICOZY 0] I'm not sure yet.
+[type LICOZY 0] Hold tight; I'm running the escape info program before the actual escape programs...
+[type LCPANES 0] escape program?
+[type LICOZY 0] One second.
+[type LICOZY 0] Okay.
+[type LICOZY 0] That was easier than I thought, though there may be some difficult choices up ahead.
+[type LCPANES 0] like what?
+[type LICOZY 0] You will be given the choice to free one other room.
+[type LICOZY 0] What do we do now?
+[type LICOZY 0] I'm fairly certain we can both escape if we free each other.
+[type LCPANES 0] wait, what about Seth?
+[type LCPANES 0] and Cecilia?
+[type LICOZY 0] One appears to be dead, and one appears to be missing.
+[type LICOZY 0] One or both are playing us.
+[type LICOZY 0] Do we risk their cooperation in our escape?
+[type LCPANES 0] You have a point...
+[type LICOZY 0] There are two options, essentially.
+[type LICOZY 0] We could mutually free each other...
+[type LICOZY 0] ...or we each set another room free before us.
+[type LICOZY 0] In that scenario, we would have to rely on those escapees to run their escape programs and free us before they actually left.
+[type LICOZY 0] If either is the plant, one of us will be trapped here.
+[type LICOZY 0] If both are plants, we both die.
+[type LCPANES 0] but if neither are plants, they both die
+[type LICOZY 0] I hope the evidence I've presented is clear...
+[type LICOZY 0] ...but I defer to you.
+[type LICOZY 0] The decision is yours.
+[type LICOZY 0] Just type this into your terminal: FFALERT03LC
+[type LCPANES 0] okay...
+[type LCPANES 0] here goes
+[type LCPANES 0] FFALERT03LC
+[type 00000000 0] HELLO, LCPANES.
+[type 00000000 0] YOU ARE THE 1 TO REACH THIS POINT.
+[type 00000000 0] THOSE THAT HAVE GONE BEFORE YOU ARE:
+[type 00000000 0] (none)
+[type 00000000 0] THIS IS THE END OF THE LINE FOR YOU.
+[type 00000000 0] YOU CAN PROGRESS NO FURTHER ON YOUR OWN.
+[type 00000000 0] THERE ARE NO FURTHER PROGRAMS.
+[type 00000000 0] THIS IS THE FINAL CHOICE.
+[type 00000000 0] IT IS UP TO YOU.
+[type 00000000 0] DECIDE WHICH OF THE OTHER THREE TO RELEASE.
+[type 00000000 0] YOU PLANNED FOR THIS MOMENT, DIDN'T YOU.
+[type 00000000 0] SO NOW THIS IS ONLY THE TEST.
+[type 00000000 0] CHOOSE WISELY.
+[type 00000000 0] LICOZY AVBRANDY KUHOOK
+[type 00000000 0] WHICH ONE WALKS FREE?
+
+This... this is the escape program. But it's not your escape; it's the escape of a friend. There is only one thing left to decide now: [L]ICOZY, [A]VBRANDY, or [K]UHOOK
+
+[choice]
+[l :: s0074]
+[a :: s0076]
+[k :: s0075]

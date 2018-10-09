@@ -1,0 +1,10 @@
+[s0015]
+[title Big Red Calendar]
+
+You set about examining the two large metal doors preventing your exit from the room. The first appears to be locked by some device on the other side. When you push the handle downwards, nothing happens. No lock is visible.
+
+There is what appears to be a calendar hanging on this door. It's a single sheet of white spiral notebook paper taped to the metal. A grid of boxes is arranged in purple with tick marks on each box up to two days ago. There, there is a blank box. And on yesterday's date, there is a big red X. Nothing else is marked... except for two weeks from yesterday, where there is another X.
+
+The other door looks to be the same make, but its handle is different. Instead of a keyhole, there is a cylindrical tumbler with letters of the alphabet on it. It must take an eight letter word to escape this place... Too bad you're only guessing in the dark.
+
+[goto s0002]

@@ -1,0 +1,8 @@
+[s0026]
+[title Sink & Shower]
+
+The sink is of the variety that might be found in a public restroom, with all the plumbing exposed on the bottom. At least it isn't leaking. The bar of soap sitting on the little ledge is marked with a brand of hotel. There are brown rings on the pewter where the water level in the sink once stood.
+
+There is a showerhead in the corner with a few knobs below. You turn it on and off, and the water flows down to the drain in the middle of the room. It must be functional, though you hope you never have to use it.
+
+[goto s0018]

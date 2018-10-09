@@ -1,0 +1,8 @@
+[s0006]
+[title King James Bible]
+
+It's a highly annotated bible. Certain quotes and passages are underlined in red pen, and a tangle of purple lines connects the underlined passages to scribbled notes. Most of the purple margin notes are illegible due to their cramped size, but further on, you're sure they must be written in some other language. However, a few are still readable.
+
+"Correlation with elm key? Dubious." ... "Give to Seth. Might correspond to Chekhov pg 80." ... "Combine with page 282 and cipher 3 for KUHOOK0038" In other words, nonsense.
+
+[goto s0004]

@@ -1,0 +1,66 @@
+[s0085]
+[title Final Route: KUHOOK]
+
+[type LCPANES 0] KUHOOK
+[type 00000000 0] EXIT WORD FOR KUHOOK: MIRACLES
+
+Time to throw doubt to the wind. This whole time, the only thing keeping the prisoners of this dungeon from escaping has been their mutual doubt. Maybe all they needed was someone new to put all that aside. Now is the time for liberation. This shouldn't be difficult. Everyone tells the next person in the chain their escape code. Hasn't that been the foundation of communication since day one?
+
+[type LCPANES 0] KUHOOK
+[type LCPANES 0] Cecilia, listen, I've got your escape password
+[type LCPANES 0] just use it on your door and you're home free
+[type LCPANES 0] it's MIRACLES
+[type LCPANES 0] but before you go, you're going to need to set LICOZY free, alright?
+[type LCPANES 0] let me get you your escape program code
+[type LCPANES 0] just run it and select LICOZY
+[type LCPANES 0] okay, it's FFALERT04KU
+[type LCPANES 0] just a few more minutes and we should be all set
+[type KUHOOK 0] pff, don't make me laugh.
+[type LCPANES 0] what??
+[type LCPANES 0] how are you even typing to me
+[type KUHOOK 0] we all have our little secrets, don't we?
+[type KUHOOK 0] LICOZY kept our codes all hidden, Seth was a plant, and I've been able to talk to anyone at any time.
+[type LCPANES 0] seriously?
+[type KUHOOK 0] and your secret is that you're a LICOZY sympathizer.
+[type LCPANES 0] if I was a "LICOZY sympathizer" wouldn't I just have freed him then?
+[type KUHOOK 0] if it were possible
+[type KUHOOK 0] LICOZY's a sick sick person
+[type KUHOOK 0] he wants to stay here forever
+[type KUHOOK 0] you must've convinced him that you wanted to leave though...
+[type KUHOOK 0] or else he never would've revealed his secret
+[type LCPANES 0] how do you know all this?
+[type KUHOOK 0] I've been able to view all communication, like I said.
+[type KUHOOK 0] it's not that hard to understand.
+[type LCPANES 0] fine...
+[type LCPANES 0] I still don't understand the reasons here
+[type KUHOOK 0] haha, like you could ever understand.
+[type KUHOOK 0] LICOZY and I have been at war for too long.
+[type KUHOOK 0] you might as well butt out of it
+[type LCPANES 0] what's that supposed to mean?
+[type LCPANES 0] and I can't believe that Seth's a plant
+[type KUHOOK 0] you better start believing it then.
+[type KUHOOK 0] because when you watch what people say, like I have, certain inconsistencies start to pop up.
+[type KUHOOK 0] you probably could've figure it out if you were more attentive.
+[type KUHOOK 0] and in the slim chance he wasn't a plant, the gas should've killed him by now anyway.
+[type KUHOOK 0] bye Seth.
+
+You close your eyes for a few moments. Seth is dead? Seth is a plant? Cecilia is omniscient? What's going on here?
+
+[type LICOZY 0] I'm getting some very disconcerting messages from Cecilia.
+[type LICOZY 0] You need to run, immediately.
+[type LICOZY 0] I'm sorry to have to let Seth die, but he was probably a plant anyway.
+[type LICOZY 0] It seems I'm trapped here for another age...
+[type LICOZY 0] ...but at least you are free.
+[type LICOZY 0] BURDENED.
+
+It looks like Seth is a lost cause, but LICOZY comes to your rescue. But that last part was nonsensical. Wait, that's the escape code! You rush to the metal door and spin the dial. B-U-R-D-E-N-E-D. Click. The door is open. There isn't time to think about anything else now. Time to flee.
+
+Ahead is a stairwell. The steps are concrete. They look well-worn for such an isolated place. The light from within the room is insufficient to illuminate much more than the first four steps. Past that, sight is difficult. However, something feels foreign. It's the breeze. Ahead is the open night sky. 
+
+You take the final step up from the underground as something slams shut at the bottom of the stairwell. Does any of what's left behind matter now? In any case, you are free. You have escaped. That is all that matters.
+
+Congratulations.
+
+(ending #8)
+
+[goto s0001]

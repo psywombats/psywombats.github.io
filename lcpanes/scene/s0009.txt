@@ -1,0 +1,11 @@
+[s0009]
+[title World Encyclopaedia]
+[increment GOT_ENCYC_ITEMS]
+
+This huge encyclopedia seems light for its size. When you open it, you find the reason why. Someone has gouged out most of the pages. While it was once an encyclopedia, it now serves to store items but still appear to be a book. Right now it contains a purple pen and a folded sheet of yellow paper that reads:
+
+"Cecilia: Here's the bookbox, as per the backup plan. I understand your reluctance to send anything through LICOZY, so better hope this works. Good luck, ~Elyse"
+
+Very very strange. Usually when people hollow out books like this, they're looking to hide something, but there's nothing valuable here. The note is odd and the pen is pretty, but it's nothing special. You remove the items and replace the book.
+
+[goto s0004]

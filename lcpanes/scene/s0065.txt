@@ -1,0 +1,65 @@
+[s0065]
+[title Seth's Gambit]
+
+The messages stop. Seth? Is he even okay? You can only fear the worst. How are you supposed to break this to Cecilia? And what's happening in there anyway? It must be some sort of poison, but what type works in that manner? It's not like there are any options, even if you knew the exact circumstances.
+
+But what about the medicine cabinet? Couldn't there be some way to concoct some antidote? Is that even possible for an airborne poison? And there isn't any way to get items to Seth anyway... Maybe if you had deciphered codes like the rest of them seem to know how to do, you would have the necessary information. Isn't that always the issue... a lack of information. But before you can type out a notification to Cecilia, new messages from Seth pop up.
+
+[type AVBRANDY 1] lcpanes is coming in
+[type AVBRANDY 1] okay man, my sense are really screwed up right now
+[type AVBRANDY 1] i'm just going to paste back exactly what he's writing, okay
+[type AVBRANDY 1] i don't think there's much more i can handle at this point, so i'll let you deal with it
+[type AVBRANDY 1] "LICOZY: AVBRANDY, I'm through."
+[type AVBRANDY 1] "LICOZY: I have codes. Four of them. Yours is FFALERT02AV, got it?"
+[type AVBRANDY 1] "LICOZY: LCPANES is FFALERT03LC, and KUHOOK should be FFALERT04KU."
+[type AVBRANDY 0] "LICOZY: No, it's not the passcode for the doors; it's the keyword for the program."
+[type AVBRANDY 0] "LICOZY: You have to enter it just like you were sending a message to LCPANES."
+[type AVBRANDY 0] ffalert02ab
+[type AVBRANDY 0] oh, sorry, mistyped
+[type AVBRANDY 0] i can hardly do this
+
+And then... nothing. Judging from your experience with these "programs," just about anything could be going on over there right now. But luckily enough, you know your escape code. That should lead to a way out right? Is this really all there is? Better let Cecilia know.
+
+[type LCPANES 0] Cecilia, something came up
+[type LCPANES 0] really, I don't know the details, but something in Seth's room is starting to poison him
+[type LCPANES 0] it's probably a gas thing
+[type LCPANES 0] do you have any info on that?
+[type LCPANES 0] are you even there?
+[type LCPANES 0] dammit
+[type LCPANES 0] okay, everyone's vanishing on me, could we please just communicate here?
+[type LCPANES 0] never mind
+[type LCPANES 0] licozy came through
+[type LCPANES 0] he's got the escape codes
+[type LCPANES 0] Seth and I have ours, but yours is FFALERT04KU, got it?
+[type LCPANES 0] okay, that's all I've got
+[type LCPANES 0] just get back to me whenever you can, okay?
+[type LCPANES 0] I have no idea what to do over here
+
+Well, you do, really. There's only one step left: running the program. However, you've been warned not to trust LICOZY and it's only his word that the program isn't dangerous. Even if the last one wasn't overly harmful, as Cecilia said, it could spell the end of everything. But the ones who've been warning you appear to be having troubles of their own. It's time to take matters into your own hands.
+
+[type LCPANES 0] FFALERT03LC
+
+No click, no shutdown this time; just immediate response.
+
+[type 00000000 0] HELLO, LCPANES.
+[type 00000000 0] YOU ARE THE 2 TO REACH THIS POINT.
+[type 00000000 0] THOSE THAT HAVE GONE BEFORE YOU ARE:
+[type 00000000 0] KUHOOK
+[type 00000000 0] THIS IS THE END OF THE LINE FOR YOU.
+[type 00000000 0] YOU CAN PROGRESS NO FURTHER ON YOUR OWN.
+[type 00000000 0] THERE ARE NO FURTHER PROGRAMS.
+[type 00000000 0] THIS IS THE FINAL CHOICE.
+[type 00000000 0] IT IS UP TO YOU.
+[type 00000000 0] DECIDE WHICH OF THE OTHER THREE TO RELEASE.
+[type 00000000 0] YOU PLANNED FOR THIS MOMENT, DIDN'T YOU.
+[type 00000000 0] SO NOW THIS IS ONLY THE TEST.
+[type 00000000 0] CHOOSE WISELY.
+[type 00000000 0] LICOZY AVBRANDY KUHOOK
+[type 00000000 0] WHICH ONE WALKS FREE?
+
+This... this is the escape program. But it's not your escape; it's the escape of a friend. There is only one thing left to decide now: [L]ICOZY, [A]VBRANDY, or [K]UHOOK
+
+[choice]
+[l :: s0066]
+[a :: s0068]
+[k :: s0069]

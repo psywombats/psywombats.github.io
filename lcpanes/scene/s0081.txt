@@ -1,0 +1,22 @@
+[s0081]
+[title Let Seth Know]
+
+[type LCPANES 0] hey Seth
+[type 00000000 0] KUHOOK OR AVBRANDY?
+[type LCPANES 0] what
+[type 00000000 0] KUHOOK OR AVBRANDY?
+[type LCPANES 0] AVBRANDY
+[type LCPANES 0] I guess
+[type AVBRANDY 0] oh hey
+[type AVBRANDY 0] what's up
+[type LCPANES 0] I just got a note from Cecilia
+[type AVBRANDY 0] weird, she could've just told me to tell you
+[type AVBRANDY 0] what's it about?
+[type LCPANES 0] something about you might sell us out to escape or something
+[type AVBRANDY 0] haha, that's a laugh
+[type AVBRANDY 0] don't worry, pretty sure that's just the mastermind trying to throw us off
+[type LCPANES 0] okay...
+[type AVBRANDY 0] but in other news, something serious is going on here
+[type AVBRANDY 0] one second
+
+[goto s0083]

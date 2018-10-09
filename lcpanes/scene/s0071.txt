@@ -1,0 +1,12 @@
+[s0071]
+[title Message Routing: KUHOOK]
+
+[type LCPANES 0] KUHOOK
+[type LCPANES 0] uh
+[type LCPANES 0] is everything back to normal now?
+[type LCPANES 0] sorry about that Cecilia
+[type LCPANES 0] the machine was acting up
+[type LCPANES 0] do you have any idea what messages about message routing and KUHOOK/LICOZY choices could be about?
+[type LCPANES 0] but, to the point, I need something else to do now and I'm kind of out of ideas
+
+[goto s0078]

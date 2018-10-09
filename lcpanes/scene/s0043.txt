@@ -1,0 +1,11 @@
+[s0043]
+[title Bathroom, revisited]
+
+The bathroom remains dusty and yellowed, but a quick wash up the sink is always good in the morning. At least the water works. There isn't a whole lot to do in here that wasn't covered yesterday.
+
+You could take a [s]hower, check the [c]abinets, or head [b]ack.
+
+[choice]
+[s :: s0044]
+[c :: s0048]
+[b :: s0042]

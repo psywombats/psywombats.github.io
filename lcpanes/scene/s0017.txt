@@ -1,0 +1,8 @@
+[s0017]
+[title Plastic Door]
+
+The door frame isn't actually wooden. It looks to be plastic faux-wood frame mounted to the cement wall. The door itself does appear to be made of plywood, but the handle is missing. From the hole where the knob should be, a flickering light is present.
+
+You push the door open and enter the room. This appears to be a washroom of some sort. The light is coming from a fluorescent cylinder over the mirror in the corner. It's emitting a buzzing noise and crackling off at irregular intervals, but it does a good enough job of illuminating the shabbiness of this room. The floor is comprised of grubby white tiles that slope towards a drain in the middle of the room. There are only a few items of interest.
+
+[goto s0018]

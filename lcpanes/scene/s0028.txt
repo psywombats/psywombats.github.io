@@ -1,0 +1,6 @@
+[s0028]
+[title Toilet]
+
+It's a pretty standard toilet. It's aged, just like the rest of the room, but it's still unsettling. That's probably just because all of these objects and this room itself point towards the fact that you'll probably be spending a good amount of time down here. Is this a cell?
+
+[goto s0018]

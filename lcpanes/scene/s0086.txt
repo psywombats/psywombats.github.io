@@ -1,0 +1,57 @@
+[s0086]
+[title Final Route: AVBRANDY]
+
+[type LCPANES 0] AVBRANDY
+[type 00000000 0] EXIT WORD FOR AVBRANDY: REASSESS
+
+Time to throw doubt to the wind. Seth has been the one constant force this entire time. He's the only person you've been able to form a clear opinion of, free from the smoke of LICOZY. And now he's in trouble, and you're the only one that can help.
+
+[type LCPANES 0] AVBRANDY
+[type LCPANES 0] hey, Seth, I've got your exit password thing
+[type LCPANES 0] REASSESS
+[type LCPANES 0] LICOZY should've sent you some sort of escape program code, just make sure you run it first
+[type LCPANES 0] then get out of here
+[type AVBRANDY 0] got it
+[type LCPANES 0] Seth!
+[type LCPANES 0] you had me worried there for a minute
+[type LCPANES 0] are you still around?
+[type LCPANES 0] hey, talk to me here
+
+But it's probably worthless. He's almost fully incapacitated and now he needs to run LICOZY's program. You start to think about the cycles. Who is going to free whom? Who is going to free you? Seth is free now, definitely, but what about the rest of you? Seth can only get in touch with you, so it makes sense that he'd send you your exit code, right? Then what happens if he can't manage to do anything but escape without saving you? It's a daunting prospect. Did you just sacrifice your freedom for his?
+
+[type LICOZY 0] Hello again.
+[type LICOZY 0] There have been a few changes.
+[type LICOZY 0] Forget everything I said about Seth; I have some much more solid information now.
+
+Of course, he doesn't attach an escape password. You're still without any means of freeing yourself or doing much of anything but waiting around. You think back to the cycles problem again. So if Seth gives you your code, you're home free, but as for the other two... Cecilia gives LICOZY his release code, and LICOZY gives her hers, right? Wait a second... LICOZY can't directly send messages to Cecilia! That leaves them both stuck if you're not around to convey the message. It's a good thing there's a delay on Seth's end. You can only hope that delay isn't fatal.
+
+[type AVBRANDY 0] okay, sorry, i was reading something in the magic cabinets that LICOZY sent
+[type AVBRANDY 0] i'm sending him his release word back, it's HIBISCUS
+[type AVBRANDY 0] i'm getting out of here
+[type AVBRANDY 0] bye
+
+Wait... What? No! That's not right. Why would Seth ever do that? Did he finally overcome his mistrust of LICOZY only to leave you stuck down here? Maybe something will fall together. The magic cabinets seem like such a strange delivery system when the chat system is in place, but then again, the poison gas must be causing some strange effects. It doesn't matter. You sit and wait.
+
+[type LICOZY 0] So it comes to this...
+[type LICOZY 0] Your escape password is BURDENED.
+[type LICOZY 0] Give Cecilia hers: BANANANA.
+[type LICOZY 0] Now let's hope to meet on the other side.
+
+They're... free? Everyone's free? Is that all the words? It's time to go.
+
+[type LCPANES 0] KUHOOK
+[type LCPANES 0] Cecilia, LICOZY came through
+[type LCPANES 0] yours is BANANANA
+[type LCPANES 0] now let's go
+
+You rush to the metal door and spin the dial. B-U-R-D-E-N-E-D. Click. The door is open. Time to flee.
+
+Ahead is a stairwell. The steps are concrete. They look well-worn for such an isolated place. The light from within the room is insufficient to illuminate much more than the first four steps. Past that, sight is difficult. However, something feels foreign. It's the breeze. Ahead is the open night sky. 
+
+You take the final step up from the underground as something slams shut at the bottom of the stairwell. The feeling of the night air with the knowledge that everyone down there is safe is the best feeling in the world. Freedom!
+
+Congratulations.
+
+(ending #9)
+
+[goto s0001]

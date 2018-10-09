@@ -1,0 +1,8 @@
+[s0020]
+[title Medicine Cabinet]
+
+A fair-sized cabinet with glass doors hangs above the sink. The frame is old and wooden, not an antique style of wood, more of a cheap apartment style of wood. There is a chain and padlock around the two little knobs that serve as door handles, so at the moment it can't be opened.
+
+The contents are about two dozen glass vials and old beakers, each filled with a tablet or capsule or clear liquid. A few of them have strips of scotch tape affixed to them, but any markings that existed have bled off from moisture.
+
+[goto s0024]

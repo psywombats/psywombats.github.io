@@ -1,0 +1,28 @@
+[s0051]
+[title Back at LCPANES]
+
+You return to the computer screen to see a stream of messages already printed there, all from AVBRANDY.
+
+[type AVBRANDY 28] hey, it's me, seth
+[type AVBRANDY 28] so i hope you've decoded elyse's notebooks by now
+[type AVBRANDY 28] ...if they're even still around
+[type AVBRANDY 28] anyway, i don't know what exactly she put in them, but it should be enough to understand me, i hope
+[type AVBRANDY 28] and understand what's going on at the moment
+[type AVBRANDY 27] anyway, usually we start the day by telling each other what we're up to
+[type AVBRANDY 27] i'm trying keys i-o on the safe codebook today
+[type AVBRANDY 27] ...though that probably means nothing to you
+[type AVBRANDY 27] also, if you didn't know, i've got two days left, i think
+[type AVBRANDY 27] two days before... who knows.
+[type AVBRANDY 25] okay, anyway, when you read this, let cecilia know what you plan to do
+[type AVBRANDY 25] honestly, you'll have to rely on elyse's instructions
+[type AVBRANDY 25] somehow i never ended up with what you're supposed to know through the whole chain of communication
+[type AVBRANDY 24] good luck, let me know if there's any progress
+
+...but the question remains, what are you supposed to do? There doesn't seem to be much you can do to aid the escape attempt, but you might as well try something.
+
+You could look through the collection of odd [b]ooks again, re-examine the [c]omputer, or re-read Elyse's [n]otes.
+
+[choice]
+[b :: s0056]
+[c :: s0057]
+[n :: s0052]

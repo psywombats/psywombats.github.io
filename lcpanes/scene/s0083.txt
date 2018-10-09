@@ -1,0 +1,142 @@
+[s0083]
+[title Ominous]
+
+For some reason, you feel something bad is coming... Whether it's related to the note, you don't know.
+
+[type AVBRANDY 0] okay
+[type AVBRANDY 0] yeah, i'm sure now
+[type AVBRANDY 0] i'm being gassed
+[type LCPANES 0] gassed?
+[type AVBRANDY 0] poison
+[type AVBRANDY 0] it's coming through the drain in the bathroom
+[type LCPANES 0] is this what happens when you reach the expiration date?
+[type LCPANES 0] and what do you mean by poison?
+[type AVBRANDY 0] when i put my face on the drain, i feel dizzy
+[type AVBRANDY 0] this morning i tried it and almost passed out
+[type AVBRANDY 0] and it's being pumped in, i can hear it
+[type LCPANES 0] yeah, I believe you
+[type LCPANES 0] I can hear it too
+[type LCPANES 0] you're going to try anything dumb, are you?
+[type AVBRANDY 0] i told you, no heroics
+[type AVBRANDY 0] if i'm dead, i'm dead
+[type AVBRANDY 0] that bastard LICOZY better hurry up
+[type LCPANES 0] I wish I knew what he wanted to talk about
+[type AVBRANDY 0] he'll probably get in touch some time later today
+[type LCPANES 0] right...
+[type LCPANES 0] what are you up to?
+[type AVBRANDY 0] i'm scouring through the codebooks again, looking for hints
+[type AVBRANDY 0] fairly certain ACLIBR is the last thing i'm supposed to do, but there's something weird here
+[type AVBRANDY 0] it's that whole 'escape is cooperation' thing
+[type AVBRANDY 0] i wish i knew what that was about
+[type LCPANES 0] don't worry too much about it
+[type LCPANES 0] and I guess there's still nothing I should be doing?
+[type AVBRANDY 0] pretty much
+[type AVBRANDY 0] cecilia wants to talk again though
+[type LCPANES 0] bye then
+
+You've barely leaned back in the chair when the messages begin coming in again. This time the source isn't Seth...
+
+[type LICOZY 0] Hello.
+[type LICOZY 0] I know you're there, LCPANES.
+[type LICOZY 0] You won't be able to respond unless you haven't used ACLIBR, but I suspect you went and used yours to contact Seth.
+[type LICOZY 0] I can't say I blame you for it, but that wasn't very prudent.
+[type LICOZY 0] Do you realize that he's now the hub for all information passed around between the four of us?
+[type LICOZY 0] That's why I've chosen you to contact.
+[type LICOZY 0] I have serious suspicions about the earnestness of our partners.
+[type LICOZY 0] You are the only one I know nothing about.
+[type LICOZY 0] If "Seth" and "Cecilia" were to lie about you, that lie puts them at serious risk and buys them nothing.
+[type LICOZY 0] For that reason, I'm choosing you as a confidant.
+[type LICOZY 0] In a couple minutes, I'll be sending you a file via NTRNSND
+[type LICOZY 0] I've kept the existence of this program secret until now, but as this is Seth's supposed final day, I have no choice.
+[type LICOZY 0] When you receive the document, the key is FPAUODUS.
+
+Again, more unprompted messages from LICOZY, this time much more ominous. Suspicions of Seth and Cecilia? You hadn't even thought to think about them as plants (or even the mastermind) until now because escape would seem so impossible without their help. Maybe LICOZY as a suspect just lowered your guard. At this point, there doesn't seem to be much to do but report all this to Seth. You resolve yourself to keep the incoming file a secret until you fully understand what LICOZY meant. When you look back up to the screen, however, messages are already arriving.
+
+[type AVBRANDY 1] you there?
+[type AVBRANDY 1] sorry, can't remember if  i was just talking to you
+[type AVBRANDY 1] the gas is really starting to kick in now
+[type LCPANES 0] okay, I'm here Seth
+[type AVBRANDY 0] good to hear it
+[type AVBRANDY 0] did i just cover a bunch of stuff about LICOZY theory with you?
+[type LCPANES 0] nothing
+[type AVBRANDY 0] okay, doesn't matter
+[type LCPANES 0] but on that subject, I just got more of those messages from LICOZY
+[type LCPANES 0] he really did use ACLIBR to get in touch
+[type LCPANES 0] he's got suspicions about everything and he's concerned that you're the only way he can route information
+[type AVBRANDY 0] it's a natural reaction to being close off
+[type AVBRANDY 0] he's probably catching on to the fact that we're on to him
+[type AVBRANDY 0] all I can say is that he's probably unstable at this point
+[type AVBRANDY 0] i mean, he's probably not only a plant but the architect behind this entire thing
+[type LCPANES 0] you're right, I guess
+[type LCPANES 0] I'll just hold on and see what he says
+[type LCPANES 0] if you can, do you mind getting in touch with Cecilia and having her tell LICOZY to tell me where he is on the status of the escape codes?
+[type LCPANES 0] and if LICOZY asks me to run a program or something, like you had me do with ACLIBR, do you think I should accept?
+[type LCPANES 0] hello?
+
+Seth isn't responding, even after five minutes of staring at the screen. This has to be one of the worst situations. If he isn't able to answer the messages, does that mean he's been poisoned? Or could be doing something as simple as chatting with Cecilia or running a program or reading one of the codebooks? Whatever the reason, the delay is starting to cause a bit of a panic.
+
+[type 00000000 0] NEW FILE FROM LICOZY TERMINAL
+[type 00000000 0] ENTER DECRYPT KEY TO ACCEPT FILE FROM LICOZY TERMINAL
+[type LCPANES 0] FPAUODUS
+[type 00000000 0] FILE ACCEPTED
+
+The response was automatic. You hope that won't destroy anything or damage the terminal... Anything could happen now. You almost jump out of the chair as the screen flips color from white text on black background to black on white. What is printed there is reminiscent of the other messages, but this time, the timestamps are from some time in the distant past. What is this, some kind of manifesto? You begin to read.
+
+[type LICOZY 500] Hello.
+[type LICOZY 500] If you are reading this, either your expiration date or that of another occupant is fast approaching.
+[type LICOZY 500] I've saved this document for those vital moments where I could not trust my instincts.
+[type LICOZY 500] Until this point in time, and possibly still now, I have had reason to believe that two of my fellow prisoners are not prisoners at all, but rather dummies or puppets controlled by the mastermind behind my imprisonment.
+[type LICOZY 500] However, not evidence has never clearly presented itself.
+[type LICOZY 500] I can neither confirm nor deny my own theory.
+[type LICOZY 500] I realized long ago that this could lead to a kind of morality trap: If I cannot trust one of my two fellows, but I need to trust one in order to free myself or others, what is there to be done?
+[type LICOZY 500] If I choose incorrectly, somebody dies, either myself or the teammate I chose not to help.
+[type LICOZY 500] In some sense, I see that as the entire point of my tribulations thus far.
+[type LICOZY 500] Therefore, this document exists.
+[type LICOZY 500] By sending it, I actively confirm my suspicions
+[type LICOZY 500] It's out in the open now, but I've deemed it safe (or else less safe to keep hidden).
+[type LICOZY 500] So here it is, my confession: I've had the exit programs in possession for the past five weeks.
+[type LICOZY 500] I know Elyse's expiration date, so I intend to send this to all occupants on that date, provided nothing else goes wrong
+[type LICOZY 500] Else, I would release it when I was sure there was a configuration of occupants that would free each other rather than trapping us here for eternity.
+[type LICOZY 500] The exit codes:
+[type LICOZY 500] AVBRANDY: FFALERT02AV  -  LCPANES FFALERT03LC  -  KUHOOK - FFALERT04KU
+[type LICOZY 500] So that's it.
+[type LICOZY 500] Do what you will, and I hope the moment wasn't too soon.
+
+It takes several reads to process the information. LICOZY knew how to let everyone free five weeks ago? That's a huge length of time. That's enough to have set Elyse free, and maybe some other former occupants as well. He must be one paranoid individual to keep this information for so long, causing that much harm. But now it's up to you to act. With Seth being poisoned, there isn't anything to do but use the exit codes here and now.
+
+You head to the steel door barring your escape from the dungeon and grip the rotary lock. The letters spin and spin and... Wait, there aren't enough spaces. Those words don't fit on the lock. What is that supposed to mean? Did LICOZY get it wrong? Or... are these programs? In any case, you have to let Seth know before running any more shady LICOZY programs.
+
+[type LCPANES 0] hey, Seth
+[type LCPANES 0] LICOZY pulled through
+[type LCPANES 0] he's got escape programs for everyone
+[type LCPANES 0] yours is FFALERT02AV and Cecilia's is FFALERT04KU
+[type LCPANES 0] they're not actual door codes, but I think they're programs
+[type LCPANES 0] ...you're still not there, huh?
+[type LCPANES 0] let me know when you're back, okay, I'm getting worried
+[type LCPANES 0] here goes nothing
+[type LCPANES 0] if for some reason I can't get back to you, goodbye
+
+Having said your farewells, you type the letters one by one on the keyboard. One second passes. Enter.
+
+[type 00000000 0] HELLO, LCPANES.
+[type 00000000 0] YOU ARE THE 1 TO REACH THIS POINT.
+[type 00000000 0] THOSE THAT HAVE GONE BEFORE YOU ARE:
+[type 00000000 0] (none)
+[type 00000000 0] THIS IS THE END OF THE LINE FOR YOU.
+[type 00000000 0] YOU CAN PROGRESS NO FURTHER ON YOUR OWN.
+[type 00000000 0] THERE ARE NO FURTHER PROGRAMS.
+[type 00000000 0] THIS IS THE FINAL CHOICE.
+[type 00000000 0] IT IS UP TO YOU.
+[type 00000000 0] DECIDE WHICH OF THE OTHER THREE TO RELEASE.
+[type 00000000 0] YOU PLANNED FOR THIS MOMENT, DIDN'T YOU.
+[type 00000000 0] SO NOW THIS IS ONLY THE TEST.
+[type 00000000 0] CHOOSE WISELY.
+[type 00000000 0] LICOZY AVBRANDY KUHOOK
+[type 00000000 0] WHICH ONE WALKS FREE?
+
+This... this is the escape program. But it's not your escape; it's the escape of a friend. There is only one thing left to decide now: [L]ICOZY, [A]VBRANDY, or [K]UHOOK
+
+[choice]
+[l :: s0084]
+[a :: s0086]
+[k :: s0085]

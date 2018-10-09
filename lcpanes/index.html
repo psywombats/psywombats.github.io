@@ -1,0 +1,187 @@
+<!doctype html>
+<html><head>
+<title>The LCPANES Terminal</title>
+<style>
+	body { margin: 0 auto; max-width: 800px; padding: 40px; }
+	pre { background: #000000; }
+	a { color: inherit; }
+</style>
+
+<script id="source">
+
+/* CONSTANTS ******************************************************************/
+
+var SCENES_START = 1;
+var SCENES_TOTAL = 86;
+
+var FPS = 30;
+
+var COLS = 71;
+var ROWS = 30;
+
+var KEYCODE_RETURN = 13;
+
+var STATE_LOADING = 0;
+var STATE_TITLE = 1;
+var STATE_READING = 2;
+var STATE_CHOICE = 3;
+
+
+/* TEXT RESOURCES *************************************************************/
+
+var sceneData = new Array(200);
+var sceneDataComplete = false;
+
+function loadFiles(n) {
+	if (n > SCENES_TOTAL) {
+		sceneDataComplete = true;
+		return;
+	}
+	
+	var scene;
+	if (n < 10) scene = "000"+n;
+	else if (n < 100) scene = "00"+n;
+	else if (n < 1000) scene = "0"+n;
+	else scene = ""+n;
+	
+	var txtFile = new XMLHttpRequest();
+	txtFile.open("GET", "scene/s"+scene+".txt", true);
+	txtFile.onreadystatechange = function() {
+		if (txtFile.readyState === 4) {
+			if (txtFile.status === 200) {
+				//console.log("loaded file #"+n);
+				sceneData[n] = txtFile.responseText;
+				loadFiles(n+1);
+			}
+		}
+	}
+	txtFile.send(null);
+}
+loadFiles(SCENES_START); // this should be moved??
+
+
+/* USER INPUT *****************************************************************/
+
+var keys = {};
+var keysTyped = {};
+document.onkeydown = function(e) { keys[e.which] = true };
+document.onkeyup = function(e) { keys[e.which] = false };
+document.onkeypress = function(e) { keysTyped[e.which] = true };
+
+
+/* MISC. INIT *****************************************************************/
+
+var state = 0;
+var lineb = 1;
+var deliberator;
+var outputRows = new Array(ROWS);
+for (var i = 0; i < ROWS; i++) { outputRows[i] = ""; }
+
+window.onload = function() {
+	setInterval(function() {
+		update()
+		draw()
+	}, 1000 / FPS)
+}
+
+
+/* MAIN UPDATE ****************************************************************/
+
+function update() {
+	if (!sceneDataComplete) {
+		state = STATE_LOADING;
+		return;
+	}
+	if (state == STATE_LOADING && sceneDataComplete) {
+		state = STATE_READING
+		readerInit(sceneData);
+		setBookmarkAtScene(SCENES_START);
+		appendText(nextAction());
+		keysTyped[KEYCODE_RETURN] = false;
+	}
+	
+	
+	if (state == STATE_READING) {
+		if (keysTyped[KEYCODE_RETURN]) {
+			appendText(nextAction());
+			clicked = false;
+			keysTyped[KEYCODE_RETURN] = false;
+		}
+	}
+	
+	if (state == STATE_CHOICE) {
+		for (var i = 0; i < deliberator.options.length; i++) {
+			var ascii = deliberator.options[i].charCodeAt(0);
+			var keyc = ascii + 65 - 97;
+			if (keys[keyc]) {
+				state = STATE_READING;
+				appendText(advanceToScene(deliberator.scenes[i]));
+				keysTyped[KEYCODE_RETURN] = false;
+			}
+		}
+	}
+}
+
+
+/* MAIN RENDER ****************************************************************/
+
+function draw() {
+	var c = document.getElementById('screen').getContext('2d');
+	
+	c.fillStyle = "#000000";
+	c.fillRect(0, 0, 640, 480);
+	c.textBaseline = "top";
+	c.font = "12px courier";
+	c.fillStyle = "#ffffff";
+	
+	if (state == STATE_LOADING) {
+		c.fillText("loading, please wait...", 32, 32);
+	} else if (state == STATE_READING || state == STATE_CHOICE) {
+		var atX = 0;
+		var atY = 32;
+		for (var i = 0; i < ROWS; i++) {
+			if (outputRows[i]) {
+				c.fillText(outputRows[i], atX, atY);
+			}
+			atY += 14;
+		}
+	}
+}
+
+
+/* CHOICE HANDLING ************************************************************/
+
+function choose(choice) {
+	keys = {};
+	state = STATE_CHOICE;
+	deliberator = choice;
+}
+
+/* SUPPORT ********************************************************************/
+
+function appendText(text) {
+	if (!text || text == "") return;
+	var toAppend;
+	if (text.indexOf('$' == -1)) {
+		toAppend = wordwrap(text, COLS, '$', false).split('$');
+	} else {
+		toAppend = text.split('$');
+	}
+	
+	var newArray = new Array(ROWS);
+	for (var i = 0; i < ROWS - toAppend.length - lineb; i++) {
+		newArray[i] = outputRows[i + toAppend.length + lineb];
+	}
+	for (var i = 0; i < toAppend.length; i++) {
+		newArray[(ROWS-toAppend.length) + i] = toAppend[i];
+	}
+	outputRows = newArray;
+}
+
+</script>
+<script type="text/javascript" src="wordwrap.js"></script>
+<script type="text/javascript" src="reader.js"></script>
+</head><body bgcolor="#000000">
+	<center><canvas id="screen" width="640" height="480"></canvas><br />
+	<font face="courier" size="2" color="white">press enter to advance, enter the letters in &#60;c&#62;arets when prompted</font></center>
+</body></html>

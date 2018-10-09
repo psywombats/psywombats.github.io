@@ -1,0 +1,8 @@
+[s0054]
+[title Done with the Notes]
+
+That seemed to be a futile exercise... Still no guidance on what to do from the mysterious Elyse. You do however notice all of the leftover pages, the ones with no headers. They seem to be written the same way, with partial fragments of characters, but none of them match up. Maybe their corresponding parts are hiding somewhere else?
+
+Ah well. Might as well report the lack of success. If Seth only has two days remaining, this doesn't bode well...
+
+[goto s0055]

@@ -1,0 +1,9 @@
+[s0058]
+[title Terminal Choice]
+
+Let's see... Will it be [K]UHOOK, [L]ICOZY, or [A]VBRANDY?
+
+[choice]
+[k :: s0059]
+[l :: s0070]
+[a :: s0077]
