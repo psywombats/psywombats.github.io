@@ -4,10 +4,10 @@ content.header = {};
 content.header.pro = {};
 content.header.pro.title = "AARON KING";
 content.header.pro.image = "header_pro.png"
-content.header.pro.subtitle = "SOFTWARE + GAME DEV";
+content.header.pro.subtitle = "software + game dev";
 content.header.pro.links = [{
         title: "PROFESSIONAL WORK",
-        games: ["rainfall"]
+        games: ["words3", "wot", "cascade", "cw", "rainfall"]
     }, {
         title: "HOBBY (tech)",
         games: ["saga4", "erebus", "mgne", "divergence", "drh2", "zs2", "hallowombat", "skirmisher", "gar"]
@@ -49,7 +49,7 @@ content.blockbound = {
     title: "Blockbound",
     date: "2010-2013",
     link: "https://rpgmaker.net/games/2401/",
-    tech: "Java (LibGDX), Tiled",
+    tech: "LibGDX (Java), Tiled",
     img: "blockbound.png",
     role: "Project lead (6 members), programmer",
     partners: [{
@@ -70,7 +70,7 @@ content.drh2 = {
     title: "Deep Realm Heroes 2",
     date: "2013",
     link: "https://rpgmaker.net/games/5111/",
-    tech: "C++/OpenGL",
+    tech: "C++, OpenGL",
     img: "drh2.png",
     partners: [{
         name: "Enker (art)",
@@ -82,7 +82,7 @@ content.divergence = {
     title: "divergence",
     date: "May 2015",
     link: "https://rpgmaker.net/games/7346/",
-    tech: "Java (LibGDX), GLSL",
+    tech: "LibGDX (Java), GLSL, Tiled, Lua",
     role: "Project lead, programmer",
     img: "divergence.png",
     partners: [{
@@ -160,7 +160,7 @@ content.saga4 = {
     title: "SaGa4: Masters of the Demon World",
     date: "2015-2017",
     link: "https://rpgmaker.net/games/7236/",
-    tech: "Java (LibGDX), Tiled, GLSL, Lua",
+    tech: "LibGDX (Java), Tiled, GLSL, Lua",
     youtube: "97GfJyOpZlE",
     partners: [{
         name: "bob_esc (tiles)",
@@ -222,7 +222,7 @@ content.lcpanes = {
     title: "The LCPANES Terminal",
     date: "May 2011",
     link: "https://rpgmaker.net/games/2277/",
-    tech: "Javascript/HTML5",
+    tech: "Javascript, HTML5",
     img: "lcpanes.png",
     description: "Interactive fiction centering around an escape-the-room scenario. Four occupants must escape by sharing information via their four linked computers -- but beware a traitor...\n\nA bit of a cult classic writing piece. Got a fair bit of notice on its release and still holds up decently today."
 };
@@ -256,7 +256,7 @@ content.zs2 = {
     title: "Zephyr Skies: Fall of the Necromancer",
     date: "October 2013",
     link: "https://rpgmaker.net/games/3339/",
-    tech: "Java (LibGDX)",
+    tech: "LibGDX (Java)",
     img: "zs2.png",
     role: "Project lead, programmer",
     partners: [{
@@ -272,7 +272,7 @@ content.wal = {
     title: "Within a Lifetime",
     date: "2016-(ongoing)",
     link: "https://github.com/Weresdrim/within-a-lifetime",
-    tech: "Ren'Py",
+    tech: "Ren'Py (python)",
     img: "wal.png",
     role: "Writer",
     partners: [{
@@ -285,7 +285,7 @@ content.mgne = {
     title: "MakeGamesNot engine",
     date: "2013-2017",
     link: "https://rpgmaker.net/games/7236/blog/16120/",
-    tech: "LibGDX, Tiled",
+    tech: "LibGDX (Java), Tiled",
     img: "mgne.png",
     description: "The MakeGamesNot engine (MGNE) is the underlying tech for a bunch of WombatRPGs games 2013-2017. It features Tiled map integration, a Lua processor for event scripting, a rudimentary database editor for data-driven games, and convenience code for saving/controls/ui/shaders and other common game needs."
 };
@@ -313,7 +313,7 @@ content.rainfall = {
     title: "Rainfall",
     date: "2012-2013",
     link: "https://github.com/psywombats/rainfall",
-    tech: "Java (libGDX)",
+    tech: "LibGDX (Java)",
     img: "rainfall.png",
     role: "Programmer",
     partners: [{
@@ -326,7 +326,7 @@ content.skirmisher = {
     title: "ToME skirmisher",
     date: "March 2014",
     link: "https://github.com/sstrickl/tome-skirmisher",
-    tech: "Java (libGDX)",
+    tech: "t-engine (lua)",
     img: "skirmisher.png",
     role: "Programmer",
     partners: [{
@@ -335,3 +335,58 @@ content.skirmisher = {
     }],
     description: "Skirmisher class for the roguelike Tales of Maj'Eyal. Now part of the main codebase.<br><br>Written collaboratively in lua using the t-engine as a base."
 };
+content.words3 = {
+    title: "Words with Friends 2",
+    date: "2015-(ongoing)",
+    link: "https://www.zynga.com/games/words-with-friends-2",
+    tech: "iOS (ObjectiveC), cocos2d (C++)",
+    youtube: "i6PPo94Lq60",
+    role: "Senior software engineer II",
+    partners: [{
+        name: "Zynga",
+        link: "http://www.zynga.com/"
+    }],
+    description: "Engineer working on frontend and underlying tech for the Words launch. Oversaw the development and rollout of the withfriends engine comprising a CoreData/SQL database, network stack, A/B testing support, and other utilities.<br><br>Post-launch, worked with design and prodcut to develop user-facing features like powerups and custom tiles, as well as providing live ops support addressing reports from CS and crashes from Crashlytics/bugsnag."
+}
+content.wot = {
+    title: "Words on Tour",
+    date: "2014-2015",
+    link: "https://www.youtube.com/watch?v=7k56S6zZVQM",
+    youtube: "7k56S6zZVQM",
+    tech: "Unity (C#), cocos2d (C++)",
+    role: "Software engineer",
+    partners: [{
+        name: "Zynga",
+        link: "http://www.zynga.com/"
+    }],
+    description: "Frontend (iOS) engineer working to launch the word/puzzle game Words on Tour. Worked with game designers and artists on gameplay features like powerups and Facebook integration. Words on Tour used a Unity-based tool to position dialogs, enter game data, and design levels. Data was then exported to the cocos-based game engine.<br><br>Post-launch, rewrote the game's auth system to better support Facebook and multi-device logins. Also wrote the Facebook and Twitter integrations."
+}
+content.cascade = {
+    title: "Cascade",
+    date: "2013",
+    youtube: "wOh0aBI4JWs",
+    link: "https://www.bigfishgames.com/game/cascade/",
+    tech: "SDL (C++), iOS (ObjectiveC)",
+    role: "iOS intern",
+    partners: [{
+        name: "Funkitron",
+        link: "http://www.funkitron.com/"
+    }, {
+        name: "Big Fish Games",
+        link: "http://www.bigfishgames.com/"
+    }],
+    description: "iOS intern supporting the Cascade launch. Worked on both the C++ and ObjectiveC layers to integrate 3rd party libraries into the game, as well as solving miscellaneous bugs and implementing gameboard scrolling.<br><br>Worked closely with the small (6 member) dev team, the publisher (Big Fish), and vendors for 3rd party libraries."
+}
+content.cw = {
+    title: "Chefville",
+    date: "2011-2012",
+    link: "https://en.wikipedia.org/wiki/ChefVille",
+    img: "cw.jpg",
+    tech: "Flash (ActionScript), PHP",
+    role: "Intern",
+    partners: [{
+        name: "Zynga",
+        link: "http://www.zynga.com/"
+    }],
+    description: "Intern for two summer working to greenlight and then launch Chefville. Worked on art pipeline tools to export animations, then on payments integration."
+}

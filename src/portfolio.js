@@ -30,7 +30,7 @@ class ContentCell extends React.Component {
         if (!this.props.content.youtube) {
             imgBlock = (
                 <a href={this.props.content.link}>
-                    <img src={'img/' + this.props.content.img} />
+                    <img src={'http://www.wombatrpgs.net/img/' + this.props.content.img} />
                 </a>
             );
         } else {

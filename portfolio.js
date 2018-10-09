@@ -69,7 +69,7 @@ var ContentCell = function (_React$Component) {
         imgBlock = React.createElement(
           "a",
           { href: this.props.content.link },
-          React.createElement("img", { src: 'img/' + this.props.content.img })
+          React.createElement("img", { src: 'http://www.wombatrpgs.net/img/' + this.props.content.img })
         );
       } else {
         var src = "https://www.youtube.com/embed/" + this.props.content.youtube + "?" + +"origin=http://www.wombatrpgs.net";
