@@ -82,6 +82,10 @@ class ContentTable extends React.Component {
         return (
         	<div className='contentTable'>
             	{selected.map((item, key) => <ContentCell content={item} key={key}/>)}
+            	<Navbar
+                    reloader={this.changeTab}
+                    header={this.props.header}
+                />
             </div>
          );
     }
@@ -91,14 +95,25 @@ class Navbar extends React.Component {
     constructor(props) {
 		super(props);
 		this.switchTab = this.switchTab.bind(this);
-        this.elementForKey = this.elementForKey.bind(this);
 	}
 
     render() {
         return (<ul className='navbar'>
-            {this.props.header.links.map((link, key) => (
-                this.elementForLink(link, key);
-            ))}
+            {this.props.header.links.map((link, key) => {
+        		if (link.external) {
+                    return (<li key={key}>
+                        <a href={link.external}>
+                            {">"+link.title}
+                        </a>
+                    </li>);
+                } else {
+                    return (<li key={key}>
+                        <a onClick={this.switchTab(link)} href='#'>
+                            {">"+link.title}
+                        </a>
+                    </li>);
+                }
+            })}
         </ul>);
     }
     
@@ -107,28 +122,13 @@ class Navbar extends React.Component {
 			this.props.reloader(tab);
 		}
 	}
-    
-    elementForLink(link, key) {
-        if (link.link) {
-            return (<li key={key}>
-                <a href={link.link}>
-                    {">"+link.title}
-                </a>
-            </li>);
-        } else {
-            return (<li key={key}>
-                <a onClick={this.switchTab(link)} href='#'>
-                    {">"+link.title}
-                </a>
-            </li>);
-        }
-    }
 }
 
 class Header extends React.Component {
 	render() {
         const divStyle = {
-            backgroundImage: 'url(http://www.wombatrpgs.net/img/' + this.props.header.image +  + ') no-repeat left top',
+            backgroundImage: "url(http://www.wombatrpgs.net/img/" + this.props.header.image + ")",
+            backgroundRepeat: "no-repeat"
         };
 		return (
 			<div className='header'>
@@ -160,16 +160,13 @@ class Portfolio extends React.Component {
     render() {
         return (<div className='body'>
             <Header
-            	selectedTab={this.state.selectedTab}
             	reloader={this.changeTab}
             	header={this.state.pageContent}
             />
             <ContentTable 
-            	selectedTab={this.state.selectedTab}
-            />
-            <Navbar
                 selectedTab={this.state.selectedTab}
-            	reloader={this.changeTab}
+                reloader={this.changeTab}
+                header={this.state.pageContent}
             />
         </div>);
     }
