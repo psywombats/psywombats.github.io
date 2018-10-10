@@ -62,7 +62,7 @@ function nextAction() {
 			if (next.indexOf(' ') != -1) {
 				cmd = next.substring(1, next.indexOf(' '));
 			} else {
-				cmd = next.substring(1, next.length-2);
+				cmd = next.substring(1, next.length-1);
 			}
 			var arg1 = next.substring(next.indexOf(' ')+1, next.length-1);
 			if (cmd == "date" ) {
@@ -70,14 +70,13 @@ function nextAction() {
 				continue;
 			}
 			if (cmd == "title") {
-				document.title = arg1.substring(0, arg1.length-1);
+				document.title = arg1;
 			}
 			if (cmd == "goto") {
 				arg1 = arg1.substring(1);
 				return(advanceToScene(parseInt(arg1, 10)));
 			}
 			if (cmd == "increment") {
-				arg1 = arg1.substring(0, arg1.length-1);
 				if (vars[arg1]) {
 					vars[arg1] += 1;
 				} else {
@@ -85,7 +84,6 @@ function nextAction() {
 				}
 			}
 			if (cmd == "decrement") {
-				arg1 = arg1.substring(0, arg1.length-1);
 				if (vars[arg1]) {
 					vars[arg1] -= 1;
 				} else {
@@ -95,14 +93,26 @@ function nextAction() {
 			if (cmd == "type") {
 				if (lastType) lineb = 0;
 				lastType = true;
-				var space2 = arg1.indexOf(' ');
-				var space3 = arg1.indexOf(' ', space2+1);
-				var from = arg1.substring(0, space2);
-				var minutes = arg1.substring(space2+1, space3-1);
+                var space1 = next.indexOf(' ');
+				var space2 = next.indexOf(' ', space1+1);
+				var space3 = next.indexOf(' ', space2+1);
+				var from = next.substring(space1+1, space2);
+				var minutes = next.substring(space2+1, space3-1);
 				var d = new Date();
 				var mins = d.getMinutes()-parseInt(minutes);
-				var dmsg = ""+d.getHours()+":"+mins+":"+d.getSeconds();
-				var msg = arg1.substring(space3);
+                var hours = d.getHours();
+                if (mins < 0) {
+                    mins += 60;
+                    hours -= 1;
+                    if (hours < 1) {
+                        hours = 12;
+                    }
+                }
+                if (mins < 10) mins = "0" + ("" + mins);
+                seconds = d.getSeconds();
+                if (seconds < 10) seconds = "0" + ("" + seconds);
+				var dmsg = ""+hours+":"+mins+":"+seconds;
+				var msg = next.substring(space3);
 				return from + "(" + dmsg + "): " + msg;
 			}
 			if (cmd == "choice" ) { // oh fuck
@@ -163,7 +173,7 @@ function nextAction() {
 			}
 		} else {
 			lastType = false;
-			var peek = sceneLines[bookmark + 1];
+			var peek = sceneLines[bookmark ];
 			if (peek.indexOf("choice") != -1) {
 				cbuffer = next;
 				console.log("next is a choice");
