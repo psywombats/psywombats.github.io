@@ -12,7 +12,7 @@ function readerInit(data) {
 function setBookmarkAtScene(number) {
 	var tempScenes = rawScenes[number].split('\n');
     sceneLines = [];
-    for (var i = 0; i < tempScenes.count; i += 1) {
+    for (var i = 0; i < tempScenes.length; i += 1) {
         line = tempScenes[i];
         line = line.replace('\r','');
         if (line && line.length > 0) {
