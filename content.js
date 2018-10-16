@@ -233,7 +233,7 @@ content.terra_nova = {
 content.lcpanes = {
     title: "The LCPANES Terminal",
     date: "May 2011",
-    link: "https://rpgmaker.net/games/2277/",
+    link: "http://www.wombatrpgs.net/lcpanes",
     tech: "Javascript, HTML5",
     img: "lcpanes.png",
     description: "Interactive fiction centering around an escape-the-room scenario. Four occupants must escape by sharing information via their four linked computers -- but beware a traitor...\n\nA bit of a cult classic writing piece. Got a fair bit of notice on its release and still holds up decently today."
