@@ -10,10 +10,10 @@ content.header.pro.links = [{
         games: ["words3", "wot", "cascade", "rainfall", "cw"]
     }, {
         title: "HOBBY (tech)",
-        games: ["saga4", "erebus", "mgne", "divergence", "drh2", "zs2", "hallowombat", "skirmisher", "gar"]
+        games: ["saga4", "snowbound", "erebus", "mgne", "divergence", "drh2", "zs2", "hallowombat", "skirmisher", "gar"]
     }, {
         title: "HOBBY (creative)",
-        games: ["doomsday", "lcpanes", "swallow", "pri"]
+        games: ["doomsday", "pri", "lcpanes", "swallow"]
     }, {
         title: "TWITTER",
         external: "http://www.twitter.com/psy_wombats"
@@ -29,18 +29,18 @@ content.header.indie.image = "header_indie.png"
 content.header.indie.subtitle = "coder / writer";
 content.header.indie.links = [{
         title: "FULL PROJECTS",
-        games: ["saga4", "divergence", "erebus", "lcpanes", "zs2", "gar", "sk"],
+        games: ["saga4", "divergence", "snowbound", "erebus", "lcpanes", "zs2", "gar", "sk"],
     },{
         title: "CREATIVE",
-        games: ["swallow", "doomsday", "guild", "mbf", "pri", "zs", "wal", "cbrogue"]
+        games: ["doomsday", "swallow", "guild", "mbf", "pri", "zs", "wal", "cbrogue"]
     }, {
         title: "TECHNICAL",
-        games: ["mgne", "drh", "drh2", "terra_nova", "blockbound", "hallowombat", "rainfall", "skirmisher", "loap"]
+        games: ["mgne", "drh", "drh2", "terra_nova", "blockbound", "hallowombat", "rainfall", "loap"]
     }, {
         title: "TWITTER",
         external: "http://www.twitter.com/psy_wombats"
     }, {
-        title: "BLOG",
+        title: "BLOG??",
         external: "http://wombatlogic.tumblr.com/"
     }
 ]
@@ -406,7 +406,7 @@ content.snowbound = {
 	title: "Snowbound",
 	date: "2012-2015",
 	link: "https://github.com/psywombats/snowbound",
-	img: "cw.jpg",
+	youtube: "https://youtu.be/M0B8SmycTAI",
 	tech: "Unity, ONscripter",
 	role: "Writer/programmer",
 	description: "The Snowbound project is a visual novel set in a snowed-in apocalypse at an Alaskan magnet school. While the final script never saw release, the project sits about 150k words and runs start to finish on multiple engines, including a custom-built Unity visual novel platform that reads in and interprets scene scripts.",
