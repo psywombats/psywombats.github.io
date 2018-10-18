@@ -406,7 +406,7 @@ content.snowbound = {
 	title: "Snowbound",
 	date: "2012-2015",
 	link: "https://github.com/psywombats/snowbound",
-	youtube: "https://youtu.be/M0B8SmycTAI",
+	youtube: "M0B8SmycTAI",
 	tech: "Unity, ONscripter",
 	role: "Writer/programmer",
 	description: "The Snowbound project is a visual novel set in a snowed-in apocalypse at an Alaskan magnet school. While the final script never saw release, the project sits about 150k words and runs start to finish on multiple engines, including a custom-built Unity visual novel platform that reads in and interprets scene scripts.",
