@@ -16,7 +16,7 @@ content.header.pro.links = [{
         games: ["doomsday", "lcpanes", "swallow", "pri"]
     }, {
         title: "TWITTER",
-        external: "http://www.twitter.com/psywombats"
+        external: "http://www.twitter.com/psy_wombats"
     }, {
         title: "LINKEDIN",
         external: "https://www.linkedin.com/in/aking0/"
@@ -38,10 +38,10 @@ content.header.indie.links = [{
         games: ["mgne", "drh", "drh2", "terra_nova", "blockbound", "hallowombat", "rainfall", "skirmisher", "loap"]
     }, {
         title: "TWITTER",
-        link: "http://www.twitter.com/psywombats"
+        external: "http://www.twitter.com/psy_wombats"
     }, {
         title: "BLOG",
-        link: "http://wombatlogic.tumblr.com/"
+        external: "http://wombatlogic.tumblr.com/"
     }
 ]
 
@@ -401,4 +401,13 @@ content.cw = {
         link: "http://www.zynga.com/"
     }],
     description: "Intern for two summer working to greenlight and then launch Chefville. Worked on art pipeline tools to export animations, then on payments integration."
+}
+content.snowbound = {
+	title: "Snowbound",
+	date: "2012-2015",
+	link: "https://github.com/psywombats/snowbound",
+	img: "cw.jpg",
+	tech: "Unity, ONscripter",
+	role: "Writer/programmer",
+	description: "The Snowbound project is a visual novel set in a snowed-in apocalypse at an Alaskan magnet school. While the final script never saw release, the project sits about 150k words and runs start to finish on multiple engines, including a custom-built Unity visual novel platform that reads in and interprets scene scripts.",
 }
