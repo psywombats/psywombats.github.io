@@ -29,13 +29,13 @@ content.header.indie.image = "header_indie.png"
 content.header.indie.subtitle = "coder / writer";
 content.header.indie.links = [{
         title: "FULL PROJECTS",
-        games: ["saga4", "divergence", "snowbound", "erebus", "lcpanes", "zs2", "gar", "sk"],
+        games: ["saga4", "divergence", "doomsday", "erebus", "lcpanes", "zs2", "mbf"]
     },{
-        title: "CREATIVE",
-        games: ["doomsday", "swallow", "guild", "mbf", "pri", "zs", "wal", "cbrogue"]
+        title: "GAME WRITING",
+        games: ["doomsday", "swallow", "lcpanes", "snowbound", "guild", "wal"]
     }, {
-        title: "TECHNICAL",
-        games: ["mgne", "drh", "drh2", "terra_nova", "blockbound", "hallowombat", "rainfall", "loap"]
+        title: "CODING",
+        games: ["mgne", "drh", "drh2", "terra_nova", "blockbound", "hallowombat", "rainfall", "loap", "gar", "sk", "cbrogue"]
     }, {
         title: "TWITTER",
         external: "http://www.twitter.com/psy_wombats"
@@ -195,27 +195,15 @@ content.sk = {
 content.doomsday = {
     title: "Tales from Rotten, Moonless Nights",
     date: "October 2017",
-    link: "https://rpgmaker.net/games/10123/",
+    link: "https://psy-wombats.itch.io/doomsday-clock",
     tech: "RPGmaker VX Ace",
     img: "doomsday.png",
     role: "Project co-lead, contributor",
     partners: [{
-        name: "Frogge (co-lead)",
-        link: "https://rpgmaker.net/users/Frogge/"
-    }, {
-        name: "OzzyTheOne",
-        link: "https://rpgmaker.net/users/OzzyTheOne/"
-    }, {
-        name: "lavenderSiren",
-        link: "https://twitter.com/@shinyjiggly"
-    }, {
-        name: "pianotm",
-        link: "https://twitter.com/pianotm26"
-    }, {
-        name: "Sooz",
-        link: "https://twitter.com/itsasooz"
+        name: "RMN co-contributors",
+        link: "https://rpgmaker.net/games/10123/"
     }],
-    description: "An anthology of horror shorts. My contribution (aside from assembling the projects) is the sound novel DOOMSDAY CLOCK, about four friends, a numbers station, and the imminent nuclear apocalypse. Notable for writing and sound design. It's about an hour long and well worth the time."
+    description: "For three weeks the US and the USSR have stood on the brink of a nuclear apocalypse. At midnight on the 11th, four students at National Systems University's signal intelligence club pick up a coded radio broadcast, from a numbers station somehow tied to a Russian weapons project. DOOMSDAY CLOCK is a sound novel about the events that follow.\n\nA sound novel, one hour long and really worth the time for anyone into atmospheric horror. Originally for a RMN anthology."
 };
 content.terra_nova = {
     title: "Terra Nova: Eyes of the Machine",
