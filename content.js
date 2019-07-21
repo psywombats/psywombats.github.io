@@ -65,7 +65,7 @@ content.violet = {
     description: "A sprite-based 3D exploration game built in amonth for a theme event. Explore a lab, check cryptic text messages, marvel at weird BGM/shaders/owls."
 };
 content.pri2 = {
-    title: "Princess Pri and Infinitely Irritating Castle",
+    title: "Princess Pri and the Infinitely Irritating Castle",
     date: "7DRL 2019",
     link: "https://psy-wombats.itch.io/princess-pri-and-the-infinitely-irritating-castle",
     tech: "Unity",
