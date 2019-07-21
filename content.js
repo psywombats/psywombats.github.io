@@ -10,13 +10,13 @@ content.header.pro.links = [{
         games: ["words3", "wot", "cascade", "rainfall", "cw"]
     }, {
         title: "HOBBY (tech)",
-        games: ["saga4", "snowbound", "erebus", "mgne", "divergence", "drh2", "zs2", "hallowombat", "skirmisher", "gar"]
+        games: ["pri2", "saga4", "snowbound", "mgne", "divergence", "drh2", "zs2", "hallowombat", "skirmisher", "gar"]
     }, {
         title: "HOBBY (creative)",
-        games: ["doomsday", "pri", "lcpanes", "swallow"]
+        games: ["erebus", "doomsday", "violet", "pri", "lcpanes", "guild", "swallow"]
     }, {
-        title: "TWITTER",
-        external: "http://www.twitter.com/psy_wombats"
+        title: "GITHUB",
+        external: "https://github.com/psywombats"
     }, {
         title: "LINKEDIN",
         external: "https://www.linkedin.com/in/aking0/"
@@ -28,23 +28,22 @@ content.header.indie.title = "psy_wombats";
 content.header.indie.image = "header_indie.png"
 content.header.indie.subtitle = "coder / writer";
 content.header.indie.links = [{
-        title: "FULL PROJECTS",
-        games: ["saga4", "divergence", "doomsday", "erebus", "lcpanes", "zs2", "mbf"]
+        title: "FEATURE LENGTH PROJECTS",
+        games: ["saga4", "divergence", "doomsday", "guild", "lcpanes", "zs2", "mbf"]
     },{
         title: "GAME WRITING",
-        games: ["doomsday", "swallow", "lcpanes", "snowbound", "guild", "wal"]
+        games: ["doomsday", "violet", "pri", "swallow", "lcpanes", "snowbound", "guild", "wal"]
     }, {
         title: "CODING",
-        games: ["mgne", "drh", "drh2", "terra_nova", "blockbound", "hallowombat", "rainfall", "loap", "gar", "sk", "cbrogue"]
+        games: ["pri2", "mgne", "drh", "drh2", "terra_nova", "blockbound", "hallowombat", "rainfall", "loap", "gar", "sk", "cbrogue"]
     }, {
         title: "TWITTER",
         external: "http://www.twitter.com/psy_wombats"
     }, {
-        title: "BLOG??",
-        external: "http://wombatlogic.tumblr.com/"
+        title: "SOUND",
+        external: "https://soundcloud.com/psy_wombats"
     }
 ]
-
 content.pri = {
     title: "The Kidnapping of Princess Pri",
     date: "Sept 2018",
@@ -56,6 +55,22 @@ content.pri = {
         link: "https://rpgmaker.net/users/Liberty/"
     }],
     description: "The Kidnapping of Princess Pri is a short exploration/adventure/escape game. Foil (and maybe carry out) a kidnapping by searching items, talking to characters, finding keys, and solving clues.\n\nThis game was made a for a split-in-the-middle event. Emphasis is on visual design."
+};
+content.violet = {
+    title: "Project Violet",
+    date: "May 2019",
+    link: "https://rpgmaker.net/media/content/users/1541/locker/violet_02.zip",
+    tech: "Unity",
+    img: "violet.png",
+    description: "A sprite-based 3D exploration game built in amonth for a theme event. Explore a lab, check cryptic text messages, marvel at weird BGM/shaders/owls."
+};
+content.pri2 = {
+    title: "Princess Pri and Infinitely Irritating Castle",
+    date: "7DRL 2019",
+    link: "https://psy-wombats.itch.io/princess-pri-and-the-infinitely-irritating-castle",
+    tech: "Unity",
+    img: "pri2.png",
+    description: "PPatIIC is a 3D sprite-based roguelike built in a week for 7 Day Roguelike 2019. It features procedurally generated 3D maps, a dynamic spellcrafting system, and a protagonist with a slight attitude problem.\n\nSource code available upon request."
 };
 content.blockbound = {
     title: "Blockbound",
@@ -291,8 +306,7 @@ content.mgne = {
 };
 content.erebus = {
     title: "Project Erebus",
-    date: "2017-(ongoing)",
-    link: "https://github.com/psywombats/erebus",
+    date: "2018-(ongoing)",
     tech: "Unity",
     youtube: "zNyxiMm8dC0",
     description: "An 3D RPG/horror/novel project, as of yet unnamed. Currently exists in a tech demo format featuring 'glitch' shaders, lighting based on background music oscilloscope, and 3D maps generated from 2D Tiled files."
@@ -339,7 +353,7 @@ content.words3 = {
     title: "Words with Friends 2",
     date: "2015-(ongoing)",
     link: "https://www.zynga.com/games/words-with-friends-2",
-    tech: "iOS (ObjectiveC), cocos2d (C++)",
+    tech: "iOS (ObjectiveC), cocos2d (C++), React native (JS)",
     youtube: "i6PPo94Lq60",
     role: "Senior software engineer II",
     partners: [{
