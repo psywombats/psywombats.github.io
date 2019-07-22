@@ -10,10 +10,10 @@ content.header.pro.links = [{
         games: ["words3", "wot", "cascade", "rainfall", "cw"]
     }, {
         title: "HOBBY (tech)",
-        games: ["pri2", "saga4", "snowbound", "mgne", "divergence", "drh2", "zs2", "hallowombat", "skirmisher", "gar"]
+        games: ["pri2", "saga4", "erebus", "snowbound", "mgne", "divergence", "drh2", "zs2", "hallowombat", "skirmisher", "gar"]
     }, {
         title: "HOBBY (creative)",
-        games: ["erebus", "doomsday", "violet", "pri", "lcpanes", "guild", "swallow"]
+        games: ["doomsday", "violet", "pri", "lcpanes", "guild", "swallow"]
     }, {
         title: "GITHUB",
         external: "https://github.com/psywombats"
