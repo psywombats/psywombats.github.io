@@ -7,13 +7,13 @@ content.header.pro.image = "header_pro.png"
 content.header.pro.subtitle = "software + game dev";
 content.header.pro.links = [{
         title: "PROFESSIONAL",
-        games: ["gotc", "words3", "varonis", "wot", "cascade", "rainfall", "cw"]
+        games: ["gotc", "words3", "wot", "cascade", "rainfall", "cw"]
     }, {
         title: "INDIE (tech)",
         games: ["maredeo", "vertigo", "pri2", "saga4", "violet", "erebus", "snowbound", "mgne", "divergence", "hallowombat", "skirmisher", "gar"]
     }, {
         title: "INDIE (writing)",
-        games: ["maredeo", "vertigo", "doomsday", "violet", "pri", "lcpanes", "guild", "swallow"]
+        games: ["maredeo", "vertigo", "wal", "doomsday", "violet", "pri", "lcpanes", "guild", "swallow"]
     }, {
         title: "GITHUB",
         external: "https://github.com/psywombats"
@@ -55,7 +55,7 @@ content.gotc = {
         name: "WB Games Boston",
         link: "https://careers.wbgames.com/studios/boston/"
     }],
-    description: "Worked with a multidisciplinary team as a mobile gameplay engineer, shipping bold beat features such as messaging and analytics. Optimized the Unity engine for memory, crash reduction, and startup times.",
+    description: "Worked with a multidisciplinary team as a mobile gameplay engineer, shipping bold beat features such as messaging and analytics. Optimized the Unity engine for memory, crash reduction, and startup times. Integrated native analytics for both iOS (obj-c) and Android (java).",
 };
 content.maredeo = {
     title: "Mare Deo",
@@ -349,7 +349,7 @@ content.zs2 = {
 };
 content.wal = {
     title: "Within a Lifetime",
-    date: "2016-(ongoing)",
+    date: "2017-(ongoing)",
     link: "https://github.com/Weresdrim/within-a-lifetime",
     tech: "Ren'Py (python)",
     img: "wal.png",
@@ -429,8 +429,8 @@ content.words3 = {
 content.wot = {
     title: "Words on Tour",
     date: "2014-2015",
-    link: "https://www.youtube.com/watch?v=7k56S6zZVQM",
-    youtube: "7k56S6zZVQM",
+    link: "https://www.youtube.com/watch?v=zytTZvUdY_A",
+    youtube: "zytTZvUdY_A",
     tech: "Unity (C#), cocos2d (C++)",
     role: "Software engineer",
     partners: [{
