@@ -6,14 +6,14 @@ content.header.pro.title = "AARON KING";
 content.header.pro.image = "header_pro.png"
 content.header.pro.subtitle = "software + game dev";
 content.header.pro.links = [{
-        title: "PROFESSIONAL WORK",
-        games: ["words3", "wot", "cascade", "rainfall", "cw"]
+        title: "PROFESSIONAL",
+        games: ["gotc", "words3", "varonis", "wot", "cascade", "rainfall", "cw"]
     }, {
-        title: "HOBBY (tech)",
-        games: ["pri2", "saga4", "erebus", "snowbound", "mgne", "divergence", "drh2", "zs2", "hallowombat", "skirmisher", "gar"]
+        title: "INDIE (tech)",
+        games: ["maredeo", "vertigo", "pri2", "saga4", "violet", "erebus", "snowbound", "mgne", "divergence", "hallowombat", "skirmisher", "gar"]
     }, {
-        title: "HOBBY (creative)",
-        games: ["doomsday", "violet", "pri", "lcpanes", "guild", "swallow"]
+        title: "INDIE (writing)",
+        games: ["maredeo", "vertigo", "doomsday", "violet", "pri", "lcpanes", "guild", "swallow"]
     }, {
         title: "GITHUB",
         external: "https://github.com/psywombats"
@@ -44,6 +44,70 @@ content.header.indie.links = [{
         external: "https://soundcloud.com/psy_wombats"
     }
 ]
+content.gotc = {
+    title: "Game of Thrones: Conquest",
+    date: "2019-(ongoing)",
+    link: "https://www.gotconquest.com/",
+    tech: "Unity (mobile)",
+    role: "Sr. software engineer",
+    youtube: "iEYCSbE0n-o",
+    partners: [{
+        name: "WB Games Boston",
+        link: "https://careers.wbgames.com/studios/boston/"
+    }],
+    description: "Worked with a multidisciplinary team as a mobile gameplay engineer, shipping bold beat features such as messaging and analytics. Optimized the Unity engine for memory, crash reduction, and startup times.",
+};
+content.maredeo = {
+    title: "Mare Deo",
+    date: "September 2020",
+    link: "https://psy-wombats.itch.io/mare-deo",
+    tech: "Unity",
+    role: "Programmer/lead",
+    youtube: "ET4D__mBmHQ?t=695",
+    partners: [{
+        name: "Jamie Obeso (sound)",
+        link: "https://soundcloud.com/elfmo"
+    },
+    {
+        name: "Jen (portraits)",
+        link: "https://nerdiko.itch.io/"
+    },
+    {
+        name: "Frogge (pixels)",
+        link: "https://rpgmaker.net/users/Frogge/"
+    }],
+    description: "Half VN, half 2D horror. Two castaways, one dying and one mute, are rescued by the Revolution, a container ship seemingly manned by only four crewmen, each with their own objectives and mystery.",
+};
+content.vertigo = {
+    title: "Vertigo Temple",
+    date: "April 2020",
+    link: "https://psy-wombats.itch.io/vertigo-temple",
+    tech: "Unity",
+    role: "Programmer/lead",
+    youtube: "RrjpFiInJWQ?t=488",
+    partners: [{
+        name: "Jamie Obeso (sound)",
+        link: "https://soundcloud.com/elfmo"
+    },
+    {
+        name: "Frogge (pixels)",
+        link: "https://rpgmaker.net/users/Frogge/"
+    }],
+    description: "A cyberpunk/horror game, half visual novel and half sidescroller. A text message from the protagonist's supposedly-led sister sparks an investigation into a complex conspiracy involving BBSs, cults, AI, and a certain 'plan' that unites them all. Scream:Machine jam entry.",
+};
+content.varonis = {
+    title: "The Secret of Varonis",
+    date: "2021 (expected)",
+    link: "https://varonis-rpg.tumblr.com/",
+    tech: "Unity",
+    role: "Project lead (team of 5)",
+    img: "varonis.png",
+    partners: [{
+        name: "Wombat Logic",
+        link: "https:www.wombatrpgs.net/"
+    }],
+    description: "An upcoming semi-commerical Gameboy-style RPG, still in preproduction. Expect great things!",
+};
 content.pri = {
     title: "The Kidnapping of Princess Pri",
     date: "Sept 2018",
@@ -351,7 +415,7 @@ content.skirmisher = {
 };
 content.words3 = {
     title: "Words with Friends 2",
-    date: "2015-(ongoing)",
+    date: "2015-2019",
     link: "https://www.zynga.com/games/words-with-friends-2",
     tech: "iOS (ObjectiveC), cocos2d (C++), React native (JS)",
     youtube: "i6PPo94Lq60",
