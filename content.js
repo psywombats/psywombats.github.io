@@ -28,10 +28,10 @@ content.header.indie.title = "psy_wombats";
 content.header.indie.image = "header_indie.png"
 content.header.indie.subtitle = "game coder / writer";
 content.header.indie.links = [{
-        title: "STORY",
-        games: ["maredeo", "vertigo", "pri", "doomsday", "swallow", "divergence", "lcpanes", "mbf", "wal"]
+        title: "STORY GAMES",
+        games: ["maredeo", "vertigo", "pri", "doomsday", "swallow", "divergence", "lcpanes", "mbf", "wal", "snowbound"]
     },{
-        title: "RPG",
+        title: "RPGs",
         games: ["varonis", "saga4", "pri2", "pri", "swallow", "guild", "zs", "zs2", "drh", "gar", "sk", "loap"]
     }, {
         title: "TECH",
@@ -99,7 +99,7 @@ content.varonis = {
     title: "The Secret of Varonis",
     date: "2021 (expected)",
     link: "https://varonis-rpg.tumblr.com/",
-    tech: "Unity",
+    tech: "Unity, Lua, GLSL",
     role: "Project lead (team of 5)",
     img: "varonis.png",
     partners: [{
@@ -251,7 +251,7 @@ content.saga4 = {
     title: "SaGa4: Masters of the Demon World",
     date: "2015-2017",
     link: "https://rpgmaker.net/games/7236/",
-    tech: "LibGDX (Java), Tiled, GLSL, Lua",
+    tech: "LibGDX (Java), Lua",
     youtube: "97GfJyOpZlE",
     partners: [{
         name: "bob_esc (tiles)",
