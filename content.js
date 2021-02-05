@@ -4,15 +4,15 @@ content.header = {};
 content.header.pro = {};
 content.header.pro.title = "AARON KING";
 content.header.pro.image = "header_pro.png"
-content.header.pro.subtitle = "software + game dev";
+content.header.pro.subtitle = "game dev + software engineer";
 content.header.pro.links = [{
         title: "PROFESSIONAL",
         games: ["gotc", "words3", "wot", "cascade", "rainfall", "cw"]
     }, {
         title: "INDIE (tech)",
-        games: ["maredeo", "vertigo", "pri2", "saga4", "violet", "erebus", "snowbound", "mgne", "divergence", "hallowombat", "skirmisher", "gar"]
+        games: ["varonis", "maredeo", "vertigo", "pri2", "saga4", "violet", "erebus", "snowbound", "mgne", "divergence", "skirmisher", "gar"]
     }, {
-        title: "INDIE (writing)",
+        title: "INDIE (creative)",
         games: ["maredeo", "vertigo", "wal", "doomsday", "violet", "pri", "lcpanes", "guild", "swallow"]
     }, {
         title: "GITHUB",
@@ -26,16 +26,16 @@ content.header.pro.links = [{
 content.header.indie = {};
 content.header.indie.title = "psy_wombats";
 content.header.indie.image = "header_indie.png"
-content.header.indie.subtitle = "coder / writer";
+content.header.indie.subtitle = "game coder / writer";
 content.header.indie.links = [{
-        title: "FEATURE LENGTH PROJECTS",
-        games: ["saga4", "divergence", "doomsday", "guild", "lcpanes", "zs2", "mbf"]
+        title: "STORY",
+        games: ["maredeo", "vertigo", "pri", "doomsday", "swallow", "divergence", "lcpanes", "mbf", "wal"]
     },{
-        title: "GAME WRITING",
-        games: ["doomsday", "violet", "pri", "swallow", "lcpanes", "snowbound", "guild", "wal"]
+        title: "RPG",
+        games: ["varonis", "saga4", "pri2", "pri", "swallow", "guild", "zs", "zs2", "drh", "gar", "sk", "loap"]
     }, {
-        title: "CODING",
-        games: ["pri2", "mgne", "drh", "drh2", "terra_nova", "blockbound", "hallowombat", "rainfall", "loap", "gar", "sk", "cbrogue"]
+        title: "TECH",
+        games: ["pri2", "erebus", "violet", "snowbound", "mgne", "terra_nova", "blockbound", "hallowombat", "rainfall", "cbrogue", "skirmisher"]
     }, {
         title: "TWITTER",
         external: "http://www.twitter.com/psy_wombats"
@@ -358,7 +358,7 @@ content.wal = {
         name: "weresdrim",
         link: "https://www.deviantart.com/weresdrim"
     }],
-    description: "Within a Lifetime is an ongoing visual novel project depicting struggles with mental illness at a specialist psychiatric school. A first draft is complete at 120k words and a second draft ongoing. Expected release in 2019."
+    description: "Within a Lifetime is an ongoing visual novel project depicting struggles with mental illness at a specialist psychiatric school. A first draft is complete at 120k words and a second draft ongoing."
 };
 content.mgne = {
     title: "MakeGamesNot engine",
