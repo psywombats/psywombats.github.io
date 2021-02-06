@@ -98,7 +98,7 @@ content.vertigo = {
 content.varonis = {
     title: "The Secret of Varonis",
     date: "2021 (expected)",
-    link: "https://varonis-rpg.tumblr.com/",
+    link: "https://www.varonis-rpg.com/",
     tech: "Unity, Lua, GLSL",
     role: "Project lead (team of 5)",
     img: "varonis.png",
@@ -126,7 +126,7 @@ content.violet = {
     link: "https://rpgmaker.net/media/content/users/1541/locker/violet_02.zip",
     tech: "Unity",
     img: "project_violet.png",
-    description: "A sprite-based 3D exploration game built in amonth for a theme event. Explore a lab, check cryptic text messages, marvel at weird BGM/shaders/owls."
+    description: "A sprite-based 3D exploration game built in a month for a theme event. Explore a lab, check cryptic text messages, marvel at weird BGM/shaders/owls."
 };
 content.pri2 = {
     title: "Princess Pri and the Infinitely Irritating Castle",
