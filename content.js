@@ -29,10 +29,10 @@ content.header.indie.image = "header_indie.png"
 content.header.indie.subtitle = "game coder / writer";
 content.header.indie.links = [{
         title: "STORY GAMES",
-        games: ["maredeo", "vertigo", "pri", "doomsday", "swallow", "divergence", "lcpanes", "mbf", "wal", "snowbound"]
+        games: ["maredeo", "vertigo", "pri", "doomsday", "snowbound", "swallow", "divergence", "lcpanes", "mbf", "wal"]
     },{
         title: "RPGs",
-        games: ["varonis", "saga4", "pri2", "pri", "swallow", "guild", "zs", "zs2", "drh", "gar", "sk", "loap"]
+        games: ["saga4", "pri2", "pri", "swallow", "guild", "zs", "zs2", "drh", "gar", "sk", "loap"]
     }, {
         title: "TECH",
         games: ["pri2", "erebus", "violet", "snowbound", "mgne", "terra_nova", "blockbound", "hallowombat", "rainfall", "cbrogue", "skirmisher"]
@@ -40,8 +40,8 @@ content.header.indie.links = [{
         title: "TWITTER",
         external: "http://www.twitter.com/psy_wombats"
     }, {
-        title: "SOUND",
-        external: "https://soundcloud.com/psy_wombats"
+        title: "GITHUB",
+        external: "https://github.com/psywombats"
     }
 ]
 content.gotc = {
@@ -63,17 +63,17 @@ content.maredeo = {
     link: "https://psy-wombats.itch.io/mare-deo",
     tech: "Unity",
     role: "Programmer/lead",
-    youtube: "ET4D__mBmHQ?t=695",
+    youtube: "ET4D__mBmHQ?t=1300",
     partners: [{
-        name: "Jamie Obeso (sound)",
+        name: "Jamie Obeso",
         link: "https://soundcloud.com/elfmo"
     },
     {
-        name: "Jen (portraits)",
+        name: "Nerdiko",
         link: "https://nerdiko.itch.io/"
     },
     {
-        name: "Frogge (pixels)",
+        name: "Frogge",
         link: "https://rpgmaker.net/users/Frogge/"
     }],
     description: "Half VN, half 2D horror. Two castaways, one dying and one mute, are rescued by the Revolution, a container ship seemingly manned by only four crewmen, each with their own objectives and mystery.",
@@ -286,7 +286,7 @@ content.doomsday = {
 };
 content.terra_nova = {
     title: "Terra Nova: Eyes of the Machine",
-    date: "November 2018",
+    date: "November 2008",
     link: "https://rpgmaker.net/games/876/",
     tech: "RPGmaker 2000",
     img: "terra_nova.png",
