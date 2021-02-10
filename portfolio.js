@@ -167,10 +167,6 @@ var ContentTable = function (_React$Component2) {
                 { className: "contentTable" },
                 selected.map(function (item, key) {
                     return React.createElement(ContentCell, { content: item, key: key });
-                }),
-                React.createElement(Navbar, {
-                    reloader: this.changeTab,
-                    header: this.props.header
                 })
             );
         }
