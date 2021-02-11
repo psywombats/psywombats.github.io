@@ -29,7 +29,7 @@ content.header.indie.image = "header_indie.png"
 content.header.indie.subtitle = "game coder / writer";
 content.header.indie.links = [{
         title: "STORY GAMES",
-        games: ["maredeo", "vertigo", "pri", "doomsday", "snowbound", "swallow", "divergence", "lcpanes", "mbf", "wal"]
+        games: ["maredeo", "vertigo", "doomsday", "snowbound", "pri", "swallow", "divergence", "lcpanes", "mbf", "wal"]
     },{
         title: "RPGs",
         games: ["saga4", "pri2", "pri", "swallow", "guild", "zs", "zs2", "drh", "gar", "sk", "loap"]
@@ -63,7 +63,7 @@ content.maredeo = {
     link: "https://psy-wombats.itch.io/mare-deo",
     tech: "Unity",
     role: "Programmer/lead",
-    youtube: "ET4D__mBmHQ?t=1300",
+    youtube: "ET4D__mBmHQ?t=810",
     partners: [{
         name: "Jamie Obeso",
         link: "https://soundcloud.com/elfmo"
