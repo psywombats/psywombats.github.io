@@ -1,0 +1,17 @@
+{
+    news: [
+        {
+            "Title": "Update",
+            "Description": "Version 1.0 released",
+            "Url": "http://www.varonis-rpg.com/"
+        }, {
+            "Title": "News!",
+            "Description": "Another news item",
+            "Url": "http://www.varonis-rpg.com/"
+        }, {
+            "Title": "News!",
+            "Description": "Another news item",
+            "Url": "http://www.varonis-rpg.com/"
+        }
+    ]
+}
