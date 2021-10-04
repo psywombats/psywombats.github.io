@@ -7,7 +7,7 @@ content.header.pro.image = "header_pro.png"
 content.header.pro.subtitle = "game dev + software engineer";
 content.header.pro.links = [{
         title: "PROFESSIONAL",
-        games: ["gotc", "words3", "wot", "cascade", "rainfall", "cw"]
+        games: ["gotc", "mirai", "words3", "wot", "cascade", "rainfall", "cw"]
     }, {
         title: "INDIE (tech)",
         games: ["varonis", "maredeo", "vertigo", "pri2", "saga4", "violet", "erebus", "snowbound", "mgne", "divergence", "skirmisher", "gar"]
@@ -35,7 +35,7 @@ content.header.indie.links = [{
         games: ["saga4", "pri2", "pri", "swallow", "guild", "zs", "zs2", "drh", "gar", "sk", "loap"]
     }, {
         title: "TECH",
-        games: ["pri2", "erebus", "violet", "snowbound", "mgne", "terra_nova", "blockbound", "hallowombat", "rainfall", "cbrogue", "skirmisher"]
+        games: ["mirai", "pri2", "erebus", "violet", "snowbound", "mgne", "terra_nova", "blockbound", "hallowombat", "rainfall", "cbrogue", "skirmisher"]
     }, {
         title: "TWITTER",
         external: "http://www.twitter.com/psy_wombats"
