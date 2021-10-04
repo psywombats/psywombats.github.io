@@ -29,7 +29,7 @@ content.header.indie.image = "header_indie.png"
 content.header.indie.subtitle = "game coder / writer";
 content.header.indie.links = [{
         title: "STORY GAMES",
-        games: ["maredeo", "vertigo", "doomsday", "snowbound", "pri", "swallow", "divergence", "lcpanes", "mbf", "wal"]
+        games: ["maredeo", "vertigo", "doomsday", "divergence", "swallow", "pri", "snowbound", "lcpanes", "mbf", "wal"]
     },{
         title: "RPGs",
         games: ["saga4", "pri2", "pri", "swallow", "guild", "zs", "zs2", "drh", "gar", "sk", "loap"]
@@ -44,6 +44,19 @@ content.header.indie.links = [{
         external: "https://github.com/psywombats"
     }
 ]
+content.mirai = {
+    title: "The Future Radio and the Artificial Pigeons",
+    date: "2021-(ongoing)",
+    link: "https://futureradio.nekonyansoft.com/",
+    tech: "Unity",
+    role: "Localizaion engineer",
+    youtube: "xzj9IdScJ14",
+    partners: [{
+        name: "NekoNyan Soft",
+        link: "https://nekonyansoft.com"
+    }],
+    description: "Ported the game from the Japanese CatSystem2 visual novel engine into Unity to support the English translation. Heavy data processing and reverse-engineering."
+};
 content.gotc = {
     title: "Game of Thrones: Conquest",
     date: "2019-(ongoing)",
