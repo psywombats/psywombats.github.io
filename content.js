@@ -10,10 +10,10 @@ content.header.pro.links = [{
         games: ["gotc", "mirai", "words3", "wot", "cascade", "rainfall", "cw"]
     }, {
         title: "INDIE (tech)",
-        games: ["varonis", "maredeo", "vertigo", "pri2", "saga4", "violet", "erebus", "snowbound", "mgne", "divergence", "skirmisher", "gar"]
+        games: ["mirai", "dememorize", "varonis", "vertigo", "pri2", "saga4", "snowbound", "mgne", "skirmisher", "gar"]
     }, {
         title: "INDIE (creative)",
-        games: ["maredeo", "vertigo", "wal", "doomsday", "violet", "pri", "lcpanes", "guild", "swallow"]
+        games: ["dememorize", "maredeo", "vertigo", "doomsday","pri", "divergence", "lcpanes", "guild", "swallow"]
     }, {
         title: "GITHUB",
         external: "https://github.com/psywombats"
@@ -29,7 +29,7 @@ content.header.indie.image = "header_indie.png"
 content.header.indie.subtitle = "game coder / writer";
 content.header.indie.links = [{
         title: "STORY GAMES",
-        games: ["maredeo", "vertigo", "doomsday", "divergence", "swallow", "pri", "snowbound", "lcpanes", "mbf", "wal"]
+        games: ["dememorize", "maredeo", "vertigo", "doomsday", "divergence", "swallow", "pri", "lcpanes", "mbf", "wal"]
     },{
         title: "RPGs",
         games: ["saga4", "pri2", "pri", "swallow", "guild", "zs", "zs2", "drh", "gar", "sk", "loap"]
@@ -44,6 +44,22 @@ content.header.indie.links = [{
         external: "https://github.com/psywombats"
     }
 ]
+content.dememorize = {
+    title: "Dememorize",
+    date: "October 2021",
+    link: "https://psy-wombats.itch.io/dememorize",
+    tech: "Unity",
+    role: "Programmer/lead",
+    partners: [{
+        name: "whitemana (audio)",
+        link: "https://soundcloud.com/crystalchambersounds"
+    }, {
+        name: "Galactica M. (portraits)",
+        link: "https://t.co/UFFxD4rSeG?amp=1"
+    }],
+    img: "dememorize.png",
+    description: "A 2.5d story horror game about Neural-9, a memory disease that spreads via eye contact. Ranked #2 story and #8 overall of 250+ entries for Screamjam 2021."
+}
 content.mirai = {
     title: "The Future Radio and the Artificial Pigeons",
     date: "2021-(ongoing)",
