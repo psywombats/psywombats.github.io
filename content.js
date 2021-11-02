@@ -58,7 +58,7 @@ content.dememorize = {
         link: "https://t.co/UFFxD4rSeG?amp=1"
     }],
     img: "dememorize.png",
-    description: "A 2.5d story horror game about Neural-9, a memory disease that spreads via eye contact. Ranked #2 story and #8 overall of 250+ entries for Screamjam 2021."
+    description: "A 2.5d story horror game about Neural-9, a memory disease that spreads via eye contact. By day, talk to ward residents in 3rd person, and at night, explore the hospital in 1st person.\n\nRanked #2 story and #8 overall of 250+ entries for Screamjam 2021."
 }
 content.mirai = {
     title: "The Future Radio and the Artificial Pigeons",
