@@ -69,10 +69,10 @@ var ContentCell = function (_React$Component) {
                 imgBlock = React.createElement(
                     "a",
                     { href: this.props.content.link },
-                    React.createElement("img", { src: 'http://www.wombatrpgs.net/img/' + this.props.content.img })
+                    React.createElement("img", { src: 'https://www.wombatrpgs.net/img/' + this.props.content.img })
                 );
             } else {
-                var src = "https://www.youtube.com/embed/" + this.props.content.youtube + "?" + +"origin=http://www.wombatrpgs.net";
+                var src = "https://www.youtube.com/embed/" + this.props.content.youtube + "?" + +"origin=https://www.wombatrpgs.net";
                 imgBlock = React.createElement("iframe", {
                     id: "ytplayer",
                     type: "text/html",
@@ -251,7 +251,7 @@ var Header = function (_React$Component4) {
         key: "render",
         value: function render() {
             var divStyle = {
-                backgroundImage: "url(http://www.wombatrpgs.net/img/" + this.props.header.image + ")",
+                backgroundImage: "url(https://www.wombatrpgs.net/img/" + this.props.header.image + ")",
                 backgroundRepeat: "no-repeat"
             };
             return React.createElement(
