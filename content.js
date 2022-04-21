@@ -7,13 +7,13 @@ content.header.pro.image = "header_pro.png"
 content.header.pro.subtitle = "game dev + software engineer";
 content.header.pro.links = [{
         title: "PROFESSIONAL",
-        games: ["gotc", "mirai", "words3", "wot", "cascade", "rainfall", "cw"]
+        games: ["gotc", "mirai", "varonis", "words3", "wot", "cascade", "rainfall", "cw"]
     }, {
         title: "INDIE (tech)",
-        games: ["mirai", "dememorize", "varonis", "vertigo", "pri2", "saga4", "snowbound", "mgne", "skirmisher", "gar"]
+        games: ["mirai", "varonis", "dememorize", "varonis", "vertigo", "pri2", "saga4", "snowbound", "mgne", "skirmisher", "gar"]
     }, {
         title: "INDIE (creative)",
-        games: ["dememorize", "maredeo", "vertigo", "doomsday","pri", "divergence", "lcpanes", "guild", "swallow"]
+        games: ["varonis", "dememorize", "maredeo", "vertigo", "doomsday","pri", "divergence", "lcpanes", "guild", "swallow"]
     }, {
         title: "GITHUB",
         external: "https://github.com/psywombats"
@@ -29,10 +29,10 @@ content.header.indie.image = "header_indie.png"
 content.header.indie.subtitle = "game coder / writer";
 content.header.indie.links = [{
         title: "STORY GAMES",
-        games: ["dememorize", "maredeo", "vertigo", "doomsday", "divergence", "swallow", "pri", "lcpanes", "mbf", "wal"]
+        games: ["dememorize", "lunenberg", "vertigo", "maredeo", "doomsday", "divergence", "swallow", "pri", "lcpanes", "mbf", "wal"]
     },{
         title: "RPGs",
-        games: ["saga4", "pri2", "pri", "swallow", "guild", "zs", "zs2", "drh", "gar", "sk", "loap"]
+        games: ["varonis", "saga4", "lunenberg", "pri2", "swallow", "guild", "zs", "zs2", "drh", "gar", "sk", "loap"]
     }, {
         title: "TECH",
         games: ["mirai", "pri2", "erebus", "violet", "snowbound", "mgne", "terra_nova", "blockbound", "hallowombat", "rainfall", "cbrogue", "skirmisher"]
@@ -44,6 +44,33 @@ content.header.indie.links = [{
         external: "https://github.com/psywombats"
     }
 ]
+content.varonis = {
+    title: "The Secret of Varonis",
+    date: "2020-ongoing",
+    link: "https://varonis-rpg.com",
+    tech: "Unity, TileD, lua",
+    youtube: "klxjzrIc1Jk",
+    role: "Producer, programmer",
+    partners: [{
+        name: "Jamie Obeso",
+        link: "https://soundcloud.com/elfmo"
+    }, {
+        name: "Joseph Seraph",
+        link: "https://seraphcircle.itch.io/"
+    }, {
+        name: "Ocean's Dream",
+        link: "https://oceansdream.itch.io/"
+    }],
+    description: "An upcoming Gameboy-style RPG! The Secret of Varonis features old-school combat mechanics and visuals faithful to the gaming heyday of 1989. Built in Unity with embedded lua processing, TileD map support, and a bunch of retro VFX shaders."
+}
+content.lunenberg = {
+    title: "Thankless Sidequests",
+    date: "April 2022",
+    link: "https://psy-wombats.itch.io/thankless-sidequests",
+    tech: "RPGmaker 2000",
+    img: "lunenberg.png",
+    description: "A dialog-based game featuring Chelsea, princess of the very-not-fake kingdom of Lemuria, and her friends as they harass NPCs and try to slay a big lizard or something. A comedy game."
+}
 content.dememorize = {
     title: "Dememorize",
     date: "October 2021",

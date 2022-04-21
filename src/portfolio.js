@@ -30,13 +30,13 @@ class ContentCell extends React.Component {
         if (!this.props.content.youtube) {
             imgBlock = (
                 <a href={this.props.content.link}>
-                    <img src={'http://www.wombatrpgs.net/img/' + this.props.content.img} />
+                    <img src={'https://www.wombatrpgs.net/img/' + this.props.content.img} />
                 </a>
             );
         } else {
             const src = "https://www.youtube.com/embed/"
                     + this.props.content.youtube + "?" +
-                    + "origin=http://www.wombatrpgs.net";
+                    + "origin=https://www.wombatrpgs.net";
             imgBlock = (
                 <iframe 
                     id="ytplayer"
@@ -127,7 +127,7 @@ class Navbar extends React.Component {
 class Header extends React.Component {
 	render() {
         const divStyle = {
-            backgroundImage: "url(http://www.wombatrpgs.net/img/" + this.props.header.image + ")",
+            backgroundImage: "url(https://www.wombatrpgs.net/img/" + this.props.header.image + ")",
             backgroundRepeat: "no-repeat"
         };
 		return (
