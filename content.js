@@ -69,7 +69,7 @@ content.lunenberg = {
     link: "https://psy-wombats.itch.io/thankless-sidequests",
     tech: "RPGmaker 2000",
     img: "lunenberg.png",
-    description: "A dialog-based game featuring Chelsea, princess of the very-not-fake kingdom of Lemuria, and her friends as they harass NPCs and try to slay a big lizard or something. A comedy game."
+    description: "A dialog-based game featuring Chelsea, princess of the very-not-fake kingdom of Lemuria, and her friends as they harass NPCs and try to slay a big lizard or something.\n\nA short comedy game. It features a lot of dialog, some very dumb sideplots, and renaissance RM mapping. Browser-playable via EasyRPG."
 }
 content.dememorize = {
     title: "Dememorize",
@@ -150,19 +150,6 @@ content.vertigo = {
         link: "https://rpgmaker.net/users/Frogge/"
     }],
     description: "A cyberpunk/horror game, half visual novel and half sidescroller. A text message from the protagonist's supposedly-led sister sparks an investigation into a complex conspiracy involving BBSs, cults, AI, and a certain 'plan' that unites them all. Scream:Machine jam entry.",
-};
-content.varonis = {
-    title: "The Secret of Varonis",
-    date: "2021 (expected)",
-    link: "https://www.varonis-rpg.com/",
-    tech: "Unity, Lua, GLSL",
-    role: "Project lead (team of 5)",
-    img: "varonis.png",
-    partners: [{
-        name: "Wombat Logic",
-        link: "https:www.wombatrpgs.net/"
-    }],
-    description: "An upcoming semi-commerical Gameboy-style RPG, still in preproduction. Expect great things!",
 };
 content.pri = {
     title: "The Kidnapping of Princess Pri",
