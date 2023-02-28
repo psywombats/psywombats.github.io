@@ -29,7 +29,7 @@ content.header.indie.image = "header_indie.png"
 content.header.indie.subtitle = "game coder / writer";
 content.header.indie.links = [{
         title: "STORY GAMES",
-        games: ["dememorize", "lunenberg", "vertigo", "maredeo", "doomsday", "divergence", "swallow", "pri", "lcpanes", "mbf", "wal"]
+        games: ["dememorize", "vertigo", "lunenberg", "maredeo", "doomsday", "divergence", "swallow", "pri", "lcpanes", "mbf", "wal"]
     },{
         title: "RPGs",
         games: ["varonis", "saga4", "lunenberg", "pri2", "swallow", "guild", "zs", "zs2", "drh", "gar", "sk", "loap"]
