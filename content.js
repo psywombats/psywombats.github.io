@@ -89,10 +89,10 @@ content.dememorize = {
 }
 content.mirai = {
     title: "The Future Radio and the Artificial Pigeons",
-    date: "2021-(ongoing)",
+    date: "2023",
     link: "https://futureradio.nekonyansoft.com/",
     tech: "Unity",
-    role: "Localizaion engineer",
+    role: "Localization engineer",
     youtube: "xzj9IdScJ14",
     partners: [{
         name: "NekoNyan Soft",
