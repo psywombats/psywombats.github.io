@@ -105,7 +105,7 @@ content.gotc = {
     date: "2019-(ongoing)",
     link: "https://www.gotconquest.com/",
     tech: "Unity (mobile)",
-    role: "Sr. software engineer",
+    role: "Adv. software engineer",
     youtube: "iEYCSbE0n-o",
     partners: [{
         name: "WB Games Boston",
