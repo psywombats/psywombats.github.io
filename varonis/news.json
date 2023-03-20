@@ -1,16 +1,17 @@
 {
     "news": [
+		{
+            "Title": "Beta testing begins",
+            "Description": "Welcome beta testers!",
+            "Url": "https://discord.gg/Q7scYMHG"
+        },
         {
-            "Title": "Update",
-            "Description": "Version 1.0 released",
-            "Url": "http://www.varonis-rpg.com/"
+            "Title": "Varonis on Steam",
+            "Description": "Varonis Steam storefront is now live!",
+            "Url": "https://store.steampowered.com/app/2174900/The_Secret_of_Varonis"
         }, {
-            "Title": "News!",
-            "Description": "Another news item",
-            "Url": "http://www.varonis-rpg.com/"
-        }, {
-            "Title": "News!",
-            "Description": "Another news item",
+            "Title": "Welcome!",
+            "Description": "Varonis website is now live!",
             "Url": "http://www.varonis-rpg.com/"
         }
     ]
