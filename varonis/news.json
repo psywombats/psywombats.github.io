@@ -1,6 +1,11 @@
 {
     "news": [
-		{
+        {
+            "Title": "Beta path 0.52 released",
+            "Description": "Welcome beta testers!",
+            "Url": "Patch notes in Discord"
+        },
+        {
             "Title": "Beta testing begins",
             "Description": "Welcome beta testers!",
             "Url": "https://discord.gg/Q7scYMHG"
