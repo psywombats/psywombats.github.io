@@ -1,5 +1,10 @@
 {
     "news": [
+                {
+            "Title": "Beta path 0.53 released",
+            "Description": "Addresses hanging issues + more",
+            "Url": "https://discord.com/channels/655626795021762562/1086867422792929340/1092180443815739402"
+        },
         {
             "Title": "Beta path 0.52 released",
             "Description": "Keybinds updated",
