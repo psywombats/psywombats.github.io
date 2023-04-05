@@ -1,12 +1,17 @@
 {
     "news": [
-                {
-            "Title": "Beta path 0.53 released",
+        {
+            "Title": "Beta patch 0.54 released",
+            "Description": "Fixes for settings and Deck",
+            "Url": "https://discord.com/channels/655626795021762562/1086867422792929340/1093011067501817867"
+        },
+        {
+            "Title": "Beta patch 0.53 released",
             "Description": "Addresses hanging issues + more",
             "Url": "https://discord.com/channels/655626795021762562/1086867422792929340/1092180443815739402"
         },
         {
-            "Title": "Beta path 0.52 released",
+            "Title": "Beta patch 0.52 released",
             "Description": "Keybinds updated",
             "Url": "https://discord.com/channels/655626795021762562/1086867422792929340/1091937772069208115"
         },
