@@ -1,6 +1,11 @@
 {
     "news": [
         {
+            "Title": "Beta patch 0.55 released",
+            "Description": "Fixes post-battle hang",
+            "Url": "https://discord.com/channels/655626795021762562/796590101085552670/1093379707506020443"
+        },
+        {
             "Title": "Beta patch 0.54 released",
             "Description": "Fixes for settings and Deck",
             "Url": "https://discord.com/channels/655626795021762562/1086867422792929340/1093011067501817867"
@@ -9,11 +14,6 @@
             "Title": "Beta patch 0.53 released",
             "Description": "Addresses hanging issues + more",
             "Url": "https://discord.com/channels/655626795021762562/1086867422792929340/1092180443815739402"
-        },
-        {
-            "Title": "Beta patch 0.52 released",
-            "Description": "Keybinds updated",
-            "Url": "https://discord.com/channels/655626795021762562/1086867422792929340/1091937772069208115"
         },
         {
             "Title": "Beta testing begins",
