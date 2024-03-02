@@ -1,6 +1,11 @@
 {
     "news": [
         {
+            "Title": "Version 1.03 released",
+            "Description": "Fixes some HUD portrait issues",
+            "Url": "https://store.steampowered.com/app/2174900/The_Secret_of_Varonis"
+        },
+        {
             "Title": "Version 1.0 released",
             "Description": "Public launch is go!",
             "Url": "https://store.steampowered.com/app/2174900/The_Secret_of_Varonis"
