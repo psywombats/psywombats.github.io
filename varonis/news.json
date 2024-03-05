@@ -1,13 +1,8 @@
 {
     "news": [
         {
-            "Title": "Version 1.03 released",
-            "Description": "Minor portrait and W1 fixes",
-            "Url": "https://store.steampowered.com/app/2174900/The_Secret_of_Varonis"
-        },
-        {
-            "Title": "Version 1.03 released",
-            "Description": "Fixes some HUD portrait issues",
+            "Title": "Version 1.06 released",
+            "Description": "Several midgame softlocks addressed",
             "Url": "https://store.steampowered.com/app/2174900/The_Secret_of_Varonis"
         },
         {
