@@ -1,24 +1,19 @@
 {
     "news": [
         {
-            "Title": "Version 1.07 released",
-            "Description": "Bugfixes for several passability issues",
+            "Title": "Version 1.10 released",
+            "Description": "Esper fixes and QOL issues",
             "Url": "https://store.steampowered.com/app/2174900/The_Secret_of_Varonis"
         },
         {
-            "Title": "Version 1.06 released",
-            "Description": "Several midgame softlocks addressed",
+            "Title": "Discord is open!",
+            "Description": "Check store and community pages for the link",
             "Url": "https://store.steampowered.com/app/2174900/The_Secret_of_Varonis"
         },
         {
             "Title": "Version 1.0 released",
             "Description": "Public launch is go!",
             "Url": "https://store.steampowered.com/app/2174900/The_Secret_of_Varonis"
-        },
-        {
-            "Title": "Beta patch 0.55 released",
-            "Description": "Fixes post-battle hang",
-            "Url": "https://discord.com/channels/655626795021762562/796590101085552670/1093379707506020443"
         },
         {
             "Title": "Beta testing begins",
